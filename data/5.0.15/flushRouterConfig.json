@@ -1,8 +1,0 @@
-{
-  "help": "Flushes the cached routing information for a single collection, entire database (and its collections) or all databases, which would cause full reload from the config server on the next access.\nUsage:\n{flushRouterConfig: 1} flushes all databases\n{flushRouterConfig: 'db'} flushes only the given database (and its collections)\n{flushRouterconfig: 'db.coll'} flushes only the given collection",
-  "requiresAuth": true,
-  "secondaryOk": true,
-  "adminOnly": true,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

@@ -1,8 +1,0 @@
-{
-  "help": "{ cloneCollectionAsCapped:\u003cfromName\u003e, toCollection:\u003ctoName\u003e, size:\u003csizeInBytes\u003e }",
-  "requiresAuth": true,
-  "secondaryOk": false,
-  "adminOnly": false,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

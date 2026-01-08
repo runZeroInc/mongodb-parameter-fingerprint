@@ -1,8 +1,0 @@
-{
-  "help": "Forget a migration",
-  "requiresAuth": true,
-  "secondaryOk": false,
-  "adminOnly": true,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

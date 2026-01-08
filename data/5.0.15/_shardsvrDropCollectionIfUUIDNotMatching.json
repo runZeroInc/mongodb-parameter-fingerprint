@@ -1,8 +1,0 @@
-{
-  "help": "Internal command aimed to remove stale entries from the local collection catalog.",
-  "requiresAuth": true,
-  "secondaryOk": false,
-  "adminOnly": false,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

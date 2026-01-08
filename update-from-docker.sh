@@ -29,6 +29,7 @@ if [[ "$CTOOL" == "" ]]; then
     fi
 fi
 
+echo -n "Checking for tags: "
 echo $($CTOOL search --list-tags docker.io/library/mongo | grep ^NAME)
 if [ $? -ne 0 ]; then
     echo "Failed to connect to docker.io/library/mongo"
@@ -37,9 +38,13 @@ fi
 
 # Iterate over all MongoDB versions available on Docker Hub. 
 # This will require docker.com credentials if you hit the anonymous rate limit.
-for version in $($CTOOL search --list-tags docker.io/library/mongo --no-trunc --limit 99999999 | awk '{print $2}' | egrep '^[0-9]+\.[0-9]+\.[0-9]+$' | sort -rV); do
+for version in $($CTOOL search --list-tags docker.io/library/mongo --no-trunc --limit 99999999 | 
+    awk '{print $2}' | 
+    egrep '^[0-9]+\.[0-9]+\.[0-9]+$' |
+    egrep -v '(4\.2\.4|4\.2\.2|4\.1\.8)$' |  # Exclude broken versions
+    sort -rV); do
     if [ -d "data/${version}" ]; then
-        echo "Skipping existing data/${version}"
+        # echo "Skipping existing data/${version}"
         continue
     fi
     echo "Generating for mongo:$version"

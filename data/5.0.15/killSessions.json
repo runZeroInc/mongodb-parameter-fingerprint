@@ -1,8 +1,0 @@
-{
-  "help": "kill a logical session and its operations",
-  "requiresAuth": true,
-  "secondaryOk": true,
-  "adminOnly": false,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

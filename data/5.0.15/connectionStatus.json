@@ -1,8 +1,0 @@
-{
-  "help": "Returns connection-specific information such as logged-in users and their roles",
-  "requiresAuth": false,
-  "secondaryOk": true,
-  "adminOnly": false,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

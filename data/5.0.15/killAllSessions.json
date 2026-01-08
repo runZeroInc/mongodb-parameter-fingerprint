@@ -1,8 +1,0 @@
-{
-  "help": "kill all logical sessions, for a user, and their operations",
-  "requiresAuth": true,
-  "secondaryOk": true,
-  "adminOnly": false,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

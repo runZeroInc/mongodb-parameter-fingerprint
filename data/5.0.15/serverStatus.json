@@ -1,8 +1,0 @@
-{
-  "help": "returns lots of administrative server statistics",
-  "requiresAuth": true,
-  "secondaryOk": true,
-  "adminOnly": false,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

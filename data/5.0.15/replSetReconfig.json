@@ -1,8 +1,0 @@
-{
-  "help": "Adjust configuration of a replica set\n{ replSetReconfig : config_object }\nhttp://dochub.mongodb.org/core/replicasetcommands",
-  "requiresAuth": true,
-  "secondaryOk": true,
-  "adminOnly": true,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

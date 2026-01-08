@@ -1,8 +1,0 @@
-{
-  "help": "Internal command. Do not call directly. Renames a collection.",
-  "requiresAuth": true,
-  "secondaryOk": false,
-  "adminOnly": false,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

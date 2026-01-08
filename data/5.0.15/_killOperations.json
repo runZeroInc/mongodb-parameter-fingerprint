@@ -1,8 +1,0 @@
-{
-  "help": "Internal command -- Kill operations on the target server by OperationKey.",
-  "requiresAuth": true,
-  "secondaryOk": true,
-  "adminOnly": true,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

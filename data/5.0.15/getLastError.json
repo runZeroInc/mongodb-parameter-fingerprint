@@ -1,8 +1,0 @@
-{
-  "help": "return error status of the last operation on this connection\noptions:\n  { fsync:true } - fsync before returning, or wait for journal commit if running with --journal\n  { j:true } - wait for journal commit if running with --journal\n  { w:n } - await replication to n servers (including self) before returning\n  { w:'majority' } - await replication to majority of set\n  { wtimeout:m} - timeout for w in m milliseconds",
-  "requiresAuth": false,
-  "secondaryOk": true,
-  "adminOnly": false,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

@@ -1,8 +1,0 @@
-{
-  "help": "re-index a collection (can only be run on a standalone mongod)",
-  "requiresAuth": true,
-  "secondaryOk": true,
-  "adminOnly": false,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

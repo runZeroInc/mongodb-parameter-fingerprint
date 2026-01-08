@@ -1,8 +1,0 @@
-{
-  "help": "internal (sharding)\n{ applyOps : [ ] , preCondition : [ { ns : ... , q : ... , res : ... } ] }",
-  "requiresAuth": true,
-  "secondaryOk": false,
-  "adminOnly": false,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

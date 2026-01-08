@@ -1,8 +1,0 @@
-{
-  "help": "Internal command, which is exported by the sharding config server. Do not call directly. Adds a suffix to the shard key of an existing collection ('refines the shard key').",
-  "requiresAuth": true,
-  "secondaryOk": false,
-  "adminOnly": true,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

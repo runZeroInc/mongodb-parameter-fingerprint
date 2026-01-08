@@ -1,8 +1,0 @@
-{
-  "help": "{ _isSelf : 1 } INTERNAL ONLY",
-  "requiresAuth": false,
-  "secondaryOk": true,
-  "adminOnly": false,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

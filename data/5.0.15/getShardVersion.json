@@ -1,8 +1,0 @@
-{
-  "help": " example: { getShardVersion : 'alleyinsider.foo'  } ",
-  "requiresAuth": true,
-  "secondaryOk": true,
-  "adminOnly": true,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

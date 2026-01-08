@@ -1,8 +1,0 @@
-{
-  "help": "Internal command, which is exported by the sharding config server. Do not call directly. Requests the balancer to move or rebalance a single chunk.",
-  "requiresAuth": true,
-  "secondaryOk": false,
-  "adminOnly": true,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

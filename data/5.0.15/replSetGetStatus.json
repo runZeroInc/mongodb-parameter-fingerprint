@@ -1,8 +1,0 @@
-{
-  "help": "Report status of a replica set from the POV of this server\n{ replSetGetStatus : 1 }\nhttp://dochub.mongodb.org/core/replicasetcommands",
-  "requiresAuth": true,
-  "secondaryOk": true,
-  "adminOnly": true,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

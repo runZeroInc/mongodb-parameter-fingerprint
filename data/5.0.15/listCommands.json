@@ -1,8 +1,0 @@
-{
-  "help": "get a list of all db commands",
-  "requiresAuth": false,
-  "secondaryOk": true,
-  "adminOnly": false,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

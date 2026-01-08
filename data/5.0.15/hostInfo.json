@@ -1,8 +1,0 @@
-{
-  "help": "returns information about the daemon's host",
-  "requiresAuth": true,
-  "secondaryOk": true,
-  "adminOnly": false,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

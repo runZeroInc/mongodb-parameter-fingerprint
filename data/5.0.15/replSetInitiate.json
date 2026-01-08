@@ -1,8 +1,0 @@
-{
-  "help": "Initiate/christen a replica set.\nhttp://dochub.mongodb.org/core/replicasetcommands",
-  "requiresAuth": true,
-  "secondaryOk": true,
-  "adminOnly": true,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

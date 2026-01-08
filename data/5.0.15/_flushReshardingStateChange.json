@@ -1,8 +1,0 @@
-{
-  "help": "Internal command used by the resharding coordinator to flush state changes to the participant shards while the critical section is active.",
-  "requiresAuth": true,
-  "secondaryOk": false,
-  "adminOnly": true,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

@@ -1,8 +1,0 @@
-{
-  "help": "Validate contents of a namespace by scanning its data structures for correctness.\nThis is a slow operation.\n\tAdd {full: true} option to do a more thorough check.\n\tAdd {background: true} to validate in the background.\n\tAdd {repair: true} to run repair mode.\nCannot specify both {full: true, background: true}.",
-  "requiresAuth": true,
-  "secondaryOk": true,
-  "adminOnly": false,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

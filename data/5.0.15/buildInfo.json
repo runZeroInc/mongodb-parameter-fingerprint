@@ -1,8 +1,0 @@
-{
-  "help": "get version #, etc.\n{ buildinfo:1 }",
-  "requiresAuth": false,
-  "secondaryOk": true,
-  "adminOnly": false,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

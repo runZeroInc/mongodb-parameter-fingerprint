@@ -1,8 +1,0 @@
-{
-  "help": "{ convertToCapped:\u003cfromCollectionName\u003e, size:\u003csizeInBytes\u003e }",
-  "requiresAuth": true,
-  "secondaryOk": false,
-  "adminOnly": false,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

@@ -1,8 +1,0 @@
-{
-  "help": "show all lock info on the server",
-  "requiresAuth": true,
-  "secondaryOk": true,
-  "adminOnly": true,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

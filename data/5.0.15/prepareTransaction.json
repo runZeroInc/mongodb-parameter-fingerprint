@@ -1,8 +1,0 @@
-{
-  "help": "Prepares a transaction on this shard; sent by a router or re-sent by the transaction commit coordinator for a cross-shard transaction",
-  "requiresAuth": true,
-  "secondaryOk": false,
-  "adminOnly": true,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}
