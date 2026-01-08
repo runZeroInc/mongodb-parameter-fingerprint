@@ -39,6 +39,8 @@ func main() {
 	addr := os.Args[1]
 	ddir := os.Args[2]
 
+	retries := 0
+TryAgain:
 	ctx, cancel := context.WithTimeout(context.Background(), time.Second*10)
 	defer cancel()
 
@@ -84,10 +86,6 @@ func main() {
 		result = oresult
 	}
 
-	if err := os.MkdirAll(ddir, 0o700); err != nil {
-		logrus.Fatalf("failed to create output directory %s: %v", ddir, err)
-	}
-
 	jb, err := json.MarshalIndent(result, "", "  ")
 	if err != nil {
 		logrus.Fatalf("failed to marshal listCommands result: %v", err)
@@ -97,6 +95,22 @@ func main() {
 	if err := json.Unmarshal(jb, &lc); err != nil {
 		logrus.Fatalf("failed to unmarshal listCommands result: %v", err)
 	}
+
+	if len(lc.Commands) == 0 {
+		os.RemoveAll(ddir)
+		if retries < 3 {
+			retries++
+			logrus.Printf("no commands found, retrying (%d/3)...", retries)
+			time.Sleep(time.Second * 2)
+			goto TryAgain
+		}
+		logrus.Fatalf("failed to dump any commands from json: %s", string(jb))
+	}
+
+	if err := os.MkdirAll(ddir, 0o700); err != nil {
+		logrus.Fatalf("failed to create output directory %s: %v", ddir, err)
+	}
+
 	for cmdName, cmdDetails := range lc.Commands {
 		fileName := filepath.Base(cmdName) + ".json"
 		fpath := filepath.Join(ddir, fileName)
@@ -111,10 +125,6 @@ func main() {
 			logrus.Errorf("failed to write command details to %s: %v", fpath, err)
 		}
 		f.Close()
-	}
-	if len(lc.Commands) == 0 {
-		os.RemoveAll(ddir)
-		logrus.Fatalf("failed to dump any commands from json: %s", string(jb))
 	}
 	logrus.Printf("dumped %d commands to %s", len(lc.Commands), ddir)
 }
