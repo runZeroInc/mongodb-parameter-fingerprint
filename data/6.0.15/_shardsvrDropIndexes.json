@@ -1,8 +1,0 @@
-{
-  "help": "Internal command. Do not call directly. Drops indexes.",
-  "requiresAuth": true,
-  "secondaryOk": false,
-  "adminOnly": false,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

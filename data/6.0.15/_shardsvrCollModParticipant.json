@@ -1,8 +1,0 @@
-{
-  "help": "Internal command, which is exported by the shards. Do not call directly. Unblocks CRUD and processes collMod.",
-  "requiresAuth": true,
-  "secondaryOk": false,
-  "adminOnly": false,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

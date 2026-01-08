@@ -3117,6 +3117,19 @@
     ],
     "count": 363
   },
+  "d5972052b8b04f2e7496eccb76ae680e": {
+    "version_min": "5.0.15",
+    "version_max": "5.0.15",
+    "versions": [
+      "5.0.15"
+    ],
+    "version_prev": "5.0.14",
+    "params_added": [
+      "chunkMigrationConcurrency",
+      "featureFlagConcurrencyInChunkMigration"
+    ],
+    "count": 365
+  },
   "74b4220aefcd152958745df0981634cc": {
     "version_min": "5.0.16",
     "version_max": "5.0.17",
@@ -3124,11 +3137,9 @@
       "5.0.16",
       "5.0.17"
     ],
-    "version_prev": "5.0.14",
+    "version_prev": "5.0.15",
     "params_added": [
-      "chunkMigrationConcurrency",
       "featureFlagBucketUnpackWithSort50",
-      "featureFlagConcurrencyInChunkMigration",
       "internalQueryGlobalProfilingFilter",
       "transactionTooLargeForCacheThreshold"
     ],

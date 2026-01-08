@@ -1,8 +1,0 @@
-{
-  "help": "updates a global filter that determines which operations are eligible for logging/profiling",
-  "requiresAuth": true,
-  "secondaryOk": true,
-  "adminOnly": false,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

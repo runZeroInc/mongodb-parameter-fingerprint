@@ -31,7 +31,7 @@ type ListCommands struct {
 	OK       float64                  `json:"ok"`
 }
 
-const MaxRetries = 15
+const MaxRetries = 3
 
 func main() {
 	if len(os.Args) < 2 {
@@ -72,6 +72,7 @@ TryAgain:
 			logrus.Fatalf("failed to run listCommands: %v", err)
 		}
 
+		logrus.Printf("Falling back to legacy driver due to: %v", err)
 		// Fallback to the legacy driver for older MongoDB wire protocols
 		ms, err := mgo.DialWithTimeout(addr, time.Second*10)
 		if err != nil {
@@ -88,6 +89,7 @@ TryAgain:
 		result = oresult
 		ms.Close()
 	} else {
+		result = nresult
 		_ = ms.Disconnect(ctx)
 	}
 

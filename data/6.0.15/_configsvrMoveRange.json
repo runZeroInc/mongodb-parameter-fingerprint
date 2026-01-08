@@ -1,8 +1,0 @@
-{
-  "help": "Internal command only invokable on the config server. Do not call directly. Requests the balancer to move a range.",
-  "requiresAuth": true,
-  "secondaryOk": false,
-  "adminOnly": true,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

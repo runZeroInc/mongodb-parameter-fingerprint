@@ -60,17 +60,15 @@ for version in $($CTOOL search --list-tags docker.io/library/mongo --no-trunc --
     fi
 
     IMAGE_NAME="docker.io/library/mongo:$version"
-    CONTAINER_ID=$(docker ps --all --quiet --filter ancestor=$IMAGE_NAME --format="{{.ID}}" | head -n 1)
-    CONTAINER_STATUS=$(docker inspect --format "{{json .State.Status }}" $CONTAINER_ID)
+    CONTAINER_ID=$($CTOOL ps --all --filter ancestor=$IMAGE_NAME --format="{{.ID}}" | head -n 1)
+    CONTAINER_STATUS=$($CTOOL inspect --format "{{json .State.Status }}" $CONTAINER_ID)
     until [ $CONTAINER_STATUS == '"running"' ]
     do
         echo "Waiting for container to start..."
         sleep 1
     done
-    
-    echo "Containers: "$($CTOOL ps | grep mongodb)
+    echo "Container $CONTAINER_ID is $CONTAINER_STATUS"
     echo "Connecting to mongo:$version"
-    echo "Inspect: "$($CTOOL inspect $CID)
     ./cmd/dump/dump localhost:27017 data/${version}
     echo "Inspect: "$($CTOOL inspect $CID)
 done

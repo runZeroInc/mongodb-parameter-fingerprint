@@ -1,8 +1,0 @@
-{
-  "help": "Start an opereation to split a shard into its own slice.",
-  "requiresAuth": true,
-  "secondaryOk": false,
-  "adminOnly": true,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

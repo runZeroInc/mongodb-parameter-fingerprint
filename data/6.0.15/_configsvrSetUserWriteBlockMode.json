@@ -1,8 +1,0 @@
-{
-  "help": "Internal command, which is exported by the config servers. Do not call directly. Sets the user write blocking mode on a sharded cluster.",
-  "requiresAuth": true,
-  "secondaryOk": false,
-  "adminOnly": true,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

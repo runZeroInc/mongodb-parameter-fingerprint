@@ -1,8 +1,0 @@
-{
-  "help": "retrieve more documents for a cursor id",
-  "requiresAuth": true,
-  "secondaryOk": true,
-  "adminOnly": false,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

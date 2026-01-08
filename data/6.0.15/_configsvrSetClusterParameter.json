@@ -1,8 +1,0 @@
-{
-  "help": "Internal command, which is exported by the config servers. Do not call directly. Sets a parameter in the cluster.",
-  "requiresAuth": true,
-  "secondaryOk": false,
-  "adminOnly": true,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}

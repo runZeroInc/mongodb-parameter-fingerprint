@@ -1,8 +1,0 @@
-{
-  "help": "Set cluster parameter on replica set or node",
-  "requiresAuth": true,
-  "secondaryOk": false,
-  "adminOnly": true,
-  "apiVersions": [],
-  "deprecatedApiVersions": []
-}
