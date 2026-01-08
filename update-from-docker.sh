@@ -59,6 +59,7 @@ for version in $($CTOOL search --list-tags docker.io/library/mongo --no-trunc --
        continue
     fi
    
+    echo -ne "Containers: "$($CTOOL ps | grep mongodb)
     echo "Connecting to mongo:$version"
     ./cmd/dump/dump localhost:27017 data/${version}
 done
