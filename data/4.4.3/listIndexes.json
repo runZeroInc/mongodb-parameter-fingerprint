@@ -1,0 +1,8 @@
+{
+  "help": "list indexes for a collection",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

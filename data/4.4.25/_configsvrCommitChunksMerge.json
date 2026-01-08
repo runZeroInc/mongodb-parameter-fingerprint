@@ -1,0 +1,8 @@
+{
+  "help": "Internal command, which is sent by a shard to the sharding config server. Do not call directly. Receives, validates, and processes a MergeChunksRequest",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

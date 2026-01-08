@@ -1,0 +1,8 @@
+{
+  "help": "Returns the current replica set configuration{ replSetGetConfig : 1 }\nhttp://dochub.mongodb.org/core/replicasetcommands",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

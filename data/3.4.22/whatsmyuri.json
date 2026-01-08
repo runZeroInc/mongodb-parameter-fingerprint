@@ -1,0 +1,8 @@
+{
+  "help": "{whatsmyuri:1}",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

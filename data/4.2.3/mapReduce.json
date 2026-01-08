@@ -1,0 +1,8 @@
+{
+  "help": "Run a map/reduce operation on the server.\nNote this is used for aggregation, not querying, in MongoDB.\nhttp://dochub.mongodb.org/core/mapreduce",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

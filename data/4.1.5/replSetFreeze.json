@@ -1,0 +1,8 @@
+{
+  "help": "{ replSetFreeze : \u003cseconds\u003e }\n'freeze' state of member to the extent we can do that.  What this really means is that\nthis node will not attempt to become primary until the time period specified expires.\nYou can call again with {replSetFreeze:0} to unfreeze sooner.\nA process restart unfreezes the member also.\nhttp://dochub.mongodb.org/core/replicasetcommands",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

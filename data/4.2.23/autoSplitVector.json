@@ -1,0 +1,8 @@
+{
+  "help": "Internal command returning the split points for a chunk, given the maximum chunk size.",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

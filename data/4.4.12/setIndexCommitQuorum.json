@@ -1,0 +1,8 @@
+{
+  "help": "Resets the commitQuorum for the given index builds in a collection. Usage:\n{\n    setIndexCommitQuorum: \u003cstring\u003e collection name,\n    indexNames: array\u003cstring\u003e list of index names,\n    commitQuorum: \u003cstring|number|object\u003e option to define the required quorum for\n                  the index builds to commit\n}",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

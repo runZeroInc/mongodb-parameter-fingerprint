@@ -1,0 +1,8 @@
+{
+  "help": "a way to check that the server is alive. responds immediately even if server is in a db lock.",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

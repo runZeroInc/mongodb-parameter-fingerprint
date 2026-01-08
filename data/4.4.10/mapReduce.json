@@ -1,0 +1,8 @@
+{
+  "help": "Runs the mapReduce command. See http://dochub.mongodb.org/core/mapreduce for details.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

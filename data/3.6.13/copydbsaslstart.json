@@ -1,0 +1,8 @@
+{
+  "help": "Initialize a SASL auth session for subsequent copy db request from secure server\n",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

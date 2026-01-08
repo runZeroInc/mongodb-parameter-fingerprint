@@ -1,0 +1,8 @@
+{
+  "help": "Deprecated. Prefer the $planCacheStats aggregation pipeline stage.",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

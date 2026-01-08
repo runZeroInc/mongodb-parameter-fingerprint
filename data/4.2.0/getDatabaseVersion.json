@@ -1,0 +1,8 @@
+{
+  "help": " example: { getDatabaseVersion : 'foo'  } ",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

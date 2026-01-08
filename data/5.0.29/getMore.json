@@ -1,0 +1,10 @@
+{
+  "help": "retrieve more results from an existing cursor",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": false,
+  "apiVersions": [
+    "1"
+  ],
+  "deprecatedApiVersions": []
+}

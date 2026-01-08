@@ -1,0 +1,8 @@
+{
+  "help": "Internal intra replica set command",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

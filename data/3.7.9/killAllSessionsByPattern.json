@@ -1,0 +1,8 @@
+{
+  "help": "kill logical sessions by pattern",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

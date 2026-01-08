@@ -1,0 +1,8 @@
+{
+  "help": "{ replSetStepDown : \u003cseconds\u003e }\nStep down as primary.  Will not try to reelect self for the specified time period (1 minute if no numeric secs value specified, or secs is 0).\n(If another member with same priority takes over in the meantime, it will stay primary.)\nhttp://dochub.mongodb.org/core/replicasetcommands",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

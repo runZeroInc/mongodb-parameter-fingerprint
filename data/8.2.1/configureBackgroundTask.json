@@ -1,0 +1,8 @@
+{
+  "help": "Configures background tasks with enabled, disabled or throttled mode.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

@@ -1,0 +1,8 @@
+{
+  "help": "Returns information about roles.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

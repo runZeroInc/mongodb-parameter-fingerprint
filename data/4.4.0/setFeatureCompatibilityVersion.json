@@ -1,0 +1,8 @@
+{
+  "help": "Set the API version exposed by this node. If set to '4.2', then 4.4 features are disabled. If set to '4.4', then 4.4 features are enabled, and all nodes in the cluster must be binary version 4.4. See https://docs.mongodb.com/master/release-notes/4.4-compatibility/#feature-compatibility.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

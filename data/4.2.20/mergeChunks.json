@@ -1,0 +1,8 @@
+{
+  "help": "Internal command to merge a contiguous range of chunks.\nUsage: { mergeChunks: \u003cns\u003e, epoch: \u003cepoch\u003e, bounds: [\u003cmin key\u003e, \u003cmax key\u003e] }",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

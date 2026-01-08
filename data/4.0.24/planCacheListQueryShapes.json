@@ -1,0 +1,8 @@
+{
+  "help": "Displays all query shapes in a collection.",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

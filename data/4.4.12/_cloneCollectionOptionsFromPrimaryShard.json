@@ -1,0 +1,8 @@
+{
+  "help": "Internal command, do not call directly. Creates a collection on a shard with UUID existing on primary.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

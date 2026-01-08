@@ -1,0 +1,8 @@
+{
+  "help": "kill a list of cursor ids",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

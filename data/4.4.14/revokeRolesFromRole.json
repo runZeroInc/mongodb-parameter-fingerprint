@@ -1,0 +1,8 @@
+{
+  "help": "Revokes roles from another role.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

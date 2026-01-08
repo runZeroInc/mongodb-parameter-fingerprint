@@ -1,0 +1,8 @@
+{
+  "help": "Validate contents of a namespace by scanning its data structures for correctness.  Slow.\nAdd full:true option to do a more thorough check\nAdd scandata:false to skip the scan of the collection data without skipping scans of any indexes",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

@@ -1,0 +1,8 @@
+{
+  "help": "check for errors since last reseterror commandcal",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

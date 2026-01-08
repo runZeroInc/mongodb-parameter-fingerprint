@@ -1,0 +1,8 @@
+{
+  "help": "Validate contents of a namespace by scanning its data structures for correctness.  Slow.\nAdd full:true option to do a more thorough check",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

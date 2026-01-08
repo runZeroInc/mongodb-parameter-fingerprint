@@ -1,0 +1,8 @@
+{
+  "help": "lists the set of shards known to this instance",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

@@ -1,0 +1,8 @@
+{
+  "help": "{ CmdReplSetAbortPrimaryCatchUp : 1 }\nAbort primary catch-up mode; immediately finish the transition to primary without fetching any further unreplicated writes from any other online nodes",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

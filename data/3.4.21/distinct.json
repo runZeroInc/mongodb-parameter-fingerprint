@@ -1,0 +1,8 @@
+{
+  "help": "{ distinct : 'collection name' , key : 'a.b' , query : {} }",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

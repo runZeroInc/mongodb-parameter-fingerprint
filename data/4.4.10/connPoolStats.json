@@ -1,0 +1,8 @@
+{
+  "help": "stats about connections between servers in a replica set or sharded cluster.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

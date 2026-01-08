@@ -1,0 +1,8 @@
+{
+  "help": "Check if this server is primary for a replica pair/set; also if it is --master or --slave in simple master/slave setups.\n{ hello : 1 }",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

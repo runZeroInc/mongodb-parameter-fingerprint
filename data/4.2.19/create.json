@@ -1,0 +1,8 @@
+{
+  "help": "explicitly creates a collection or view\n{\n  create: \u003cstring: collection or view name\u003e [,\n  capped: \u003cbool: capped collection\u003e,\n  autoIndexId: \u003cbool: automatic creation of _id index\u003e,\n  idIndex: \u003cdocument: _id index specification\u003e,\n  size: \u003cint: size in bytes of the capped collection\u003e,\n  max: \u003cint: max number of documents in the capped collection\u003e,\n  storageEngine: \u003cdocument: storage engine configuration\u003e,\n  validator: \u003cdocument: validation rules\u003e,\n  validationLevel: \u003cstring: validation level\u003e,\n  validationAction: \u003cstring: validation action\u003e,\n  indexOptionDefaults: \u003cdocument: default configuration for indexes\u003e,\n  viewOn: \u003cstring: name of source collection or view\u003e,\n  pipeline: \u003carray\u003cobject\u003e: aggregation pipeline stage\u003e,\n  collation: \u003cdocument: default collation for the collection or view\u003e,\n  writeConcern: \u003cdocument: write concern expression for the operation\u003e]\n}",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

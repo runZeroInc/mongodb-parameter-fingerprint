@@ -1,0 +1,8 @@
+{
+  "help": "{ getLog : '*' }  OR { getLog : 'global' }",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

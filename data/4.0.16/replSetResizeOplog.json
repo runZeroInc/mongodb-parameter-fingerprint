@@ -1,0 +1,8 @@
+{
+  "help": "resize oplog size in MB",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

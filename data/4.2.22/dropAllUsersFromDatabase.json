@@ -1,0 +1,8 @@
+{
+  "help": "Drops all users for a single database.",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

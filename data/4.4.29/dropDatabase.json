@@ -1,0 +1,8 @@
+{
+  "help": "drop (delete) this database",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

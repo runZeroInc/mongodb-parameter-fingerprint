@@ -1,0 +1,8 @@
+{
+  "help": "Adds a role to the system",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

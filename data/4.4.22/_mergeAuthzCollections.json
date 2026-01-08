@@ -1,0 +1,8 @@
+{
+  "help": "Internal command used by mongorestore for updating user/role data",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

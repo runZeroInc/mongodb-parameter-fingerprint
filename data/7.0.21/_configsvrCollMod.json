@@ -1,0 +1,8 @@
+{
+  "help": "Internal command, which is exported by the config server. Do not call directly. Runs the collMod command on the config server, potentially updating some of the collection metadata present on the config server.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

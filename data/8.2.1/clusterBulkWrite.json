@@ -1,0 +1,8 @@
+{
+  "help": "command to apply inserts, updates and deletes in bulk",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

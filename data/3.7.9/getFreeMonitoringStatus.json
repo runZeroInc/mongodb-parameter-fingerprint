@@ -1,0 +1,8 @@
+{
+  "help": "Indicates free monitoring status",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

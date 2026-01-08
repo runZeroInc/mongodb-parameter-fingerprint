@@ -1,0 +1,8 @@
+{
+  "help": "count objects in collection",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

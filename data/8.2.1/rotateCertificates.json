@@ -1,0 +1,8 @@
+{
+  "help": "Rotate certificates for new SSL connections",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

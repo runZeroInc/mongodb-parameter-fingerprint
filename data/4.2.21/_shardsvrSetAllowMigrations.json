@@ -1,0 +1,8 @@
+{
+  "help": "Internal command. Do not call directly. Enable/disable migrations in a collection.",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

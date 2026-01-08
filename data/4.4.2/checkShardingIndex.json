@@ -1,0 +1,8 @@
+{
+  "help": "Internal command.\n",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

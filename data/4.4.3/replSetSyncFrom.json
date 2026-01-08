@@ -1,0 +1,8 @@
+{
+  "help": "{ replSetSyncFrom : \"host:port\" }\nChange who this member is syncing from. Note: This will interrupt and restart an in-progress initial sync.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

@@ -1,0 +1,8 @@
+{
+  "help": "Shuts down the database. Must be run against the admin database and either (1) run from localhost or (2) run while authenticated with the shutdown privilege. If the node is the primary of a replica set, waits up to 'timeoutSecs' for an electable node to be caught up before stepping down. If 'force' is false and no electable node was able to catch up, does not shut down. If the node is in state SECONDARY after the attempted stepdown, any remaining time in 'timeoutSecs' is used for quiesce mode, where the database continues to allow operations to run, but directs clients to route new operations to other replica set members.",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

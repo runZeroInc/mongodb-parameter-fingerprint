@@ -1,0 +1,8 @@
+{
+  "help": "get the current read/write concern defaults being applied by this node",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

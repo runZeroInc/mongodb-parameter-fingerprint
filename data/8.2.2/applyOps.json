@@ -1,0 +1,8 @@
+{
+  "help": "internal command to apply oplog entries\n{ applyOps : [ ] }",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

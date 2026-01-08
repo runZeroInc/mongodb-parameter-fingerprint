@@ -1,0 +1,8 @@
+{
+  "help": "Aborts a transaction",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

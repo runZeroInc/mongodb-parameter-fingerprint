@@ -1,0 +1,8 @@
+{
+  "help": "Drop egress connections to specified host and port",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

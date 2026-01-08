@@ -1,0 +1,8 @@
+{
+  "help": "WARNING: This command is deprecated. Resets error state",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

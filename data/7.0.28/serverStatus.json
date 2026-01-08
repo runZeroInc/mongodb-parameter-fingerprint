@@ -1,0 +1,8 @@
+{
+  "help": "returns lots of administrative server statistics. Optionally set {..., all: 1} to retrieve all server status sections.",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

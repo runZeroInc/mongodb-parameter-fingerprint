@@ -1,0 +1,8 @@
+{
+  "help": "Prepares a transaction. This is only expected to be called by mongos.",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

@@ -1,0 +1,8 @@
+{
+  "help": "for testing purposes only.  forces a user assertion exception",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

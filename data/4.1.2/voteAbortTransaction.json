@@ -1,0 +1,8 @@
+{
+  "help": "Votes to abort a transaction; sent by a transaction participant to the transaction commit coordinator for a cross-shard transaction",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

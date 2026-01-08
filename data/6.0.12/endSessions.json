@@ -1,0 +1,10 @@
+{
+  "help": "end a set of logical sessions",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": false,
+  "apiVersions": [
+    "1"
+  ],
+  "deprecatedApiVersions": []
+}

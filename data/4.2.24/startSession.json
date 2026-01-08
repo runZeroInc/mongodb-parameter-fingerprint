@@ -1,0 +1,8 @@
+{
+  "help": "start a logical session",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

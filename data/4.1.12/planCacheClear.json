@@ -1,0 +1,8 @@
+{
+  "help": "Drops one or all cached queries in a collection.",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

@@ -1,0 +1,8 @@
+{
+  "help": "renew a set of logical sessions",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}
