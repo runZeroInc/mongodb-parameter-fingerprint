@@ -17,24 +17,28 @@ if [ ! -d "data" ]; then
     mkdir -p data
 fi
 
-if [[ 'which podman' != '' ]]; then
-    echo "Using podman as a docker replacement..."
-    alias docker=podman
+CTOOL=$(which podman)
+if [[ "$CTOOL" == "" ]]; then
+    CTOOL=$(which docker)
+    if [[ "$CTOOL" == "" ]]; then
+        echo "Neither docker nor podman found. Please install one of them."
+        exit 1
+    fi
 fi
 
 # Iterate over all MongoDB versions available on Docker Hub. 
 # This will require docker.com credentials if you hit the anonymous rate limit.
-for version in $(docker search --list-tags docker.io/library/mongo --no-trunc --limit 99999999 | awk '{print $2}' | egrep '^[0-9]+\.[0-9]+\.[0-9]+$' | sort -rV); do
+for version in $($CTOOL search --list-tags docker.io/library/mongo --no-trunc --limit 99999999 | awk '{print $2}' | egrep '^[0-9]+\.[0-9]+\.[0-9]+$' | sort -rV); do
     if [ -d "data/${version}" ]; then
         echo "Skipping existing data/${version}"
         continue
     fi
     echo "Generating for mongo:$version"
-    docker stop mongodb; docker rm mongodb;
-    docker images | grep mongo | awk '{print $3}' | xargs docker rmi --force;
-    docker volume prune --force;
-    docker run -d --name mongodb -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=changeme mongo:$version
-    sleep 1
+    $CTOOL stop mongodb >/dev/null 2>&1
+    $CTOOL rm mongodb >/dev/null 2>&1
+    $CTOOL images | grep mongo | awk '{print $3}' | xargs $CTOOL rmi --force >/dev/null 2>&1
+    $CTOOL volume prune --force  >/dev/null 2>&1
+    $CTOOL run -d --name mongodb -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=changeme mongo:$version
     echo "Connecting to mongo:$version"
     ./cmd/dump/dump localhost:27017 data/${version}
 done
