@@ -31,6 +31,8 @@ type ListCommands struct {
 	OK       float64                  `json:"ok"`
 }
 
+const MaxRetries = 15
+
 func main() {
 	if len(os.Args) < 2 {
 		fmt.Println("Usage: mongo-bongo <mongodb_address> [output_directory]")
@@ -40,6 +42,7 @@ func main() {
 	ddir := os.Args[2]
 
 	retries := 0
+
 TryAgain:
 	ctx, cancel := context.WithTimeout(context.Background(), time.Second*10)
 	defer cancel()
@@ -75,7 +78,6 @@ TryAgain:
 			logrus.Fatalf("failed to connect with old driver to MongoDB at %s: %v", addr, err)
 		}
 
-		defer ms.Close()
 		ms.SetMode(mgo.Monotonic, true)
 
 		oresult := obson.M{}
@@ -84,6 +86,9 @@ TryAgain:
 			logrus.Fatalf("failed to run listCommands with old driver: %v", err)
 		}
 		result = oresult
+		ms.Close()
+	} else {
+		_ = ms.Disconnect(ctx)
 	}
 
 	jb, err := json.MarshalIndent(result, "", "  ")
@@ -98,10 +103,10 @@ TryAgain:
 
 	if len(lc.Commands) == 0 {
 		os.RemoveAll(ddir)
-		if retries < 3 {
+		if retries < MaxRetries {
 			retries++
-			logrus.Printf("no commands found, retrying (%d/3)...", retries)
-			time.Sleep(time.Second * 2)
+			logrus.Printf("no response, retrying (%d/%d)...", retries, MaxRetries)
+			time.Sleep(time.Second * 1)
 			goto TryAgain
 		}
 		logrus.Fatalf("failed to dump any commands from json: %s", string(jb))
