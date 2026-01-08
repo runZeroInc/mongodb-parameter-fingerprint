@@ -1,0 +1,5335 @@
+{
+  "b99bce9ef298aa83b0683fc6f9963063": {
+    "version_min": "2.2.7",
+    "version_max": "2.2.7",
+    "versions": [
+      "2.2.7"
+    ],
+    "params_added": [
+      "journalCommitInterval",
+      "logLevel",
+      "notablescan",
+      "quiet",
+      "syncdelay"
+    ],
+    "count": 5
+  },
+  "2c15ebecfd41e8e648e4ace4a6bc2494": {
+    "version_min": "2.4.10",
+    "version_max": "2.4.14",
+    "versions": [
+      "2.4.10",
+      "2.4.11",
+      "2.4.12",
+      "2.4.13",
+      "2.4.14"
+    ],
+    "version_prev": "2.2.7",
+    "params_added": [
+      "authOnPrimaryOnly",
+      "enableLocalhostAuthBypass",
+      "enableTestCommands",
+      "ignoreInitialVersionFailure",
+      "logUserIds",
+      "releaseConnectionsAfterResponse",
+      "replApplyBatchSize",
+      "replIndexPrefetch",
+      "supportCompatibilityFormPrivilegeDocuments",
+      "textSearchEnabled",
+      "ttlMonitorEnabled"
+    ],
+    "params_removed": [
+      "journalCommitInterval"
+    ],
+    "count": 15
+  },
+  "32173bd97d24d033b1a51526f209f21e": {
+    "version_min": "2.6.1",
+    "version_max": "2.6.1",
+    "versions": [
+      "2.6.1"
+    ],
+    "version_prev": "2.4.14",
+    "params_added": [
+      "_forceLegacyShardWriteMode",
+      "authSchemaVersion",
+      "clusterAuthMode",
+      "connPoolMaxConnsPerHost",
+      "connPoolMaxShardedConnsPerHost",
+      "failIndexKeyTooLong",
+      "internalQueryCacheFeedbacksStored",
+      "internalQueryCacheSize",
+      "internalQueryCacheStdDeviations",
+      "internalQueryCacheWriteOpsBetweenFlush",
+      "internalQueryEnumerationMaxIntersectPerAnd",
+      "internalQueryEnumerationMaxOrSolutions",
+      "internalQueryForceIntersectionPlans",
+      "internalQueryPlanEvaluationCollFraction",
+      "internalQueryPlanEvaluationMaxResults",
+      "internalQueryPlanEvaluationWorks",
+      "internalQueryPlanOrChildrenIndependently",
+      "internalQueryPlannerEnableIndexIntersection",
+      "internalQueryPlannerMaxIndexedSolutions",
+      "maxSyncSourceLagSecs",
+      "newCollectionsUsePowerOf2Sizes",
+      "queueForMigrationCommit",
+      "sslMode",
+      "verboseQueryLogging"
+    ],
+    "params_removed": [
+      "authOnPrimaryOnly",
+      "ignoreInitialVersionFailure"
+    ],
+    "count": 37
+  },
+  "a331e58e78a23057051f6183474ad9f5": {
+    "version_min": "2.6.10",
+    "version_max": "2.6.9",
+    "versions": [
+      "2.6.10",
+      "2.6.11",
+      "2.6.12",
+      "2.6.9"
+    ],
+    "version_prev": "2.6.1",
+    "params_added": [
+      "cursorTimeoutMillis",
+      "internalQueryMaxScansToExplode",
+      "internalQueryPlannerEnableHashIntersection",
+      "internalSCCAllowFastestAuthConfigReads",
+      "internalSCCAllowFastestMetadataConfigReads",
+      "skipCorruptDocumentsWhenCloning"
+    ],
+    "count": 43
+  },
+  "cfd8f93556ef8cd850cd245468b91e8a": {
+    "version_min": "2.6.4",
+    "version_max": "2.6.4",
+    "versions": [
+      "2.6.4"
+    ],
+    "version_prev": "2.6.12",
+    "params_removed": [
+      "cursorTimeoutMillis",
+      "internalQueryPlannerEnableHashIntersection",
+      "skipCorruptDocumentsWhenCloning"
+    ],
+    "count": 40
+  },
+  "aac9ee3944598296a72bafb92a05b6a8": {
+    "version_min": "2.6.5",
+    "version_max": "2.6.5",
+    "versions": [
+      "2.6.5"
+    ],
+    "version_prev": "2.6.4",
+    "params_added": [
+      "internalQueryPlannerEnableHashIntersection"
+    ],
+    "count": 41
+  },
+  "8f9ec5b05d064cba16d3c3f4e46683a8": {
+    "version_min": "2.6.6",
+    "version_max": "2.6.8",
+    "versions": [
+      "2.6.6",
+      "2.6.7",
+      "2.6.8"
+    ],
+    "version_prev": "2.6.5",
+    "params_added": [
+      "skipCorruptDocumentsWhenCloning"
+    ],
+    "count": 42
+  },
+  "33afe18ffd198696401bba0bb35f5ab3": {
+    "version_min": "2.7.5",
+    "version_max": "2.7.5",
+    "versions": [
+      "2.7.5"
+    ],
+    "version_prev": "2.6.9",
+    "params_added": [
+      "enableNewExplain",
+      "internalGeoNearQuery2DMaxCoveringCells",
+      "internalGeoPredicateQuery2DMaxCoveringCells",
+      "journalCommitInterval",
+      "logComponentVerbosity",
+      "replMonitorMaxFailedChecks",
+      "traceExceptions",
+      "useExperimentalDocLocking"
+    ],
+    "params_removed": [
+      "cursorTimeoutMillis",
+      "internalQueryPlannerEnableHashIntersection",
+      "releaseConnectionsAfterResponse",
+      "skipCorruptDocumentsWhenCloning",
+      "supportCompatibilityFormPrivilegeDocuments",
+      "verboseQueryLogging"
+    ],
+    "count": 45
+  },
+  "92bf519f1d34300f8aa54dad810d056d": {
+    "version_min": "2.7.6",
+    "version_max": "2.7.6",
+    "versions": [
+      "2.7.6"
+    ],
+    "version_prev": "2.7.5",
+    "params_added": [
+      "authenticationMechanisms",
+      "saslHostName",
+      "saslServiceName",
+      "saslauthdPath"
+    ],
+    "params_removed": [
+      "enableNewExplain"
+    ],
+    "count": 48
+  },
+  "75539ad58dda38773db1be0ebccfd51f": {
+    "version_min": "2.7.7",
+    "version_max": "2.7.7",
+    "versions": [
+      "2.7.7"
+    ],
+    "version_prev": "2.7.6",
+    "params_added": [
+      "internalQueryPlannerEnableHashIntersection"
+    ],
+    "count": 49
+  },
+  "8dfc6549a92f2595dfb4f20f5b3d1523": {
+    "version_min": "2.7.8",
+    "version_max": "2.7.8",
+    "versions": [
+      "2.7.8"
+    ],
+    "version_prev": "2.7.7",
+    "params_added": [
+      "enableCollectionLocking",
+      "internalShardingMaxSplitPointsPerOperation",
+      "scramIterationCount",
+      "skipCorruptDocumentsWhenCloning"
+    ],
+    "params_removed": [
+      "useExperimentalDocLocking"
+    ],
+    "count": 52
+  },
+  "0e1cc58f2511ddf7afca25dbb328262c": {
+    "version_min": "2.8.0",
+    "version_max": "2.8.0",
+    "versions": [
+      "2.8.0"
+    ],
+    "version_prev": "2.7.8",
+    "params_added": [
+      "internalQueryExecMaxBlockingSortBytes",
+      "internalQueryExecYieldIterations",
+      "internalQueryExecYieldPeriodMS",
+      "tcmallocAggressiveMemoryDecommit",
+      "tcmallocMaxTotalThreadCacheBytes",
+      "traceWriteConflictExceptions"
+    ],
+    "params_removed": [
+      "_forceLegacyShardWriteMode",
+      "internalShardingMaxSplitPointsPerOperation"
+    ],
+    "count": 56
+  },
+  "202ff364f047d0aec0e4ebc09af1560c": {
+    "version_min": "3.0.0",
+    "version_max": "3.0.1",
+    "versions": [
+      "3.0.0",
+      "3.0.1"
+    ],
+    "version_prev": "2.8.0",
+    "params_added": [
+      "ttlMonitorSleepSecs",
+      "wiredTigerConcurrentReadTransactions",
+      "wiredTigerConcurrentWriteTransactions"
+    ],
+    "count": 59
+  },
+  "8b0662e79476c68f7398e57019e1fa8a": {
+    "version_min": "3.0.10",
+    "version_max": "3.0.9",
+    "versions": [
+      "3.0.10",
+      "3.0.11",
+      "3.0.12",
+      "3.0.13",
+      "3.0.14",
+      "3.0.15",
+      "3.0.7",
+      "3.0.8",
+      "3.0.9"
+    ],
+    "version_prev": "3.0.1",
+    "params_added": [
+      "cursorTimeoutMillis",
+      "internalQueryCacheEvictionRatio",
+      "internalQueryCacheReplanningEnabled"
+    ],
+    "params_removed": [
+      "internalQueryCacheWriteOpsBetweenFlush"
+    ],
+    "count": 61
+  },
+  "41b1d5506594d9b0dd09077e45eab996": {
+    "version_min": "3.0.2",
+    "version_max": "3.0.3",
+    "versions": [
+      "3.0.2",
+      "3.0.3"
+    ],
+    "version_prev": "3.0.15",
+    "params_added": [
+      "internalQueryCacheWriteOpsBetweenFlush"
+    ],
+    "params_removed": [
+      "internalQueryCacheEvictionRatio",
+      "internalQueryCacheReplanningEnabled"
+    ],
+    "count": 60
+  },
+  "f1a45ebd065d634d256bc5c18f542ace": {
+    "version_min": "3.0.4",
+    "version_max": "3.0.6",
+    "versions": [
+      "3.0.4",
+      "3.0.5",
+      "3.0.6"
+    ],
+    "version_prev": "3.0.3",
+    "params_added": [
+      "internalQueryCacheEvictionRatio",
+      "internalQueryCacheReplanningEnabled"
+    ],
+    "count": 62
+  },
+  "dec9000e9e870479d9d93c5338ac1f7f": {
+    "version_min": "3.1.4",
+    "version_max": "3.1.5",
+    "versions": [
+      "3.1.4",
+      "3.1.5"
+    ],
+    "version_prev": "3.0.9",
+    "params_added": [
+      "internalQueryCacheWriteOpsBetweenFlush",
+      "wiredTigerEngineRuntimeConfig"
+    ],
+    "params_removed": [
+      "internalQueryCacheReplanningEnabled",
+      "internalQueryCacheStdDeviations"
+    ],
+    "count": 61
+  },
+  "f87457296b181f32f8d36d2d638ac0db": {
+    "version_min": "3.1.6",
+    "version_max": "3.1.6",
+    "versions": [
+      "3.1.6"
+    ],
+    "version_prev": "3.1.5",
+    "params_added": [
+      "enableReplSnapshotThread",
+      "internalQueryS2GeoCoarsestLevel",
+      "internalQueryS2GeoFinestLevel",
+      "internalQueryS2GeoMaxCells",
+      "outboundNetworkImpl"
+    ],
+    "count": 66
+  },
+  "6d03cfe52a9817e6a42dbeeb29996ce5": {
+    "version_min": "3.1.7",
+    "version_max": "3.1.7",
+    "versions": [
+      "3.1.7"
+    ],
+    "version_prev": "3.1.6",
+    "params_added": [
+      "replSnapshotThreadThrottleMicros",
+      "replWriterThreadCount",
+      "testingSnapshotBehaviorInIsolation"
+    ],
+    "params_removed": [
+      "internalQueryCacheWriteOpsBetweenFlush"
+    ],
+    "count": 68
+  },
+  "a41aef759669224048d941d472a4c211": {
+    "version_min": "3.1.8",
+    "version_max": "3.1.8",
+    "versions": [
+      "3.1.8"
+    ],
+    "version_prev": "3.1.7",
+    "params_added": [
+      "diagnosticDataCollectionDirectorySizeMb",
+      "diagnosticDataCollectionEnabled",
+      "diagnosticDataCollectionFileSizeMb",
+      "diagnosticDataCollectionPeriodMillis",
+      "diagnosticDataCollectionSamplesPerChunk",
+      "diagnosticDataCollectionSamplesPerInterimUpdate"
+    ],
+    "count": 74
+  },
+  "77b37e34f3bb56ab5876367d05c61fc8": {
+    "version_min": "3.1.9",
+    "version_max": "3.1.9",
+    "versions": [
+      "3.1.9"
+    ],
+    "version_prev": "3.1.8",
+    "params_removed": [
+      "outboundNetworkImpl"
+    ],
+    "count": 73
+  },
+  "e108dcd41f61a82a2f09088ba16fd3fc": {
+    "version_min": "3.2.0",
+    "version_max": "3.2.3",
+    "versions": [
+      "3.2.0",
+      "3.2.1",
+      "3.2.3"
+    ],
+    "version_prev": "3.1.9",
+    "params_added": [
+      "diagnosticDataCollectionDirectorySizeMB",
+      "diagnosticDataCollectionFileSizeMB",
+      "disableJavaScriptJIT",
+      "recoverShardingState",
+      "replElectionTimeoutOffsetLimitFraction",
+      "taskExecutorPoolSize"
+    ],
+    "params_removed": [
+      "diagnosticDataCollectionDirectorySizeMb",
+      "diagnosticDataCollectionFileSizeMb"
+    ],
+    "count": 77
+  },
+  "bd9d1128b67132c9e636ee54d5336b65": {
+    "version_min": "3.2.10",
+    "version_max": "3.2.10",
+    "versions": [
+      "3.2.10"
+    ],
+    "version_prev": "3.2.1",
+    "params_added": [
+      "heapProfilingEnabled",
+      "heapProfilingSampleIntervalBytes",
+      "javascriptProtection",
+      "startupAuthSchemaValidation",
+      "timeOutMonitoringReplicaSets"
+    ],
+    "count": 82
+  },
+  "988281b4c244b8b97df46362475f75b4": {
+    "version_min": "3.2.11",
+    "version_max": "3.2.12",
+    "versions": [
+      "3.2.11",
+      "3.2.12"
+    ],
+    "version_prev": "3.2.10",
+    "params_added": [
+      "ShardingTaskExecutorPoolHostTimeoutMS",
+      "ShardingTaskExecutorPoolMaxSize",
+      "ShardingTaskExecutorPoolMinSize",
+      "ShardingTaskExecutorPoolRefreshRequirementMS",
+      "ShardingTaskExecutorPoolRefreshTimeoutMS",
+      "internalAggregationLookupBatchSize",
+      "priorityTakeoverFreshnessWindowSeconds"
+    ],
+    "count": 89
+  },
+  "b4b7cda90921f9f891560d2fe9c1d7fe": {
+    "version_min": "3.2.13",
+    "version_max": "3.2.13",
+    "versions": [
+      "3.2.13"
+    ],
+    "version_prev": "3.2.12",
+    "params_added": [
+      "maxIndexBuildMemoryUsageMegabytes"
+    ],
+    "count": 90
+  },
+  "1510d85e9506360d753034aeb04b94a1": {
+    "version_min": "3.2.14",
+    "version_max": "3.2.14",
+    "versions": [
+      "3.2.14"
+    ],
+    "version_prev": "3.2.13",
+    "params_added": [
+      "disableNonSSLConnectionLogging"
+    ],
+    "count": 91
+  },
+  "caf1db76e46ff13bf7756f02c31cbdd0": {
+    "version_min": "3.2.15",
+    "version_max": "3.2.15",
+    "versions": [
+      "3.2.15"
+    ],
+    "version_prev": "3.2.14",
+    "params_added": [
+      "ShardingTaskExecutorPoolMaxConnecting",
+      "scriptingEngineInterruptIntervalMS"
+    ],
+    "count": 93
+  },
+  "8e6f2ec3ff4d3d891011e53e52455bb7": {
+    "version_min": "3.2.16",
+    "version_max": "3.2.17",
+    "versions": [
+      "3.2.16",
+      "3.2.17"
+    ],
+    "version_prev": "3.2.15",
+    "params_added": [
+      "opensslCipherConfig"
+    ],
+    "count": 94
+  },
+  "022162fe4c0f18bf46c9168df66cd76d": {
+    "version_min": "3.2.18",
+    "version_max": "3.2.18",
+    "versions": [
+      "3.2.18"
+    ],
+    "version_prev": "3.2.17",
+    "params_added": [
+      "allowUnsafeRenamesDuringInitialSync"
+    ],
+    "count": 95
+  },
+  "3b4b97110848749dc89da55038ab8e2e": {
+    "version_min": "3.2.19",
+    "version_max": "3.2.21",
+    "versions": [
+      "3.2.19",
+      "3.2.20",
+      "3.2.21"
+    ],
+    "version_prev": "3.2.18",
+    "params_added": [
+      "skipShardingConfigurationChecks",
+      "tcmallocEnableMarkThreadIdle"
+    ],
+    "count": 97
+  },
+  "294c63ebabf90546d65fdcbfd5acba17": {
+    "version_min": "3.2.4",
+    "version_max": "3.2.8",
+    "versions": [
+      "3.2.4",
+      "3.2.5",
+      "3.2.6",
+      "3.2.7",
+      "3.2.8"
+    ],
+    "version_prev": "3.2.3",
+    "params_added": [
+      "javascriptProtection"
+    ],
+    "count": 78
+  },
+  "ea64c7ad9c38fe3238b2163bd92d6ffa": {
+    "version_min": "3.2.9",
+    "version_max": "3.2.9",
+    "versions": [
+      "3.2.9"
+    ],
+    "version_prev": "3.2.8",
+    "params_added": [
+      "heapProfilingEnabled",
+      "heapProfilingSampleIntervalBytes",
+      "startupAuthSchemaValidation"
+    ],
+    "count": 81
+  },
+  "91ec386e740a4c902edea7f46dd9931c": {
+    "version_min": "3.3.10",
+    "version_max": "3.3.10",
+    "versions": [
+      "3.3.10"
+    ],
+    "version_prev": "3.2.9",
+    "params_added": [
+      "automationServiceDescriptor",
+      "clientCursorMonitorFrequencySecs",
+      "dataReplicatorInitialSyncInserterThreads",
+      "enableBSON1_1",
+      "enableViews",
+      "initialSyncOplogBuffer",
+      "messagePortImpl",
+      "use3dot2InitialSync"
+    ],
+    "params_removed": [
+      "enableCollectionLocking",
+      "heapProfilingEnabled",
+      "heapProfilingSampleIntervalBytes",
+      "internalSCCAllowFastestAuthConfigReads",
+      "internalSCCAllowFastestMetadataConfigReads",
+      "queueForMigrationCommit",
+      "startupAuthSchemaValidation",
+      "textSearchEnabled"
+    ],
+    "count": 81
+  },
+  "799f23b0a0bbd329dc878c73af4fbfbc": {
+    "version_min": "3.3.11",
+    "version_max": "3.3.11",
+    "versions": [
+      "3.3.11"
+    ],
+    "version_prev": "3.3.10",
+    "params_added": [
+      "heapProfilingEnabled",
+      "heapProfilingSampleIntervalBytes",
+      "internalDocumentSourceCursorBatchSizeBytes",
+      "replBatchLimitOperations",
+      "startupAuthSchemaValidation"
+    ],
+    "params_removed": [
+      "dataReplicatorInitialSyncInserterThreads",
+      "recoverShardingState",
+      "replMonitorMaxFailedChecks"
+    ],
+    "count": 83
+  },
+  "d22dda9c29758d5183ef586fed24d825": {
+    "version_min": "3.3.12",
+    "version_max": "3.3.12",
+    "versions": [
+      "3.3.12"
+    ],
+    "version_prev": "3.3.11",
+    "params_added": [
+      "featureCompatibilityVersion"
+    ],
+    "count": 84
+  },
+  "d9b8e7df0824f26e5536c27e3bf99425": {
+    "version_min": "3.3.14",
+    "version_max": "3.3.15",
+    "versions": [
+      "3.3.14",
+      "3.3.15"
+    ],
+    "version_prev": "3.3.12",
+    "params_added": [
+      "internalQueryFacetBufferSizeBytes",
+      "jsHeapLimitMB",
+      "maxLogSizeKB",
+      "numInitialSyncAttempts",
+      "numInitialSyncCollectionFindAttempts",
+      "numInitialSyncConnectAttempts",
+      "numInitialSyncListCollectionsAttempts",
+      "numInitialSyncListDatabasesAttempts",
+      "numInitialSyncListIndexesAttempts",
+      "numInitialSyncOplogFindAttempts",
+      "oplogFetcherMaxFetcherRestarts",
+      "scriptingEngineInterruptIntervalMS",
+      "writePeriodicNoops"
+    ],
+    "params_removed": [
+      "enableBSON1_1",
+      "enableViews"
+    ],
+    "count": 95
+  },
+  "ab2c90bfbda4dd52ced94f61194c230a": {
+    "version_min": "3.3.5",
+    "version_max": "3.3.6",
+    "versions": [
+      "3.3.5",
+      "3.3.6"
+    ],
+    "version_prev": "3.3.15",
+    "params_added": [
+      "enableBSON1_1",
+      "recoverShardingState",
+      "replMonitorMaxFailedChecks"
+    ],
+    "params_removed": [
+      "automationServiceDescriptor",
+      "clientCursorMonitorFrequencySecs",
+      "featureCompatibilityVersion",
+      "heapProfilingEnabled",
+      "heapProfilingSampleIntervalBytes",
+      "initialSyncOplogBuffer",
+      "internalDocumentSourceCursorBatchSizeBytes",
+      "internalQueryFacetBufferSizeBytes",
+      "jsHeapLimitMB",
+      "maxLogSizeKB",
+      "messagePortImpl",
+      "numInitialSyncAttempts",
+      "numInitialSyncCollectionFindAttempts",
+      "numInitialSyncConnectAttempts",
+      "numInitialSyncListCollectionsAttempts",
+      "numInitialSyncListDatabasesAttempts",
+      "numInitialSyncListIndexesAttempts",
+      "numInitialSyncOplogFindAttempts",
+      "oplogFetcherMaxFetcherRestarts",
+      "replBatchLimitOperations",
+      "scriptingEngineInterruptIntervalMS",
+      "startupAuthSchemaValidation",
+      "use3dot2InitialSync",
+      "writePeriodicNoops"
+    ],
+    "count": 74
+  },
+  "e1ce69935d924bf70ec59bf68f5511b6": {
+    "version_min": "3.3.8",
+    "version_max": "3.3.8",
+    "versions": [
+      "3.3.8"
+    ],
+    "version_prev": "3.3.6",
+    "params_added": [
+      "messagePortImpl"
+    ],
+    "count": 75
+  },
+  "2901b3384a81906c6c2266782f618a29": {
+    "version_min": "3.3.9",
+    "version_max": "3.3.9",
+    "versions": [
+      "3.3.9"
+    ],
+    "version_prev": "3.3.8",
+    "params_added": [
+      "dataReplicatorInitialSyncInserterThreads",
+      "initialSyncOplogBuffer",
+      "useDataReplicatorInitialSync"
+    ],
+    "count": 78
+  },
+  "5fa6e56d5e34fbc33b3a191130ab2ef3": {
+    "version_min": "3.4.0",
+    "version_max": "3.4.3",
+    "versions": [
+      "3.4.0",
+      "3.4.1",
+      "3.4.2",
+      "3.4.3"
+    ],
+    "version_prev": "3.3.9",
+    "params_added": [
+      "ShardingTaskExecutorPoolHostTimeoutMS",
+      "ShardingTaskExecutorPoolMaxSize",
+      "ShardingTaskExecutorPoolMinSize",
+      "ShardingTaskExecutorPoolRefreshRequirementMS",
+      "ShardingTaskExecutorPoolRefreshTimeoutMS",
+      "automationServiceDescriptor",
+      "clientCursorMonitorFrequencySecs",
+      "featureCompatibilityVersion",
+      "heapProfilingEnabled",
+      "heapProfilingSampleIntervalBytes",
+      "initialSyncOplogBufferPeekCacheSize",
+      "internalDocumentSourceCursorBatchSizeBytes",
+      "internalInsertMaxBatchSize",
+      "internalQueryFacetBufferSizeBytes",
+      "internalValidateFeaturesAsMaster",
+      "jsHeapLimitMB",
+      "maxIndexBuildMemoryUsageMegabytes",
+      "maxLogSizeKB",
+      "num3Dot2InitialSyncAttempts",
+      "numInitialSyncAttempts",
+      "numInitialSyncCollectionCountAttempts",
+      "numInitialSyncCollectionFindAttempts",
+      "numInitialSyncConnectAttempts",
+      "numInitialSyncListCollectionsAttempts",
+      "numInitialSyncListDatabasesAttempts",
+      "numInitialSyncListIndexesAttempts",
+      "numInitialSyncOplogFindAttempts",
+      "oplogFetcherMaxFetcherRestarts",
+      "priorityTakeoverFreshnessWindowSeconds",
+      "replBatchLimitOperations",
+      "scriptingEngineInterruptIntervalMS",
+      "startupAuthSchemaValidation",
+      "use3dot2InitialSync",
+      "writePeriodicNoops"
+    ],
+    "params_removed": [
+      "dataReplicatorInitialSyncInserterThreads",
+      "enableBSON1_1",
+      "recoverShardingState",
+      "replMonitorMaxFailedChecks",
+      "useDataReplicatorInitialSync"
+    ],
+    "count": 107
+  },
+  "6398f5fa1da05ab0b31a3ed88a342bc6": {
+    "version_min": "3.4.10",
+    "version_max": "3.4.10",
+    "versions": [
+      "3.4.10"
+    ],
+    "version_prev": "3.4.1",
+    "params_added": [
+      "ShardingTaskExecutorPoolMaxConnecting",
+      "allowUnsafeRenamesDuringInitialSync",
+      "disableNonSSLConnectionLogging",
+      "maxBSONDepth",
+      "opensslCipherConfig"
+    ],
+    "count": 112
+  },
+  "83e6be2a5faca53b372684f40a7c73cc": {
+    "version_min": "3.4.11",
+    "version_max": "3.4.13",
+    "versions": [
+      "3.4.11",
+      "3.4.12",
+      "3.4.13"
+    ],
+    "version_prev": "3.4.10",
+    "params_added": [
+      "oplogInitialFindMaxSeconds",
+      "skipShardingConfigurationChecks",
+      "tcmallocEnableMarkThreadIdle"
+    ],
+    "count": 115
+  },
+  "1718b0f68d85e2ec4d9a87ea7d8857fb": {
+    "version_min": "3.4.14",
+    "version_max": "3.4.16",
+    "versions": [
+      "3.4.14",
+      "3.4.15",
+      "3.4.16"
+    ],
+    "version_prev": "3.4.13",
+    "params_added": [
+      "wiredTigerCursorCacheSize"
+    ],
+    "count": 116
+  },
+  "bd9bf1e78164043f33df0c74beef8a61": {
+    "version_min": "3.4.17",
+    "version_max": "3.4.17",
+    "versions": [
+      "3.4.17"
+    ],
+    "version_prev": "3.4.16",
+    "params_added": [
+      "internalProhibitShardOperationRetry",
+      "rangeDeleterBatchDelayMS",
+      "suppressNoTLSPeerCertificateWarning"
+    ],
+    "count": 119
+  },
+  "8a84e625c49959b31d827ac1cb498d02": {
+    "version_min": "3.4.18",
+    "version_max": "3.4.18",
+    "versions": [
+      "3.4.18"
+    ],
+    "version_prev": "3.4.17",
+    "params_added": [
+      "migrateCloneInsertionBatchDelayMS",
+      "migrateCloneInsertionBatchSize",
+      "oplogFetcherInitialSyncMaxFetcherRestarts",
+      "oplogFetcherSteadyStateMaxFetcherRestarts",
+      "oplogRetriedFindMaxSeconds",
+      "sslWithholdClientCertificate"
+    ],
+    "params_removed": [
+      "oplogFetcherMaxFetcherRestarts"
+    ],
+    "count": 124
+  },
+  "e6db51cc269e8beab932311107f934be": {
+    "version_min": "3.4.19",
+    "version_max": "3.4.21",
+    "versions": [
+      "3.4.19",
+      "3.4.20",
+      "3.4.21"
+    ],
+    "version_prev": "3.4.18",
+    "params_added": [
+      "rangeDeleterBatchSize"
+    ],
+    "count": 125
+  },
+  "908547176d733baf759bab6bf9ea775d": {
+    "version_min": "3.4.22",
+    "version_max": "3.4.24",
+    "versions": [
+      "3.4.22",
+      "3.4.23",
+      "3.4.24"
+    ],
+    "version_prev": "3.4.21",
+    "params_added": [
+      "allowRolesFromX509Certificates"
+    ],
+    "count": 126
+  },
+  "21a22c6cc5176c9fea87cdf7a90dabca": {
+    "version_min": "3.4.4",
+    "version_max": "3.4.5",
+    "versions": [
+      "3.4.4",
+      "3.4.5"
+    ],
+    "version_prev": "3.4.3",
+    "params_added": [
+      "disableNonSSLConnectionLogging",
+      "maxBSONDepth"
+    ],
+    "count": 109
+  },
+  "2f002e3c8cfe39b364eb219c06dc6abb": {
+    "version_min": "3.4.6",
+    "version_max": "3.4.6",
+    "versions": [
+      "3.4.6"
+    ],
+    "version_prev": "3.4.5",
+    "params_added": [
+      "ShardingTaskExecutorPoolMaxConnecting"
+    ],
+    "count": 110
+  },
+  "eb29937ef3cd86a0ca7260919263255f": {
+    "version_min": "3.4.7",
+    "version_max": "3.4.9",
+    "versions": [
+      "3.4.7",
+      "3.4.8",
+      "3.4.9"
+    ],
+    "version_prev": "3.4.6",
+    "params_added": [
+      "opensslCipherConfig"
+    ],
+    "count": 111
+  },
+  "1d12af7cbac104c8e9022bc23f94dcb5": {
+    "version_min": "3.5.10",
+    "version_max": "3.5.10",
+    "versions": [
+      "3.5.10"
+    ],
+    "version_prev": "3.4.9",
+    "params_added": [
+      "KeysRotationIntervalSec",
+      "bgSyncOplogFetcherBatchSize",
+      "collectionClonerBatchSize",
+      "debugCollectionUUIDs",
+      "enableCollectionUUIDs",
+      "initialSyncOplogFetcherBatchSize",
+      "internalQueryPlannerGenerateCoveredWholeIndexScans",
+      "localLogicalSessionTimeoutMinutes",
+      "logicalSessionRecordCacheSize",
+      "logicalSessionRefreshMinutes",
+      "maxAcceptableLogicalClockDriftSecs",
+      "orphanCleanupDelaySecs",
+      "rollbackMethod"
+    ],
+    "params_removed": [
+      "messagePortImpl",
+      "num3Dot2InitialSyncAttempts",
+      "use3dot2InitialSync"
+    ],
+    "count": 121
+  },
+  "b7e996d3ea5121f766e20756fc71b9f3": {
+    "version_min": "3.5.11",
+    "version_max": "3.5.11",
+    "versions": [
+      "3.5.11"
+    ],
+    "version_prev": "3.5.10",
+    "params_added": [
+      "adaptiveServiceExecutorIdlePctThreshold",
+      "adaptiveServiceExecutorMaxQueueLatencyMicros",
+      "adaptiveServiceExecutorReservedThreads",
+      "adaptiveServiceExecutorRunTimeJitterMillis",
+      "adaptiveServiceExecutorRunTimeMillis",
+      "adaptiveServiceExecutorStuckThreadTimeoutMillis"
+    ],
+    "count": 127
+  },
+  "ee9380db459f58d99990b7e0d06cc249": {
+    "version_min": "3.5.12",
+    "version_max": "3.5.12",
+    "versions": [
+      "3.5.12"
+    ],
+    "version_prev": "3.5.11",
+    "params_added": [
+      "honorSystemUmask",
+      "maxNumInitialSyncCollectionClonerCursors",
+      "opensslDiffieHellmanParameters"
+    ],
+    "count": 130
+  },
+  "7c781329e55958174f79d1e009fe2adf": {
+    "version_min": "3.5.13",
+    "version_max": "3.5.13",
+    "versions": [
+      "3.5.13"
+    ],
+    "version_prev": "3.5.12",
+    "params_added": [
+      "disableLogicalSessionCacheRefresh",
+      "disabledSecureAllocatorDomains",
+      "internalQueryAlwaysMergeOnPrimaryShard",
+      "internalQueryProhibitMergingOnMongoS"
+    ],
+    "count": 134
+  },
+  "d09f9bea1fab047b9a421a9329d65677": {
+    "version_min": "3.5.5",
+    "version_max": "3.5.8",
+    "versions": [
+      "3.5.5",
+      "3.5.6",
+      "3.5.7",
+      "3.5.8"
+    ],
+    "version_prev": "3.5.13",
+    "params_added": [
+      "maxAcceptableLogicalClockDrift",
+      "messagePortImpl",
+      "use3dot4Rollback"
+    ],
+    "params_removed": [
+      "KeysRotationIntervalSec",
+      "ShardingTaskExecutorPoolMaxConnecting",
+      "adaptiveServiceExecutorIdlePctThreshold",
+      "adaptiveServiceExecutorMaxQueueLatencyMicros",
+      "adaptiveServiceExecutorReservedThreads",
+      "adaptiveServiceExecutorRunTimeJitterMillis",
+      "adaptiveServiceExecutorRunTimeMillis",
+      "adaptiveServiceExecutorStuckThreadTimeoutMillis",
+      "bgSyncOplogFetcherBatchSize",
+      "collectionClonerBatchSize",
+      "debugCollectionUUIDs",
+      "disableLogicalSessionCacheRefresh",
+      "disabledSecureAllocatorDomains",
+      "honorSystemUmask",
+      "initialSyncOplogFetcherBatchSize",
+      "internalQueryAlwaysMergeOnPrimaryShard",
+      "internalQueryPlannerGenerateCoveredWholeIndexScans",
+      "internalQueryProhibitMergingOnMongoS",
+      "localLogicalSessionTimeoutMinutes",
+      "logicalSessionRecordCacheSize",
+      "logicalSessionRefreshMinutes",
+      "maxAcceptableLogicalClockDriftSecs",
+      "maxNumInitialSyncCollectionClonerCursors",
+      "opensslCipherConfig",
+      "opensslDiffieHellmanParameters",
+      "orphanCleanupDelaySecs",
+      "rollbackMethod"
+    ],
+    "count": 110
+  },
+  "6c21220c8f3ef2cadc4f167e5c00071a": {
+    "version_min": "3.5.9",
+    "version_max": "3.5.9",
+    "versions": [
+      "3.5.9"
+    ],
+    "version_prev": "3.5.8",
+    "params_added": [
+      "ShardingTaskExecutorPoolMaxConnecting",
+      "bgSyncOplogFetcherBatchSize",
+      "collectionClonerBatchSize",
+      "initialSyncOplogFetcherBatchSize",
+      "internalQueryPlannerGenerateCoveredWholeIndexScans",
+      "localLogicalSessionTimeoutMinutes",
+      "logicalSessionRecordCacheSize",
+      "logicalSessionRefreshMinutes",
+      "maxAcceptableLogicalClockDriftSecs"
+    ],
+    "params_removed": [
+      "maxAcceptableLogicalClockDrift"
+    ],
+    "count": 118
+  },
+  "12a817d3ef83a34edcc070b4b9f66a46": {
+    "version_min": "3.6.0",
+    "version_max": "3.7.1",
+    "versions": [
+      "3.6.0",
+      "3.6.1",
+      "3.6.2",
+      "3.7.1"
+    ],
+    "version_prev": "3.5.9",
+    "params_added": [
+      "KeysRotationIntervalSec",
+      "TransactionRecordMinimumLifetimeMinutes",
+      "adaptiveServiceExecutorIdlePctThreshold",
+      "adaptiveServiceExecutorMaxQueueLatencyMicros",
+      "adaptiveServiceExecutorRecursionLimit",
+      "adaptiveServiceExecutorReservedThreads",
+      "adaptiveServiceExecutorRunTimeJitterMillis",
+      "adaptiveServiceExecutorRunTimeMillis",
+      "adaptiveServiceExecutorStuckThreadTimeoutMillis",
+      "allowUnsafeRenamesDuringInitialSync",
+      "debugCollectionUUIDs",
+      "disableLogicalSessionCacheRefresh",
+      "disabledSecureAllocatorDomains",
+      "honorSystemUmask",
+      "internalDocumentSourceLookupCacheSizeBytes",
+      "internalQueryAlwaysMergeOnPrimaryShard",
+      "internalQueryIgnoreUnknownJSONSchemaKeywords",
+      "internalQueryProhibitBlockingMergeOnMongoS",
+      "internalQueryProhibitMergingOnMongoS",
+      "maxNumInitialSyncCollectionClonerCursors",
+      "opensslCipherConfig",
+      "opensslDiffieHellmanParameters",
+      "oplogInitialFindMaxSeconds",
+      "orphanCleanupDelaySecs",
+      "periodicNoopIntervalSecs",
+      "synchronousServiceExecutorRecursionLimit",
+      "tcmallocEnableMarkThreadTemporarilyIdle",
+      "waitForSecondaryBeforeNoopWriteMS"
+    ],
+    "params_removed": [
+      "enableCollectionUUIDs",
+      "enableReplSnapshotThread",
+      "logicalSessionRecordCacheSize",
+      "messagePortImpl",
+      "replSnapshotThreadThrottleMicros",
+      "use3dot4Rollback"
+    ],
+    "count": 140
+  },
+  "681d4d67e026fb64dc1a2507c4cbd2b5": {
+    "version_min": "3.6.10",
+    "version_max": "3.6.10",
+    "versions": [
+      "3.6.10"
+    ],
+    "version_prev": "3.6.1",
+    "params_added": [
+      "connPoolMaxInUseConnsPerHost",
+      "connPoolMaxShardedInUseConnsPerHost",
+      "enableElectionHandoff",
+      "globalConnPoolIdleTimeoutMinutes",
+      "internalProhibitShardOperationRetry",
+      "logicalSessionRefreshMillis",
+      "maxSessions",
+      "migrateCloneInsertionBatchDelayMS",
+      "migrateCloneInsertionBatchSize",
+      "oplogFetcherInitialSyncMaxFetcherRestarts",
+      "oplogFetcherSteadyStateMaxFetcherRestarts",
+      "oplogRetriedFindMaxSeconds",
+      "rangeDeleterBatchDelayMS",
+      "rangeDeleterBatchSize",
+      "reservedServiceExecutorRecursionLimit",
+      "rollbackRemoteOplogQueryBatchSize",
+      "shardedConnPoolIdleTimeoutMinutes",
+      "skipShardingConfigurationChecks",
+      "sslWithholdClientCertificate",
+      "suppressNoTLSPeerCertificateWarning",
+      "wiredTigerCursorCacheSize"
+    ],
+    "params_removed": [
+      "logicalSessionRefreshMinutes",
+      "oplogFetcherMaxFetcherRestarts"
+    ],
+    "count": 159
+  },
+  "bcac0ee20f0847a606875ca564adac07": {
+    "version_min": "3.6.11",
+    "version_max": "3.6.13",
+    "versions": [
+      "3.6.11",
+      "3.6.12",
+      "3.6.13"
+    ],
+    "version_prev": "3.6.10",
+    "params_added": [
+      "internalLookupStageIntermediateDocumentMaxSizeBytes",
+      "reportOpWriteConcernCountersInServerStatus",
+      "wiredTigerSessionCloseIdleTimeSecs"
+    ],
+    "count": 162
+  },
+  "26ade6b4ee0fbb076bf5265a8a5a6b4e": {
+    "version_min": "3.6.14",
+    "version_max": "3.6.14",
+    "versions": [
+      "3.6.14"
+    ],
+    "version_prev": "3.6.13",
+    "params_added": [
+      "allowRolesFromX509Certificates"
+    ],
+    "count": 163
+  },
+  "9560c369407a6ba9a53d16f1bfa17583": {
+    "version_min": "3.6.15",
+    "version_max": "3.6.16",
+    "versions": [
+      "3.6.15",
+      "3.6.16"
+    ],
+    "version_prev": "3.6.14",
+    "params_added": [
+      "waitForStepDownOnNonCommandShutdown",
+      "wiredTigerMaxCacheOverflowSizeGB"
+    ],
+    "count": 165
+  },
+  "0a2ece0cabbd2df12479be65dd42e746": {
+    "version_min": "3.6.17",
+    "version_max": "3.6.17",
+    "versions": [
+      "3.6.17"
+    ],
+    "version_prev": "3.6.16",
+    "params_added": [
+      "internalQueryMaxAddToSetBytes",
+      "internalQueryMaxPushBytes"
+    ],
+    "count": 167
+  },
+  "6d597690761293488fc61196aa9e4de2": {
+    "version_min": "3.6.18",
+    "version_max": "3.6.18",
+    "versions": [
+      "3.6.18"
+    ],
+    "version_prev": "3.6.17",
+    "params_added": [
+      "tcmallocReleaseRate",
+      "tlsCATrusts"
+    ],
+    "count": 169
+  },
+  "4b35fbe59e7d2d22b1edd762a2ffe347": {
+    "version_min": "3.6.19",
+    "version_max": "3.6.19",
+    "versions": [
+      "3.6.19"
+    ],
+    "version_prev": "3.6.18",
+    "params_added": [
+      "incrementChunkMajorVersionOnChunkSplits"
+    ],
+    "count": 170
+  },
+  "4642e0a115679e286ec300b6880abf5e": {
+    "version_min": "3.6.20",
+    "version_max": "3.6.20",
+    "versions": [
+      "3.6.20"
+    ],
+    "version_prev": "3.6.2",
+    "params_added": [
+      "allowRolesFromX509Certificates",
+      "connPoolMaxInUseConnsPerHost",
+      "connPoolMaxShardedInUseConnsPerHost",
+      "enableElectionHandoff",
+      "globalConnPoolIdleTimeoutMinutes",
+      "incrementChunkMajorVersionOnChunkSplits",
+      "internalLookupStageIntermediateDocumentMaxSizeBytes",
+      "internalProhibitShardOperationRetry",
+      "internalQueryFacetMaxOutputDocSizeBytes",
+      "internalQueryMaxAddToSetBytes",
+      "internalQueryMaxPushBytes",
+      "logicalSessionRefreshMillis",
+      "maxSessions",
+      "migrateCloneInsertionBatchDelayMS",
+      "migrateCloneInsertionBatchSize",
+      "oplogFetcherInitialSyncMaxFetcherRestarts",
+      "oplogFetcherSteadyStateMaxFetcherRestarts",
+      "oplogRetriedFindMaxSeconds",
+      "rangeDeleterBatchDelayMS",
+      "rangeDeleterBatchSize",
+      "reportOpWriteConcernCountersInServerStatus",
+      "reservedServiceExecutorRecursionLimit",
+      "rollbackRemoteOplogQueryBatchSize",
+      "shardedConnPoolIdleTimeoutMinutes",
+      "skipShardingConfigurationChecks",
+      "sslWithholdClientCertificate",
+      "suppressNoTLSPeerCertificateWarning",
+      "tcmallocReleaseRate",
+      "tlsCATrusts",
+      "waitForStepDownOnNonCommandShutdown",
+      "wiredTigerCursorCacheSize",
+      "wiredTigerMaxCacheOverflowSizeGB",
+      "wiredTigerSessionCloseIdleTimeSecs"
+    ],
+    "params_removed": [
+      "logicalSessionRefreshMinutes",
+      "oplogFetcherMaxFetcherRestarts"
+    ],
+    "count": 171
+  },
+  "9f5823d399d7adb2ea25ae03cad91415": {
+    "version_min": "3.6.21",
+    "version_max": "3.6.22",
+    "versions": [
+      "3.6.21",
+      "3.6.22"
+    ],
+    "version_prev": "3.6.20",
+    "params_added": [
+      "minNumChunksForSessionsCollection"
+    ],
+    "count": 172
+  },
+  "1a6494f7eff348adaebc332acc3b7f03": {
+    "version_min": "3.6.23",
+    "version_max": "3.6.23",
+    "versions": [
+      "3.6.23"
+    ],
+    "version_prev": "3.6.22",
+    "params_added": [
+      "internalQueryCacheMaxSizeBytesBeforeStripDebugInfo"
+    ],
+    "count": 173
+  },
+  "deef05611ccf4094072ade39e6cefdec": {
+    "version_min": "3.6.3",
+    "version_max": "3.6.3",
+    "versions": [
+      "3.6.3"
+    ],
+    "version_prev": "3.6.23",
+    "params_added": [
+      "logicalSessionRefreshMinutes",
+      "oplogFetcherMaxFetcherRestarts"
+    ],
+    "params_removed": [
+      "allowRolesFromX509Certificates",
+      "enableElectionHandoff",
+      "incrementChunkMajorVersionOnChunkSplits",
+      "internalLookupStageIntermediateDocumentMaxSizeBytes",
+      "internalProhibitShardOperationRetry",
+      "internalQueryCacheMaxSizeBytesBeforeStripDebugInfo",
+      "internalQueryFacetMaxOutputDocSizeBytes",
+      "internalQueryMaxAddToSetBytes",
+      "internalQueryMaxPushBytes",
+      "logicalSessionRefreshMillis",
+      "maxSessions",
+      "migrateCloneInsertionBatchDelayMS",
+      "migrateCloneInsertionBatchSize",
+      "minNumChunksForSessionsCollection",
+      "oplogFetcherInitialSyncMaxFetcherRestarts",
+      "oplogFetcherSteadyStateMaxFetcherRestarts",
+      "oplogRetriedFindMaxSeconds",
+      "rangeDeleterBatchDelayMS",
+      "rangeDeleterBatchSize",
+      "reportOpWriteConcernCountersInServerStatus",
+      "reservedServiceExecutorRecursionLimit",
+      "rollbackRemoteOplogQueryBatchSize",
+      "sslWithholdClientCertificate",
+      "suppressNoTLSPeerCertificateWarning",
+      "tcmallocReleaseRate",
+      "tlsCATrusts",
+      "waitForStepDownOnNonCommandShutdown",
+      "wiredTigerCursorCacheSize",
+      "wiredTigerMaxCacheOverflowSizeGB",
+      "wiredTigerSessionCloseIdleTimeSecs"
+    ],
+    "count": 145
+  },
+  "4a9737fd86058a3b48a338da81e3ea4c": {
+    "version_min": "3.6.4",
+    "version_max": "3.6.5",
+    "versions": [
+      "3.6.4",
+      "3.6.5"
+    ],
+    "version_prev": "3.6.3",
+    "params_added": [
+      "wiredTigerCursorCacheSize"
+    ],
+    "count": 146
+  },
+  "15559803b92120237688ae8ad5e9ac79": {
+    "version_min": "3.6.6",
+    "version_max": "3.6.6",
+    "versions": [
+      "3.6.6"
+    ],
+    "version_prev": "3.6.5",
+    "params_added": [
+      "rollbackRemoteOplogQueryBatchSize"
+    ],
+    "count": 147
+  },
+  "4fd3f8b4eac226bfa4eb326f8bdc3e69": {
+    "version_min": "3.6.7",
+    "version_max": "3.6.8",
+    "versions": [
+      "3.6.7",
+      "3.6.8"
+    ],
+    "version_prev": "3.6.6",
+    "params_added": [
+      "enableElectionHandoff",
+      "internalProhibitShardOperationRetry",
+      "maxSessions",
+      "oplogFetcherInitialSyncMaxFetcherRestarts",
+      "oplogFetcherSteadyStateMaxFetcherRestarts",
+      "oplogRetriedFindMaxSeconds",
+      "rangeDeleterBatchDelayMS",
+      "suppressNoTLSPeerCertificateWarning"
+    ],
+    "params_removed": [
+      "oplogFetcherMaxFetcherRestarts"
+    ],
+    "count": 154
+  },
+  "b155016d8d3729d244a3b54f2df1588f": {
+    "version_min": "3.6.9",
+    "version_max": "3.6.9",
+    "versions": [
+      "3.6.9"
+    ],
+    "version_prev": "3.6.8",
+    "params_added": [
+      "logicalSessionRefreshMillis",
+      "reservedServiceExecutorRecursionLimit",
+      "sslWithholdClientCertificate"
+    ],
+    "params_removed": [
+      "logicalSessionRefreshMinutes"
+    ],
+    "count": 156
+  },
+  "94f0a825d995d6b0fae6fae45317afbd": {
+    "version_min": "3.7.2",
+    "version_max": "3.7.2",
+    "versions": [
+      "3.7.2"
+    ],
+    "version_prev": "3.7.1",
+    "params_added": [
+      "connPoolMaxInUseConnsPerHost",
+      "connPoolMaxShardedInUseConnsPerHost",
+      "globalConnPoolIdleTimeoutMinutes",
+      "scramSHA256IterationCount",
+      "shardedConnPoolIdleTimeoutMinutes",
+      "skipShardingConfigurationChecks"
+    ],
+    "params_removed": [
+      "allowUnsafeRenamesDuringInitialSync"
+    ],
+    "count": 145
+  },
+  "c39b7bac784af45b42fc1a8cc8d2e7cb": {
+    "version_min": "3.7.3",
+    "version_max": "3.7.3",
+    "versions": [
+      "3.7.3"
+    ],
+    "version_prev": "3.7.2",
+    "params_added": [
+      "createRollbackDataFiles",
+      "forceRollbackViaRefetch",
+      "wiredTigerCursorCacheSize"
+    ],
+    "params_removed": [
+      "replApplyBatchSize"
+    ],
+    "count": 147
+  },
+  "407e96868648bff9b712cbe1bbf801be": {
+    "version_min": "3.7.5",
+    "version_max": "3.7.7",
+    "versions": [
+      "3.7.5",
+      "3.7.7"
+    ],
+    "version_prev": "3.7.3",
+    "params_added": [
+      "allowSecondaryReadsDuringBatchApplication",
+      "rollbackTimeLimitSecs",
+      "transactionLifetimeLimitSeconds"
+    ],
+    "params_removed": [
+      "logUserIds"
+    ],
+    "count": 149
+  },
+  "128ef1972bc60ae01128adb6afb643d3": {
+    "version_min": "3.7.9",
+    "version_max": "3.7.9",
+    "versions": [
+      "3.7.9"
+    ],
+    "version_prev": "3.7.7",
+    "params_added": [
+      "cloudFreeMonitoringEndpointURL"
+    ],
+    "count": 150
+  },
+  "4b7ac297a29d674454ebfa1b1cac8c33": {
+    "version_min": "4.0.0",
+    "version_max": "4.0.0",
+    "versions": [
+      "4.0.0"
+    ],
+    "version_prev": "3.7.9",
+    "params_added": [
+      "AsyncRequestsSenderUseBaton",
+      "createTimestampSafeUniqueIndex",
+      "maxTransactionLockRequestTimeoutMillis",
+      "recoverFromOplogAsStandalone",
+      "rollbackRemoteOplogQueryBatchSize"
+    ],
+    "count": 155
+  },
+  "56a5cfcc0113df9b4405e3701e8cc6bd": {
+    "version_min": "4.0.1",
+    "version_max": "4.0.1",
+    "versions": [
+      "4.0.1"
+    ],
+    "version_prev": "4.0.0",
+    "params_added": [
+      "internalProhibitShardOperationRetry",
+      "maxSessions",
+      "oplogFetcherInitialSyncMaxFetcherRestarts",
+      "oplogFetcherSteadyStateMaxFetcherRestarts",
+      "oplogRetriedFindMaxSeconds",
+      "rangeDeleterBatchDelayMS",
+      "suppressNoTLSPeerCertificateWarning"
+    ],
+    "params_removed": [
+      "oplogFetcherMaxFetcherRestarts"
+    ],
+    "count": 161
+  },
+  "2a64d678190028f0fd91f5cd6a8af803": {
+    "version_min": "4.0.10",
+    "version_max": "4.0.10",
+    "versions": [
+      "4.0.10"
+    ],
+    "version_prev": "4.0.1",
+    "params_added": [
+      "enableElectionHandoff",
+      "enableInMemoryTransactions",
+      "internalLookupStageIntermediateDocumentMaxSizeBytes",
+      "logicalSessionRefreshMillis",
+      "migrateCloneInsertionBatchDelayMS",
+      "migrateCloneInsertionBatchSize",
+      "rangeDeleterBatchSize",
+      "replBatchLimitBytes",
+      "reportOpWriteConcernCountersInServerStatus",
+      "reservedServiceExecutorRecursionLimit",
+      "sslWithholdClientCertificate",
+      "waitForStepDownOnNonCommandShutdown",
+      "wiredTigerSessionCloseIdleTimeSecs"
+    ],
+    "params_removed": [
+      "logicalSessionRefreshMinutes"
+    ],
+    "count": 173
+  },
+  "b72bbc6c3a654ed6c9ff42271baecd09": {
+    "version_min": "4.0.11",
+    "version_max": "4.0.11",
+    "versions": [
+      "4.0.11"
+    ],
+    "version_prev": "4.0.10",
+    "params_added": [
+      "allowRolesFromX509Certificates"
+    ],
+    "count": 174
+  },
+  "b2499950a80583bdb460d51a931ca880": {
+    "version_min": "4.0.12",
+    "version_max": "4.0.13",
+    "versions": [
+      "4.0.12",
+      "4.0.13"
+    ],
+    "version_prev": "4.0.11",
+    "params_added": [
+      "wiredTigerMaxCacheOverflowSizeGB"
+    ],
+    "count": 175
+  },
+  "03cf49f2391baeb9109840d680f5741c": {
+    "version_min": "4.0.14",
+    "version_max": "4.0.16",
+    "versions": [
+      "4.0.14",
+      "4.0.15",
+      "4.0.16"
+    ],
+    "version_prev": "4.0.13",
+    "params_added": [
+      "internalQueryMaxAddToSetBytes",
+      "internalQueryMaxPushBytes"
+    ],
+    "count": 177
+  },
+  "84863d7e6a668f5d09180dbf0c0756cb": {
+    "version_min": "4.0.17",
+    "version_max": "4.0.17",
+    "versions": [
+      "4.0.17"
+    ],
+    "version_prev": "4.0.16",
+    "params_added": [
+      "tlsCATrusts"
+    ],
+    "count": 178
+  },
+  "d61bb3ea7efdde61c75f7e524defd3d3": {
+    "version_min": "4.0.18",
+    "version_max": "4.0.19",
+    "versions": [
+      "4.0.18",
+      "4.0.19"
+    ],
+    "version_prev": "4.0.17",
+    "params_added": [
+      "tcmallocReleaseRate"
+    ],
+    "count": 179
+  },
+  "6e883c669b5e1a9e74a47c7a5e16862f": {
+    "version_min": "4.0.2",
+    "version_max": "4.0.2",
+    "versions": [
+      "4.0.2"
+    ],
+    "version_prev": "4.0.19",
+    "params_added": [
+      "logicalSessionRefreshMinutes"
+    ],
+    "params_removed": [
+      "allowRolesFromX509Certificates",
+      "internalLookupStageIntermediateDocumentMaxSizeBytes",
+      "internalQueryMaxAddToSetBytes",
+      "internalQueryMaxPushBytes",
+      "logicalSessionRefreshMillis",
+      "migrateCloneInsertionBatchDelayMS",
+      "migrateCloneInsertionBatchSize",
+      "rangeDeleterBatchSize",
+      "replBatchLimitBytes",
+      "reportOpWriteConcernCountersInServerStatus",
+      "reservedServiceExecutorRecursionLimit",
+      "sslWithholdClientCertificate",
+      "tcmallocReleaseRate",
+      "tlsCATrusts",
+      "waitForStepDownOnNonCommandShutdown",
+      "wiredTigerMaxCacheOverflowSizeGB",
+      "wiredTigerSessionCloseIdleTimeSecs"
+    ],
+    "count": 163
+  },
+  "0911a17019dede42c6b2f35bb19bfbf2": {
+    "version_min": "4.0.20",
+    "version_max": "4.0.20",
+    "versions": [
+      "4.0.20"
+    ],
+    "version_prev": "4.0.2",
+    "params_added": [
+      "allowRolesFromX509Certificates",
+      "incrementChunkMajorVersionOnChunkSplits",
+      "internalLookupStageIntermediateDocumentMaxSizeBytes",
+      "internalQueryMaxAddToSetBytes",
+      "internalQueryMaxPushBytes",
+      "logicalSessionRefreshMillis",
+      "migrateCloneInsertionBatchDelayMS",
+      "migrateCloneInsertionBatchSize",
+      "rangeDeleterBatchSize",
+      "replBatchLimitBytes",
+      "reportOpWriteConcernCountersInServerStatus",
+      "reservedServiceExecutorRecursionLimit",
+      "sslWithholdClientCertificate",
+      "tcmallocReleaseRate",
+      "tlsCATrusts",
+      "waitForStepDownOnNonCommandShutdown",
+      "wiredTigerMaxCacheOverflowSizeGB",
+      "wiredTigerSessionCloseIdleTimeSecs"
+    ],
+    "params_removed": [
+      "logicalSessionRefreshMinutes"
+    ],
+    "count": 180
+  },
+  "c877df2b2be74b9de8b9b2cce5095565": {
+    "version_min": "4.0.21",
+    "version_max": "4.0.21",
+    "versions": [
+      "4.0.21"
+    ],
+    "version_prev": "4.0.20",
+    "params_added": [
+      "enforceUserClusterSeparation",
+      "internalQueryEnumerationPreferLockstepOrEnumeration",
+      "internalQueryFacetMaxOutputDocSizeBytes"
+    ],
+    "count": 183
+  },
+  "61b9ee6e35931c716c5755232ec5b5a1": {
+    "version_min": "4.0.22",
+    "version_max": "4.0.22",
+    "versions": [
+      "4.0.22"
+    ],
+    "version_prev": "4.0.21",
+    "params_added": [
+      "minNumChunksForSessionsCollection"
+    ],
+    "count": 184
+  },
+  "30af2171f0f847efefcd6af6bed68dc8": {
+    "version_min": "4.0.23",
+    "version_max": "4.0.23",
+    "versions": [
+      "4.0.23"
+    ],
+    "version_prev": "4.0.22",
+    "params_added": [
+      "internalQueryCacheMaxSizeBytesBeforeStripDebugInfo"
+    ],
+    "count": 185
+  },
+  "18bef710a1e08991a5c9c6ec106277bf": {
+    "version_min": "4.0.24",
+    "version_max": "4.0.24",
+    "versions": [
+      "4.0.24"
+    ],
+    "version_prev": "4.0.23",
+    "params_added": [
+      "internalQueryExplainSizeThresholdBytes"
+    ],
+    "count": 186
+  },
+  "f476856e930e8c2393c282a1c14e0a62": {
+    "version_min": "4.0.25",
+    "version_max": "4.0.25",
+    "versions": [
+      "4.0.25"
+    ],
+    "version_prev": "4.0.24",
+    "params_added": [
+      "storeFindAndModifyImagesInSideCollection"
+    ],
+    "count": 187
+  },
+  "2a6307a1952c25b41b0f9a012fe8ff82": {
+    "version_min": "4.0.26",
+    "version_max": "4.0.27",
+    "versions": [
+      "4.0.26",
+      "4.0.27"
+    ],
+    "version_prev": "4.0.25",
+    "params_added": [
+      "maxCatchUpPercentageBeforeBlockingWrites",
+      "replWriterMinThreadCount"
+    ],
+    "count": 189
+  },
+  "c4d131824a4fcbe8117c9085e5e336f0": {
+    "version_min": "4.0.28",
+    "version_max": "4.0.28",
+    "versions": [
+      "4.0.28"
+    ],
+    "version_prev": "4.0.27",
+    "params_added": [
+      "internalQueryMaxRangeBytes"
+    ],
+    "count": 190
+  },
+  "feaee3c27388f2d19e0afc145be2d162": {
+    "version_min": "4.0.3",
+    "version_max": "4.0.3",
+    "versions": [
+      "4.0.3"
+    ],
+    "version_prev": "4.0.28",
+    "params_added": [
+      "logicalSessionRefreshMinutes"
+    ],
+    "params_removed": [
+      "allowRolesFromX509Certificates",
+      "enforceUserClusterSeparation",
+      "incrementChunkMajorVersionOnChunkSplits",
+      "internalLookupStageIntermediateDocumentMaxSizeBytes",
+      "internalQueryCacheMaxSizeBytesBeforeStripDebugInfo",
+      "internalQueryEnumerationPreferLockstepOrEnumeration",
+      "internalQueryExplainSizeThresholdBytes",
+      "internalQueryFacetMaxOutputDocSizeBytes",
+      "internalQueryMaxAddToSetBytes",
+      "internalQueryMaxPushBytes",
+      "internalQueryMaxRangeBytes",
+      "logicalSessionRefreshMillis",
+      "maxCatchUpPercentageBeforeBlockingWrites",
+      "migrateCloneInsertionBatchDelayMS",
+      "migrateCloneInsertionBatchSize",
+      "minNumChunksForSessionsCollection",
+      "rangeDeleterBatchSize",
+      "replBatchLimitBytes",
+      "replWriterMinThreadCount",
+      "reportOpWriteConcernCountersInServerStatus",
+      "reservedServiceExecutorRecursionLimit",
+      "storeFindAndModifyImagesInSideCollection",
+      "tcmallocReleaseRate",
+      "tlsCATrusts",
+      "waitForStepDownOnNonCommandShutdown",
+      "wiredTigerMaxCacheOverflowSizeGB",
+      "wiredTigerSessionCloseIdleTimeSecs"
+    ],
+    "count": 164
+  },
+  "be19c5807a884171f4d5f54bf6e9fc11": {
+    "version_min": "4.0.4",
+    "version_max": "4.0.4",
+    "versions": [
+      "4.0.4"
+    ],
+    "version_prev": "4.0.3",
+    "params_added": [
+      "logicalSessionRefreshMillis",
+      "reservedServiceExecutorRecursionLimit"
+    ],
+    "params_removed": [
+      "logicalSessionRefreshMinutes"
+    ],
+    "count": 165
+  },
+  "b53e9fdecb3e571d2219e3f186746a3f": {
+    "version_min": "4.0.5",
+    "version_max": "4.0.5",
+    "versions": [
+      "4.0.5"
+    ],
+    "version_prev": "4.0.4",
+    "params_added": [
+      "migrateCloneInsertionBatchDelayMS",
+      "migrateCloneInsertionBatchSize",
+      "rangeDeleterBatchSize"
+    ],
+    "count": 168
+  },
+  "049bca76e19e094a20a37a6e979119d0": {
+    "version_min": "4.0.6",
+    "version_max": "4.0.9",
+    "versions": [
+      "4.0.6",
+      "4.0.7",
+      "4.0.8",
+      "4.0.9"
+    ],
+    "version_prev": "4.0.5",
+    "params_added": [
+      "internalLookupStageIntermediateDocumentMaxSizeBytes",
+      "reportOpWriteConcernCountersInServerStatus",
+      "wiredTigerSessionCloseIdleTimeSecs"
+    ],
+    "count": 171
+  },
+  "97ea44fff0966d3466ca3928dae23aa3": {
+    "version_min": "4.1.1",
+    "version_max": "4.1.1",
+    "versions": [
+      "4.1.1"
+    ],
+    "version_prev": "4.0.9",
+    "params_added": [
+      "cachePressureThreshold",
+      "checkCachePressurePeriodSeconds",
+      "disableNonTLSConnectionLogging",
+      "handOffElectionOnStepdown",
+      "internalQueryCacheDisableInactiveEntries",
+      "internalQueryCacheWorksGrowthCoefficient",
+      "logicalSessionRefreshMinutes",
+      "maxTargetSnapshotHistoryWindowInSeconds",
+      "minMillisBetweenSnapshotWindowDec",
+      "minMillisBetweenSnapshotWindowInc",
+      "snapshotWindowAdditiveIncreaseSeconds",
+      "snapshotWindowMultiplicativeDecrease"
+    ],
+    "params_removed": [
+      "enableElectionHandoff",
+      "enableInMemoryTransactions",
+      "internalLookupStageIntermediateDocumentMaxSizeBytes",
+      "logicalSessionRefreshMillis",
+      "maxNumInitialSyncCollectionClonerCursors",
+      "migrateCloneInsertionBatchDelayMS",
+      "migrateCloneInsertionBatchSize",
+      "newCollectionsUsePowerOf2Sizes",
+      "rangeDeleterBatchSize",
+      "replIndexPrefetch",
+      "reportOpWriteConcernCountersInServerStatus",
+      "reservedServiceExecutorRecursionLimit",
+      "sslWithholdClientCertificate",
+      "wiredTigerSessionCloseIdleTimeSecs"
+    ],
+    "count": 169
+  },
+  "0c0730b5aaa97ab40eadd244ca40d46d": {
+    "version_min": "4.1.10",
+    "version_max": "4.1.10",
+    "versions": [
+      "4.1.10"
+    ],
+    "version_prev": "4.1.1",
+    "params_added": [
+      "AlwaysRecordTraffic",
+      "authorizationManagerCacheSize",
+      "authorizationManagerPinnedUsers",
+      "collectionClonerUsesExhaust",
+      "diagnosticDataCollectionDirectoryPath",
+      "enableElectionHandoff",
+      "enableFlowControl",
+      "enableHybridIndexBuilds",
+      "enableIndexBuildsCoordinatorForCreateIndexesCommand",
+      "flowControlTargetLagSeconds",
+      "internalDocumentSourceGroupMaxMemoryBytes",
+      "internalDocumentSourceSortMaxBlockingSortBytes",
+      "internalLookupStageIntermediateDocumentMaxSizeBytes",
+      "internalQueryAllowShardedLookup",
+      "internalQueryCacheListPlansNewOutput",
+      "internalQueryDisableExchange",
+      "logicalSessionRefreshMillis",
+      "migrateCloneInsertionBatchDelayMS",
+      "migrateCloneInsertionBatchSize",
+      "migrationLockAcquisitionMaxWaitMS",
+      "rangeDeleterBatchSize",
+      "reportOpWriteConcernCountersInServerStatus",
+      "reservedServiceExecutorRecursionLimit",
+      "roleGraphInvalidationIsFatal",
+      "sslWithholdClientCertificate",
+      "takeUnstableCheckpointOnShutdown",
+      "tlsMode",
+      "tlsWithholdClientCertificate",
+      "tlsX509ClusterAuthDNOverride",
+      "trafficRecordingDirectory",
+      "useMultipleOplogEntryFormatForTransactions",
+      "useReadOnceCursorsForIndexBuilds",
+      "wiredTigerSessionCloseIdleTimeSecs"
+    ],
+    "params_removed": [
+      "AsyncRequestsSenderUseBaton",
+      "createTimestampSafeUniqueIndex",
+      "handOffElectionOnStepdown",
+      "logicalSessionRefreshMinutes"
+    ],
+    "count": 198
+  },
+  "cc7beb260d6c0c7e6f6b4e7a9a8b74e1": {
+    "version_min": "4.1.11",
+    "version_max": "4.1.11",
+    "versions": [
+      "4.1.11"
+    ],
+    "version_prev": "4.1.10",
+    "params_added": [
+      "flowControlDecayConstant",
+      "flowControlFudgeFactor",
+      "flowControlMaxSamples",
+      "flowControlMinTicketsPerSecond",
+      "flowControlSamplePeriod",
+      "flowControlThresholdLagPercentage",
+      "flowControlTicketAdderConstant",
+      "flowControlTicketMultiplierConstant",
+      "flowControlWarnThresholdSeconds",
+      "maxIndexBuildDrainBatchSize",
+      "maxIndexBuildDrainMemoryUsageMegabytes",
+      "maxNumberOfTransactionOperationsInSingleOplogEntry",
+      "waitForStepDownOnNonCommandShutdown"
+    ],
+    "params_removed": [
+      "debugCollectionUUIDs"
+    ],
+    "count": 210
+  },
+  "e96d356ec9374e82153c113bd874aebf": {
+    "version_min": "4.1.12",
+    "version_max": "4.1.12",
+    "versions": [
+      "4.1.12"
+    ],
+    "version_prev": "4.1.11",
+    "params_added": [
+      "decreaseHistoryIfNotNeededPeriodSeconds",
+      "replBatchLimitBytes",
+      "transactionSizeLimitBytes",
+      "watchdogPeriodSeconds"
+    ],
+    "params_removed": [
+      "cachePressureThreshold",
+      "checkCachePressurePeriodSeconds",
+      "minMillisBetweenSnapshotWindowDec"
+    ],
+    "count": 211
+  },
+  "7670143dfc26b0c299104fa30f3086dd": {
+    "version_min": "4.1.13",
+    "version_max": "4.1.13",
+    "versions": [
+      "4.1.13"
+    ],
+    "version_prev": "4.1.12",
+    "params_added": [
+      "authorizationManagerPinnedUsersRefreshIntervalMillis"
+    ],
+    "count": 212
+  },
+  "4b7760072679035da381a601eac4772e": {
+    "version_min": "4.1.2",
+    "version_max": "4.1.2",
+    "versions": [
+      "4.1.2"
+    ],
+    "version_prev": "4.1.13",
+    "params_added": [
+      "AsyncRequestsSenderUseBaton",
+      "cachePressureThreshold",
+      "checkCachePressurePeriodSeconds",
+      "debugCollectionUUIDs",
+      "internalQueryAllowAllPathsIndexes",
+      "logicalSessionRefreshMinutes",
+      "minMillisBetweenSnapshotWindowDec"
+    ],
+    "params_removed": [
+      "AlwaysRecordTraffic",
+      "authorizationManagerPinnedUsers",
+      "authorizationManagerPinnedUsersRefreshIntervalMillis",
+      "collectionClonerUsesExhaust",
+      "decreaseHistoryIfNotNeededPeriodSeconds",
+      "diagnosticDataCollectionDirectoryPath",
+      "enableFlowControl",
+      "enableHybridIndexBuilds",
+      "enableIndexBuildsCoordinatorForCreateIndexesCommand",
+      "flowControlDecayConstant",
+      "flowControlFudgeFactor",
+      "flowControlMaxSamples",
+      "flowControlMinTicketsPerSecond",
+      "flowControlSamplePeriod",
+      "flowControlTargetLagSeconds",
+      "flowControlThresholdLagPercentage",
+      "flowControlTicketAdderConstant",
+      "flowControlTicketMultiplierConstant",
+      "flowControlWarnThresholdSeconds",
+      "internalLookupStageIntermediateDocumentMaxSizeBytes",
+      "internalQueryAllowShardedLookup",
+      "internalQueryDisableExchange",
+      "logicalSessionRefreshMillis",
+      "maxIndexBuildDrainBatchSize",
+      "maxIndexBuildDrainMemoryUsageMegabytes",
+      "maxNumberOfTransactionOperationsInSingleOplogEntry",
+      "migrateCloneInsertionBatchDelayMS",
+      "migrateCloneInsertionBatchSize",
+      "migrationLockAcquisitionMaxWaitMS",
+      "rangeDeleterBatchSize",
+      "replBatchLimitBytes",
+      "reportOpWriteConcernCountersInServerStatus",
+      "reservedServiceExecutorRecursionLimit",
+      "roleGraphInvalidationIsFatal",
+      "sslWithholdClientCertificate",
+      "takeUnstableCheckpointOnShutdown",
+      "tlsMode",
+      "tlsWithholdClientCertificate",
+      "tlsX509ClusterAuthDNOverride",
+      "trafficRecordingDirectory",
+      "transactionSizeLimitBytes",
+      "useMultipleOplogEntryFormatForTransactions",
+      "useReadOnceCursorsForIndexBuilds",
+      "waitForStepDownOnNonCommandShutdown",
+      "watchdogPeriodSeconds",
+      "wiredTigerSessionCloseIdleTimeSecs"
+    ],
+    "count": 173
+  },
+  "bb65c05adabe8071cb72b55ed9576514": {
+    "version_min": "4.1.3",
+    "version_max": "4.1.3",
+    "versions": [
+      "4.1.3"
+    ],
+    "version_prev": "4.1.2",
+    "params_added": [
+      "reservedServiceExecutorRecursionLimit",
+      "tlsWithholdClientCertificate"
+    ],
+    "count": 175
+  },
+  "196b24deaffa175d4ce905921e3e09ce": {
+    "version_min": "4.1.4",
+    "version_max": "4.1.5",
+    "versions": [
+      "4.1.4",
+      "4.1.5"
+    ],
+    "version_prev": "4.1.3",
+    "params_added": [
+      "authorizationManagerPinnedUsers",
+      "collectionClonerUsesExhaust",
+      "internalQueryDisableExchange",
+      "logicalSessionRefreshMillis",
+      "sslWithholdClientCertificate"
+    ],
+    "params_removed": [
+      "internalQueryAllowAllPathsIndexes",
+      "logicalSessionRefreshMinutes"
+    ],
+    "count": 178
+  },
+  "a4b54b449b44422d30f489d6863ed5bd": {
+    "version_min": "4.1.6",
+    "version_max": "4.1.6",
+    "versions": [
+      "4.1.6"
+    ],
+    "version_prev": "4.1.5",
+    "params_added": [
+      "migrateCloneInsertionBatchDelayMS",
+      "migrateCloneInsertionBatchSize",
+      "tlsMode",
+      "useReadOnceCursorsForIndexBuilds"
+    ],
+    "count": 182
+  },
+  "b35b6831b5b47e9c7a33efa5f67e1e48": {
+    "version_min": "4.1.7",
+    "version_max": "4.1.7",
+    "versions": [
+      "4.1.7"
+    ],
+    "version_prev": "4.1.6",
+    "params_added": [
+      "closeConnectionsOnStepdown",
+      "enableKVPendingDrops",
+      "internalLookupStageIntermediateDocumentMaxSizeBytes",
+      "rangeDeleterBatchSize",
+      "takeUnstableCheckpointOnShutdown",
+      "tlsX509ClusterAuthDNOverride",
+      "wiredTigerSessionCloseIdleTimeSecs"
+    ],
+    "count": 189
+  },
+  "2a7e0298c78d1411f7b299ce8edf47eb": {
+    "version_min": "4.1.9",
+    "version_max": "4.1.9",
+    "versions": [
+      "4.1.9"
+    ],
+    "version_prev": "4.1.7",
+    "params_added": [
+      "AlwaysRecordTraffic",
+      "diagnosticDataCollectionDirectoryPath",
+      "enableHybridIndexBuilds",
+      "enableIndexBuildsCoordinatorForCreateIndexesCommand",
+      "internalQueryAllowShardedLookup",
+      "migrationLockAcquisitionMaxWaitMS",
+      "reportOpWriteConcernCountersInServerStatus",
+      "trafficRecordingDirectory",
+      "useMultipleOplogEntryFormatForTransactions"
+    ],
+    "params_removed": [
+      "AsyncRequestsSenderUseBaton",
+      "closeConnectionsOnStepdown",
+      "enableKVPendingDrops"
+    ],
+    "count": 195
+  },
+  "cdd4756465c6bdb5801ce29d44622f0c": {
+    "version_min": "4.2.0",
+    "version_max": "4.2.0",
+    "versions": [
+      "4.2.0"
+    ],
+    "version_prev": "4.1.9",
+    "params_added": [
+      "ShardingTaskExecutorPoolReplicaSetMatching",
+      "allowRolesFromX509Certificates",
+      "authorizationManagerPinnedUsersRefreshIntervalMillis",
+      "disableIndexSpecNamespaceGeneration",
+      "enableFlowControl",
+      "flowControlDecayConstant",
+      "flowControlFudgeFactor",
+      "flowControlMaxSamples",
+      "flowControlMinTicketsPerSecond",
+      "flowControlSamplePeriod",
+      "flowControlTargetLagSeconds",
+      "flowControlThresholdLagPercentage",
+      "flowControlTicketAdderConstant",
+      "flowControlTicketMultiplierConstant",
+      "flowControlWarnThresholdSeconds",
+      "maxIndexBuildDrainBatchSize",
+      "maxIndexBuildDrainMemoryUsageMegabytes",
+      "maxNumberOfTransactionOperationsInSingleOplogEntry",
+      "replBatchLimitBytes",
+      "roleGraphInvalidationIsFatal",
+      "transactionSizeLimitBytes",
+      "waitForStepDownOnNonCommandShutdown",
+      "watchdogPeriodSeconds",
+      "wiredTigerMaxCacheOverflowSizeGB"
+    ],
+    "params_removed": [
+      "debugCollectionUUIDs",
+      "useMultipleOplogEntryFormatForTransactions"
+    ],
+    "count": 217
+  },
+  "3d205ea000544ab79822b775a3007777": {
+    "version_min": "4.2.1",
+    "version_max": "4.2.1",
+    "versions": [
+      "4.2.1"
+    ],
+    "version_prev": "4.2.0",
+    "params_added": [
+      "maxOplogTruncationPointsAfterStartup",
+      "maxOplogTruncationPointsDuringStartup",
+      "minOplogTruncationPoints",
+      "oplogTruncationPointSizeMB",
+      "skipShellCursorFinalize",
+      "wiredTigerFileHandleCloseIdleTime",
+      "wiredTigerFileHandleCloseMinimum",
+      "wiredTigerFileHandleCloseScanInterval"
+    ],
+    "count": 225
+  },
+  "2469b534254777d59f7ef56c83dc2c37": {
+    "version_min": "4.2.10",
+    "version_max": "4.2.10",
+    "versions": [
+      "4.2.10"
+    ],
+    "version_prev": "4.2.1",
+    "params_added": [
+      "enableShardedIndexConsistencyCheck",
+      "incrementChunkMajorVersionOnChunkSplits",
+      "initialSyncSourceReadPreference",
+      "internalQueryEnumerationPreferLockstepOrEnumeration",
+      "internalQueryFacetMaxOutputDocSizeBytes",
+      "internalQueryMaxAddToSetBytes",
+      "internalQueryMaxPushBytes",
+      "minNumChunksForSessionsCollection",
+      "recoverToOplogTimestamp",
+      "shardedIndexConsistencyCheckIntervalMS",
+      "tcmallocReleaseRate",
+      "tlsCATrusts"
+    ],
+    "count": 237
+  },
+  "7105e819724d6f34cd2e1c79ef05dbae": {
+    "version_min": "4.2.11",
+    "version_max": "4.2.11",
+    "versions": [
+      "4.2.11"
+    ],
+    "version_prev": "4.2.10",
+    "params_added": [
+      "enforceUserClusterSeparation",
+      "tlsOCSPVerifyTimeoutSecs"
+    ],
+    "count": 239
+  },
+  "c59e9c86b06a2f5d6a6676f9b250d9b5": {
+    "version_min": "4.2.12",
+    "version_max": "4.2.12",
+    "versions": [
+      "4.2.12"
+    ],
+    "version_prev": "4.2.11",
+    "params_added": [
+      "internalQueryCacheMaxSizeBytesBeforeStripDebugInfo"
+    ],
+    "count": 240
+  },
+  "4cd37155ad6894e564a6a5feb4b6ca02": {
+    "version_min": "4.2.13",
+    "version_max": "4.2.13",
+    "versions": [
+      "4.2.13"
+    ],
+    "version_prev": "4.2.12",
+    "params_added": [
+      "opportunisticSecondaryTargeting"
+    ],
+    "count": 241
+  },
+  "e468f2b02544670f154ed2b44a54b8f4": {
+    "version_min": "4.2.14",
+    "version_max": "4.2.14",
+    "versions": [
+      "4.2.14"
+    ],
+    "version_prev": "4.2.13",
+    "params_added": [
+      "internalQueryExplainSizeThresholdBytes"
+    ],
+    "count": 242
+  },
+  "fc96815bfd528bced2d22b810eb3ffbd": {
+    "version_min": "4.2.15",
+    "version_max": "4.2.15",
+    "versions": [
+      "4.2.15"
+    ],
+    "version_prev": "4.2.14",
+    "params_added": [
+      "maxCatchUpPercentageBeforeBlockingWrites",
+      "replWriterMinThreadCount",
+      "startupRecoveryForRestore",
+      "storeFindAndModifyImagesInSideCollection"
+    ],
+    "count": 246
+  },
+  "1dc16b72e6ebb235a85c323dc01abe81": {
+    "version_min": "4.2.16",
+    "version_max": "4.2.16",
+    "versions": [
+      "4.2.16"
+    ],
+    "version_prev": "4.2.15",
+    "params_added": [
+      "enableOverrideClusterChainingSetting",
+      "internalPipelineLengthLimit"
+    ],
+    "count": 248
+  },
+  "f238b2ef04bcb91372d5432a2ca67acb": {
+    "version_min": "4.2.17",
+    "version_max": "4.2.17",
+    "versions": [
+      "4.2.17"
+    ],
+    "version_prev": "4.2.16",
+    "params_added": [
+      "rewriteStateChangeErrors"
+    ],
+    "count": 249
+  },
+  "373efeaafd8d84a5797f8d6bda969699": {
+    "version_min": "4.2.18",
+    "version_max": "4.2.18",
+    "versions": [
+      "4.2.18"
+    ],
+    "version_prev": "4.2.17",
+    "params_added": [
+      "internalQueryMaxRangeBytes"
+    ],
+    "count": 250
+  },
+  "2aa056f641002e63ac57dc27ae6d67b2": {
+    "version_min": "4.2.19",
+    "version_max": "4.2.21",
+    "versions": [
+      "4.2.19",
+      "4.2.20",
+      "4.2.21"
+    ],
+    "version_prev": "4.2.18",
+    "params_added": [
+      "findChunksOnConfigTimeoutMS",
+      "wiredTigerSkipTableLoggingChecksOnStartup"
+    ],
+    "count": 252
+  },
+  "17ff475e5db0fa86d90133a6866c5f1f": {
+    "version_min": "4.2.22",
+    "version_max": "4.2.24",
+    "versions": [
+      "4.2.22",
+      "4.2.23",
+      "4.2.24"
+    ],
+    "version_prev": "4.2.21",
+    "params_added": [
+      "ShardingTaskExecutorPoolMaxSizeForConfigServers",
+      "ShardingTaskExecutorPoolMinSizeForConfigServers"
+    ],
+    "count": 254
+  },
+  "248095c1e96e1f88091c02d22cdeb372": {
+    "version_min": "4.2.3",
+    "version_max": "4.2.3",
+    "versions": [
+      "4.2.3"
+    ],
+    "version_prev": "4.2.24",
+    "params_removed": [
+      "ShardingTaskExecutorPoolMaxSizeForConfigServers",
+      "ShardingTaskExecutorPoolMinSizeForConfigServers",
+      "enableOverrideClusterChainingSetting",
+      "enableShardedIndexConsistencyCheck",
+      "enforceUserClusterSeparation",
+      "findChunksOnConfigTimeoutMS",
+      "incrementChunkMajorVersionOnChunkSplits",
+      "initialSyncSourceReadPreference",
+      "internalPipelineLengthLimit",
+      "internalQueryCacheMaxSizeBytesBeforeStripDebugInfo",
+      "internalQueryEnumerationPreferLockstepOrEnumeration",
+      "internalQueryExplainSizeThresholdBytes",
+      "internalQueryFacetMaxOutputDocSizeBytes",
+      "internalQueryMaxRangeBytes",
+      "maxCatchUpPercentageBeforeBlockingWrites",
+      "minNumChunksForSessionsCollection",
+      "opportunisticSecondaryTargeting",
+      "recoverToOplogTimestamp",
+      "replWriterMinThreadCount",
+      "rewriteStateChangeErrors",
+      "shardedIndexConsistencyCheckIntervalMS",
+      "startupRecoveryForRestore",
+      "storeFindAndModifyImagesInSideCollection",
+      "tlsCATrusts",
+      "tlsOCSPVerifyTimeoutSecs",
+      "wiredTigerSkipTableLoggingChecksOnStartup"
+    ],
+    "count": 228
+  },
+  "74474d7e5f36bc91cdabd64797fdaefe": {
+    "version_min": "4.2.5",
+    "version_max": "4.2.5",
+    "versions": [
+      "4.2.5"
+    ],
+    "version_prev": "4.2.3",
+    "params_added": [
+      "recoverToOplogTimestamp",
+      "tlsCATrusts"
+    ],
+    "count": 230
+  },
+  "ebb85b72ddcd7a1ece1dfbbf6b4a73ce": {
+    "version_min": "4.2.6",
+    "version_max": "4.2.6",
+    "versions": [
+      "4.2.6"
+    ],
+    "version_prev": "4.2.5",
+    "params_added": [
+      "enableShardedIndexConsistencyCheck",
+      "shardedIndexConsistencyCheckIntervalMS"
+    ],
+    "count": 232
+  },
+  "4390fa2a27dbc9c3790185fa6a21d52b": {
+    "version_min": "4.2.7",
+    "version_max": "4.2.8",
+    "versions": [
+      "4.2.7",
+      "4.2.8"
+    ],
+    "version_prev": "4.2.6",
+    "params_added": [
+      "initialSyncSourceReadPreference",
+      "minNumChunksForSessionsCollection"
+    ],
+    "count": 234
+  },
+  "b10d414a8691d5301a6f4539a6417e47": {
+    "version_min": "4.2.9",
+    "version_max": "4.2.9",
+    "versions": [
+      "4.2.9"
+    ],
+    "version_prev": "4.2.8",
+    "params_added": [
+      "incrementChunkMajorVersionOnChunkSplits"
+    ],
+    "count": 235
+  },
+  "dbbf56346e641e487a3ea3d7a354033f": {
+    "version_min": "4.4.0",
+    "version_max": "4.4.0",
+    "versions": [
+      "4.4.0"
+    ],
+    "version_prev": "4.2.9",
+    "params_added": [
+      "assertStableTimestampEqualsAppliedThroughOnRecovery",
+      "awsEC2InstanceMetadataUrl",
+      "awsECSInstanceMetadataUrl",
+      "collectionBulkLoaderBatchSizeInBytes",
+      "connectTimeoutMs",
+      "diagnosticDataCollectionEnableLatencyHistograms",
+      "disableResumableRangeDeleter",
+      "enableFinerGrainedCatalogCacheRefresh",
+      "enableIndexBuildCommitQuorum",
+      "enableSafeReplicaSetReconfig",
+      "enableTwoPhaseIndexBuild",
+      "heartBeatFrequencyMs",
+      "initialSyncTransientErrorRetryPeriodSeconds",
+      "internalQueryDesugarWhereToFunction",
+      "internalQueryJavaScriptFnTimeoutMillis",
+      "internalQueryJavaScriptHeapSizeLimitMB",
+      "internalQueryMaxBlockingSortMemoryUsageBytes",
+      "internalQueryMaxJsEmitBytes",
+      "loadRoutingTableOnStartup",
+      "localThresholdMs",
+      "maxNumActiveUserIndexBuilds",
+      "maxTimeMSForHedgedReads",
+      "maxValidateMBperSec",
+      "mirrorReads",
+      "ocspCacheSize",
+      "ocspEnabled",
+      "ocspValidationRefreshPeriodSecs",
+      "oplogFetcherUsesExhaust",
+      "oplogNetworkTimeoutBufferSeconds",
+      "oplogSamplingLogIntervalSeconds",
+      "processUmask",
+      "readHedgingMode",
+      "replicaSetMonitorProtocol",
+      "shouldMultiDocTxnCreateCollectionAndIndexes",
+      "tcpFastOpenClient",
+      "tcpFastOpenQueueSize",
+      "tcpFastOpenServer",
+      "tlsOCSPStaplingTimeoutSecs",
+      "tlsOCSPVerifyTimeoutSecs",
+      "tlsX509ExpirationWarningThresholdDays",
+      "warmMinConnectionsInShardingTaskExecutorPoolOnStartup",
+      "warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMS"
+    ],
+    "params_removed": [
+      "disableIndexSpecNamespaceGeneration",
+      "enableIndexBuildsCoordinatorForCreateIndexesCommand",
+      "failIndexKeyTooLong",
+      "incrementChunkMajorVersionOnChunkSplits",
+      "internalDocumentSourceSortMaxBlockingSortBytes",
+      "internalQueryCacheListPlansNewOutput",
+      "internalQueryExecMaxBlockingSortBytes",
+      "numInitialSyncCollectionCountAttempts",
+      "numInitialSyncCollectionFindAttempts",
+      "numInitialSyncListCollectionsAttempts",
+      "numInitialSyncListDatabasesAttempts",
+      "numInitialSyncListIndexesAttempts"
+    ],
+    "count": 265
+  },
+  "ab82254e6e19328e21237524ef9ba9ad": {
+    "version_min": "4.4.1",
+    "version_max": "4.4.1",
+    "versions": [
+      "4.4.1"
+    ],
+    "version_prev": "4.4.0",
+    "params_added": [
+      "ocspStaplingRefreshPeriodSecs",
+      "testingDiagnosticsEnabled"
+    ],
+    "count": 267
+  },
+  "c930e5873caaf08162e165f10d21e949": {
+    "version_min": "4.4.10",
+    "version_max": "4.4.10",
+    "versions": [
+      "4.4.10"
+    ],
+    "version_prev": "4.4.1",
+    "params_added": [
+      "diagnosticDataCollectionVerboseTCMalloc",
+      "enableOverrideClusterChainingSetting",
+      "enableSearchMeta",
+      "enableTimeoutOfInactiveSessionCursors",
+      "enforceUserClusterSeparation",
+      "internalIndexBuildBulkLoadYieldIterations",
+      "internalPipelineLengthLimit",
+      "internalQueryCacheMaxSizeBytesBeforeStripDebugInfo",
+      "internalQueryEnumerationPreferLockstepOrEnumeration",
+      "internalQueryExplainSizeThresholdBytes",
+      "internalQueryFacetMaxOutputDocSizeBytes",
+      "maxCatchUpPercentageBeforeBlockingWrites",
+      "maxValidateMemoryUsageMB",
+      "replWriterMinThreadCount",
+      "rewriteStateChangeErrors",
+      "startupRecoveryForRestore",
+      "storeFindAndModifyImagesInSideCollection"
+    ],
+    "params_removed": [
+      "internalQueryCacheFeedbacksStored"
+    ],
+    "count": 283
+  },
+  "ebeeb455f709d3474994cc3a97e71464": {
+    "version_min": "4.4.11",
+    "version_max": "4.4.11",
+    "versions": [
+      "4.4.11"
+    ],
+    "version_prev": "4.4.10",
+    "params_added": [
+      "dbCheckCollectionTryLockMaxAttempts",
+      "dbCheckCollectionTryLockMaxBackoffMillis",
+      "dbCheckCollectionTryLockMinBackoffMillis",
+      "dbCheckCollectionTryLockTimeoutMillis",
+      "dbCheckHealthLogEveryNBatches",
+      "enableReconfigRollbackCommittedWritesCheck",
+      "internalQueryMaxRangeBytes"
+    ],
+    "count": 290
+  },
+  "2cc5bd2a25f1d566d454a584da792ce4": {
+    "version_min": "4.4.12",
+    "version_max": "4.4.12",
+    "versions": [
+      "4.4.12"
+    ],
+    "version_prev": "4.4.11",
+    "params_added": [
+      "featureFlagHealthMonitoring"
+    ],
+    "count": 291
+  },
+  "907ea833831baa8f5b768dd8fd92e6c1": {
+    "version_min": "4.4.13",
+    "version_max": "4.4.13",
+    "versions": [
+      "4.4.13"
+    ],
+    "version_prev": "4.4.12",
+    "params_added": [
+      "findChunksOnConfigTimeoutMS",
+      "wiredTigerSkipTableLoggingChecksOnStartup"
+    ],
+    "count": 293
+  },
+  "43fe0a7f4ba7ae9ac79dffc3c581b1bd": {
+    "version_min": "4.4.14",
+    "version_max": "4.4.14",
+    "versions": [
+      "4.4.14"
+    ],
+    "version_prev": "4.4.13",
+    "params_added": [
+      "receiveChunkWaitForRangeDeleterTimeoutMS"
+    ],
+    "count": 294
+  },
+  "18498ea74810bbcfd7c091e5aceb3225": {
+    "version_min": "4.4.15",
+    "version_max": "4.4.15",
+    "versions": [
+      "4.4.15"
+    ],
+    "version_prev": "4.4.14",
+    "params_added": [
+      "opportunisticSecondaryTargeting"
+    ],
+    "count": 295
+  },
+  "11264d570bc088a5d5ac5f6af580b13c": {
+    "version_min": "4.4.16",
+    "version_max": "4.4.16",
+    "versions": [
+      "4.4.16"
+    ],
+    "version_prev": "4.4.15",
+    "params_added": [
+      "ShardingTaskExecutorPoolMaxSizeForConfigServers",
+      "ShardingTaskExecutorPoolMinSizeForConfigServers"
+    ],
+    "count": 297
+  },
+  "7f405d9a70e00226d77f2a21e935b0ba": {
+    "version_min": "4.4.17",
+    "version_max": "4.4.17",
+    "versions": [
+      "4.4.17"
+    ],
+    "version_prev": "4.4.16",
+    "params_added": [
+      "mrEnableSingleReduceOptimization"
+    ],
+    "count": 298
+  },
+  "cbc1d14f529310beb01c3b3225d92009": {
+    "version_min": "4.4.18",
+    "version_max": "4.4.19",
+    "versions": [
+      "4.4.18",
+      "4.4.19"
+    ],
+    "version_prev": "4.4.17",
+    "params_added": [
+      "wiredTigerPrefixSearchForUniqueIndexes"
+    ],
+    "count": 299
+  },
+  "382aaa786c4c14ad11c17d703596eb9d": {
+    "version_min": "4.4.2",
+    "version_max": "4.4.2",
+    "versions": [
+      "4.4.2"
+    ],
+    "version_prev": "4.4.19",
+    "params_added": [
+      "internalQueryCacheFeedbacksStored"
+    ],
+    "params_removed": [
+      "ShardingTaskExecutorPoolMaxSizeForConfigServers",
+      "ShardingTaskExecutorPoolMinSizeForConfigServers",
+      "dbCheckCollectionTryLockMaxAttempts",
+      "dbCheckCollectionTryLockMaxBackoffMillis",
+      "dbCheckCollectionTryLockMinBackoffMillis",
+      "dbCheckCollectionTryLockTimeoutMillis",
+      "dbCheckHealthLogEveryNBatches",
+      "enableOverrideClusterChainingSetting",
+      "enableReconfigRollbackCommittedWritesCheck",
+      "enableSearchMeta",
+      "enableTimeoutOfInactiveSessionCursors",
+      "featureFlagHealthMonitoring",
+      "findChunksOnConfigTimeoutMS",
+      "internalIndexBuildBulkLoadYieldIterations",
+      "internalPipelineLengthLimit",
+      "internalQueryCacheMaxSizeBytesBeforeStripDebugInfo",
+      "internalQueryExplainSizeThresholdBytes",
+      "internalQueryMaxRangeBytes",
+      "maxCatchUpPercentageBeforeBlockingWrites",
+      "maxValidateMemoryUsageMB",
+      "mrEnableSingleReduceOptimization",
+      "opportunisticSecondaryTargeting",
+      "receiveChunkWaitForRangeDeleterTimeoutMS",
+      "replWriterMinThreadCount",
+      "rewriteStateChangeErrors",
+      "startupRecoveryForRestore",
+      "storeFindAndModifyImagesInSideCollection",
+      "wiredTigerPrefixSearchForUniqueIndexes",
+      "wiredTigerSkipTableLoggingChecksOnStartup"
+    ],
+    "count": 271
+  },
+  "ce2672b697202c51de6537df7086c142": {
+    "version_min": "4.4.20",
+    "version_max": "4.4.21",
+    "versions": [
+      "4.4.20",
+      "4.4.21"
+    ],
+    "version_prev": "4.4.2",
+    "params_added": [
+      "ShardingTaskExecutorPoolMaxSizeForConfigServers",
+      "ShardingTaskExecutorPoolMinSizeForConfigServers",
+      "dbCheckCollectionTryLockMaxAttempts",
+      "dbCheckCollectionTryLockMaxBackoffMillis",
+      "dbCheckCollectionTryLockMinBackoffMillis",
+      "dbCheckCollectionTryLockTimeoutMillis",
+      "dbCheckHealthLogEveryNBatches",
+      "enableOverrideClusterChainingSetting",
+      "enableReconfigRollbackCommittedWritesCheck",
+      "enableSearchMeta",
+      "enableTimeoutOfInactiveSessionCursors",
+      "featureFlagHealthMonitoring",
+      "findChunksOnConfigTimeoutMS",
+      "internalIndexBuildBulkLoadYieldIterations",
+      "internalPipelineLengthLimit",
+      "internalQueryCacheMaxSizeBytesBeforeStripDebugInfo",
+      "internalQueryExplainSizeThresholdBytes",
+      "internalQueryGlobalProfilingFilter",
+      "internalQueryMaxRangeBytes",
+      "maxCatchUpPercentageBeforeBlockingWrites",
+      "maxValidateMemoryUsageMB",
+      "mrEnableSingleReduceOptimization",
+      "opportunisticSecondaryTargeting",
+      "receiveChunkWaitForRangeDeleterTimeoutMS",
+      "replWriterMinThreadCount",
+      "rewriteStateChangeErrors",
+      "startupRecoveryForRestore",
+      "storeFindAndModifyImagesInSideCollection",
+      "wiredTigerPrefixSearchForUniqueIndexes",
+      "wiredTigerSkipTableLoggingChecksOnStartup"
+    ],
+    "params_removed": [
+      "internalQueryCacheFeedbacksStored"
+    ],
+    "count": 300
+  },
+  "75b47506ab9fc661762a3299c26cafdd": {
+    "version_min": "4.4.22",
+    "version_max": "4.4.22",
+    "versions": [
+      "4.4.22"
+    ],
+    "version_prev": "4.4.21",
+    "params_added": [
+      "httpVerboseLogging"
+    ],
+    "count": 301
+  },
+  "bd4b4022bbabb8a041638826075e1e3e": {
+    "version_min": "4.4.23",
+    "version_max": "4.4.23",
+    "versions": [
+      "4.4.23"
+    ],
+    "version_prev": "4.4.22",
+    "params_added": [
+      "internalQueryDocumentSourceWriterBatchExtraReservedBytes",
+      "lockCodeSegmentsInMemory"
+    ],
+    "count": 303
+  },
+  "e3bfb16942b2b73365e6e0413813031b": {
+    "version_min": "4.4.24",
+    "version_max": "4.4.24",
+    "versions": [
+      "4.4.24"
+    ],
+    "version_prev": "4.4.23",
+    "params_added": [
+      "unsupportedSyncSource"
+    ],
+    "count": 304
+  },
+  "d2e7ae9e8be53054812f3b5453312546": {
+    "version_min": "4.4.25",
+    "version_max": "4.4.28",
+    "versions": [
+      "4.4.25",
+      "4.4.26",
+      "4.4.27",
+      "4.4.28"
+    ],
+    "version_prev": "4.4.24",
+    "params_added": [
+      "routingTableCacheChunkBucketSize"
+    ],
+    "params_removed": [
+      "cloudFreeMonitoringEndpointURL"
+    ],
+    "count": 304
+  },
+  "830c8ff92ea3d6e38f68fcd9831742dd": {
+    "version_min": "4.4.29",
+    "version_max": "4.4.30",
+    "versions": [
+      "4.4.29",
+      "4.4.30"
+    ],
+    "version_prev": "4.4.28",
+    "params_added": [
+      "allowDocumentsGreaterThanMaxUserSize",
+      "tlsUseSystemCA"
+    ],
+    "count": 306
+  },
+  "e8d88c3d7cd304e2aced0503d5480dc3": {
+    "version_min": "4.4.3",
+    "version_max": "4.4.4",
+    "versions": [
+      "4.4.3",
+      "4.4.4"
+    ],
+    "version_prev": "4.4.29",
+    "params_added": [
+      "cloudFreeMonitoringEndpointURL"
+    ],
+    "params_removed": [
+      "ShardingTaskExecutorPoolMaxSizeForConfigServers",
+      "ShardingTaskExecutorPoolMinSizeForConfigServers",
+      "allowDocumentsGreaterThanMaxUserSize",
+      "dbCheckCollectionTryLockMaxAttempts",
+      "dbCheckCollectionTryLockMaxBackoffMillis",
+      "dbCheckCollectionTryLockMinBackoffMillis",
+      "dbCheckCollectionTryLockTimeoutMillis",
+      "dbCheckHealthLogEveryNBatches",
+      "enableOverrideClusterChainingSetting",
+      "enableReconfigRollbackCommittedWritesCheck",
+      "enableSearchMeta",
+      "enableTimeoutOfInactiveSessionCursors",
+      "featureFlagHealthMonitoring",
+      "findChunksOnConfigTimeoutMS",
+      "httpVerboseLogging",
+      "internalIndexBuildBulkLoadYieldIterations",
+      "internalQueryDocumentSourceWriterBatchExtraReservedBytes",
+      "internalQueryExplainSizeThresholdBytes",
+      "internalQueryGlobalProfilingFilter",
+      "internalQueryMaxRangeBytes",
+      "lockCodeSegmentsInMemory",
+      "maxCatchUpPercentageBeforeBlockingWrites",
+      "maxValidateMemoryUsageMB",
+      "mrEnableSingleReduceOptimization",
+      "opportunisticSecondaryTargeting",
+      "receiveChunkWaitForRangeDeleterTimeoutMS",
+      "replWriterMinThreadCount",
+      "rewriteStateChangeErrors",
+      "routingTableCacheChunkBucketSize",
+      "startupRecoveryForRestore",
+      "storeFindAndModifyImagesInSideCollection",
+      "tlsUseSystemCA",
+      "unsupportedSyncSource",
+      "wiredTigerPrefixSearchForUniqueIndexes",
+      "wiredTigerSkipTableLoggingChecksOnStartup"
+    ],
+    "count": 272
+  },
+  "fb13442f53782caab8a8dd4bda05fc39": {
+    "version_min": "4.4.5",
+    "version_max": "4.4.6",
+    "versions": [
+      "4.4.5",
+      "4.4.6"
+    ],
+    "version_prev": "4.4.4",
+    "params_added": [
+      "internalQueryExplainSizeThresholdBytes"
+    ],
+    "count": 273
+  },
+  "81056010e9b3b3d026e3fc488aa5b867": {
+    "version_min": "4.4.7",
+    "version_max": "4.4.7",
+    "versions": [
+      "4.4.7"
+    ],
+    "version_prev": "4.4.6",
+    "params_added": [
+      "maxCatchUpPercentageBeforeBlockingWrites",
+      "maxValidateMemoryUsageMB",
+      "replWriterMinThreadCount",
+      "rewriteStateChangeErrors",
+      "startupRecoveryForRestore",
+      "storeFindAndModifyImagesInSideCollection"
+    ],
+    "count": 279
+  },
+  "f3c6488a0982b6afac9d52f9a0bd7803": {
+    "version_min": "4.4.8",
+    "version_max": "4.4.8",
+    "versions": [
+      "4.4.8"
+    ],
+    "version_prev": "4.4.7",
+    "params_added": [
+      "enableOverrideClusterChainingSetting"
+    ],
+    "count": 280
+  },
+  "91cd29c446cc23ad4938b161d082d465": {
+    "version_min": "4.4.9",
+    "version_max": "4.4.9",
+    "versions": [
+      "4.4.9"
+    ],
+    "version_prev": "4.4.8",
+    "params_added": [
+      "enableSearchMeta",
+      "enableTimeoutOfInactiveSessionCursors"
+    ],
+    "count": 282
+  },
+  "e895058f13342cea0a6df4ec99e42fde": {
+    "version_min": "5.0.0",
+    "version_max": "5.0.1",
+    "versions": [
+      "5.0.0",
+      "5.0.1"
+    ],
+    "version_prev": "4.4.9",
+    "params_added": [
+      "acceptApiVersion2",
+      "aggregateOperationResourceConsumptionMetrics",
+      "changeSyncSourceThresholdMillis",
+      "coordinateCommitReturnImmediatelyAfterPersistingDecision",
+      "deprecatedWireOpsWarningPeriodInSeconds",
+      "disableSplitHorizonIPCheck",
+      "documentUnitSizeBytes",
+      "enableDefaultWriteConcernUpdatesForInitiate",
+      "enableReconfigRollbackCommittedWritesCheck",
+      "enableResumableIndexBuilds",
+      "featureFlagBlender",
+      "featureFlagChangeStreamsOptimization",
+      "featureFlagDefaultReadConcernLocal",
+      "featureFlagDefaultWriteConcernMajority",
+      "featureFlagDotsAndDollars",
+      "featureFlagFryer",
+      "featureFlagLockFreeReads",
+      "featureFlagResharding",
+      "featureFlagRetryableFindAndModify",
+      "featureFlagShardingFullDDLSupport",
+      "featureFlagShardingFullDDLSupportTimestampedVersion",
+      "featureFlagSpoon",
+      "featureFlagTenantMigrations",
+      "featureFlagTimeseriesCollection",
+      "featureFlagToaster",
+      "featureFlagUseSecondaryDelaySecs",
+      "findChunksOnConfigTimeoutMS",
+      "fixedServiceExecutorRecursionLimit",
+      "fixedServiceExecutorThreadLimit",
+      "indexEntryUnitSizeBytes",
+      "initialServiceExecutorThreadingModel",
+      "internalDocumentSourceSetWindowFieldsMaxMemoryBytes",
+      "internalQueryAppendIdToSetWindowFieldsSort",
+      "internalQueryCacheMaxEntriesPerCollection",
+      "internalQueryDefaultDOP",
+      "internalQueryEnableCSTParser",
+      "internalQueryEnableLoggingV2OplogEntries",
+      "internalQueryEnableSlotBasedExecutionEngine",
+      "internalQueryMaxDocValidationErrorConsideredValues",
+      "internalQuerySlotBasedExecutionMaxStaticIndexScanIntervals",
+      "internalValidateFeaturesAsPrimary",
+      "maxNumSyncSourceChangesPerHour",
+      "maxTenantMigrationDonorServiceThreadPoolSize",
+      "maxTenantMigrationRecipientThreadPoolSize",
+      "minOplogEntriesPerThread",
+      "minSnapshotHistoryWindowInSeconds",
+      "mongosShutdownTimeoutMillisForSignaledShutdown",
+      "opensslCipherSuiteConfig",
+      "operationMemoryPoolBlockInitialSizeKB",
+      "operationMemoryPoolBlockMaxSizeKB",
+      "oplogApplicationEnforcesSteadyStateConstraints",
+      "profileOperationResourceConsumptionMetrics",
+      "remainingReshardingOperationTimeThresholdMillis",
+      "requireApiVersion",
+      "reshardingCollectionClonerBatchSizeInBytes",
+      "reshardingCoordinatorServiceMaxThreadCount",
+      "reshardingCriticalSectionTimeoutMillis",
+      "reshardingDonorServiceMaxThreadCount",
+      "reshardingMinimumOperationDurationMillis",
+      "reshardingOplogApplierMaxLockRequestTimeoutMillis",
+      "reshardingOplogBatchLimitBytes",
+      "reshardingOplogBatchLimitOperations",
+      "reshardingOplogBatchTaskCount",
+      "reshardingRecipientServiceMaxThreadCount",
+      "reshardingTxnClonerProgressBatchSize",
+      "resumableIndexBuildMajorityOpTimeTimeoutMillis",
+      "shutdownTimeoutMillisForSignaledShutdown",
+      "tenantApplierBatchSizeBytes",
+      "tenantApplierBatchSizeOps",
+      "tenantApplierThreadCount",
+      "tenantMigrationBlockingStateTimeoutMS",
+      "tenantMigrationDisableX509Auth",
+      "tenantMigrationExcludeDonorHostTimeoutMS",
+      "tenantMigrationExternalKeysRemovalBufferSecs",
+      "tenantMigrationGarbageCollectionDelayMS",
+      "tenantMigrationOplogBufferPeekCacheSize",
+      "tenantMigrationOplogFetcherBatchSize",
+      "timeseriesBucketMaxCount",
+      "timeseriesBucketMaxSize",
+      "timeseriesBucketsCollectionClusterById",
+      "timeseriesIdleBucketExpiryMemoryUsageThreshold",
+      "totalUnitWriteSizeBytes"
+    ],
+    "params_removed": [
+      "adaptiveServiceExecutorIdlePctThreshold",
+      "adaptiveServiceExecutorMaxQueueLatencyMicros",
+      "adaptiveServiceExecutorRecursionLimit",
+      "adaptiveServiceExecutorReservedThreads",
+      "adaptiveServiceExecutorRunTimeJitterMillis",
+      "adaptiveServiceExecutorRunTimeMillis",
+      "adaptiveServiceExecutorStuckThreadTimeoutMillis",
+      "allowSecondaryReadsDuringBatchApplication",
+      "assertStableTimestampEqualsAppliedThroughOnRecovery",
+      "cachePressureThreshold",
+      "checkCachePressurePeriodSeconds",
+      "connPoolMaxShardedConnsPerHost",
+      "connPoolMaxShardedInUseConnsPerHost",
+      "enableHybridIndexBuilds",
+      "enableOverrideClusterChainingSetting",
+      "enableSafeReplicaSetReconfig",
+      "enableSearchMeta",
+      "enableTimeoutOfInactiveSessionCursors",
+      "enableTwoPhaseIndexBuild",
+      "maxTargetSnapshotHistoryWindowInSeconds",
+      "minMillisBetweenSnapshotWindowDec",
+      "minMillisBetweenSnapshotWindowInc",
+      "shardedConnPoolIdleTimeoutMinutes",
+      "shouldMultiDocTxnCreateCollectionAndIndexes",
+      "snapshotWindowAdditiveIncreaseSeconds",
+      "snapshotWindowMultiplicativeDecrease",
+      "waitForStepDownOnNonCommandShutdown"
+    ],
+    "count": 337
+  },
+  "fe86b1f0317d45107d24cab7688a7563": {
+    "version_min": "5.0.10",
+    "version_max": "5.0.11",
+    "versions": [
+      "5.0.10",
+      "5.0.11"
+    ],
+    "version_prev": "5.0.1",
+    "params_added": [
+      "ShardingTaskExecutorPoolMaxSizeForConfigServers",
+      "ShardingTaskExecutorPoolMinSizeForConfigServers",
+      "dbCheckCollectionTryLockMaxAttempts",
+      "dbCheckCollectionTryLockMaxBackoffMillis",
+      "dbCheckCollectionTryLockMinBackoffMillis",
+      "dbCheckCollectionTryLockTimeoutMillis",
+      "dbCheckHealthLogEveryNBatches",
+      "diagnosticDataCollectionStatsNamespaces",
+      "enableOverrideClusterChainingSetting",
+      "enableSearchMeta",
+      "enableTimeoutOfInactiveSessionCursors",
+      "featureFlagHealthMonitoring",
+      "featureFlagLoadBalancer",
+      "featureFlagSearchMeta",
+      "featureFlagShardedTimeSeries",
+      "featureFlagShardedTimeSeriesUpdateDelete",
+      "featureFlagTimeseriesUpdatesAndDeletes",
+      "internalIndexBuildBulkLoadYieldIterations",
+      "internalQueryMaxRangeBytes",
+      "loadBalancerPort",
+      "metadataRefreshInTransactionMaxWaitBehindCritSecMS",
+      "oplogBatchDelayMillis",
+      "opportunisticSecondaryTargeting",
+      "receiveChunkWaitForRangeDeleterTimeoutMS",
+      "wiredTigerSkipTableLoggingChecksOnStartup"
+    ],
+    "params_removed": [
+      "featureFlagShardingFullDDLSupportTimestampedVersion"
+    ],
+    "count": 361
+  },
+  "520132508701ec4ea67addba8b695837": {
+    "version_min": "5.0.12",
+    "version_max": "5.0.13",
+    "versions": [
+      "5.0.12",
+      "5.0.13"
+    ],
+    "version_prev": "5.0.11",
+    "params_added": [
+      "mrEnableSingleReduceOptimization"
+    ],
+    "count": 362
+  },
+  "41342400d47b2e65600724386543685e": {
+    "version_min": "5.0.14",
+    "version_max": "5.0.14",
+    "versions": [
+      "5.0.14"
+    ],
+    "version_prev": "5.0.13",
+    "params_added": [
+      "wiredTigerPrefixSearchForUniqueIndexes"
+    ],
+    "count": 363
+  },
+  "d5972052b8b04f2e7496eccb76ae680e": {
+    "version_min": "5.0.15",
+    "version_max": "5.0.15",
+    "versions": [
+      "5.0.15"
+    ],
+    "version_prev": "5.0.14",
+    "params_added": [
+      "chunkMigrationConcurrency",
+      "featureFlagConcurrencyInChunkMigration"
+    ],
+    "count": 365
+  },
+  "74b4220aefcd152958745df0981634cc": {
+    "version_min": "5.0.16",
+    "version_max": "5.0.17",
+    "versions": [
+      "5.0.16",
+      "5.0.17"
+    ],
+    "version_prev": "5.0.15",
+    "params_added": [
+      "featureFlagBucketUnpackWithSort50",
+      "internalQueryGlobalProfilingFilter",
+      "transactionTooLargeForCacheThreshold"
+    ],
+    "count": 368
+  },
+  "d5d53e67ec44865d5bdc59d23be73bb2": {
+    "version_min": "5.0.18",
+    "version_max": "5.0.18",
+    "versions": [
+      "5.0.18"
+    ],
+    "version_prev": "5.0.17",
+    "params_added": [
+      "balancerMigrationsThrottlingMs",
+      "httpVerboseLogging"
+    ],
+    "count": 370
+  },
+  "b6a57647fc3f794d28feed96ca453fe0": {
+    "version_min": "5.0.19",
+    "version_max": "5.0.19",
+    "versions": [
+      "5.0.19"
+    ],
+    "version_prev": "5.0.18",
+    "params_added": [
+      "featureFlagSearchBatchSizeLimit",
+      "internalQueryDocumentSourceWriterBatchExtraReservedBytes",
+      "lockCodeSegmentsInMemory",
+      "timeseriesInsertMaxRetriesOnDuplicates"
+    ],
+    "count": 374
+  },
+  "12896c7c1d59e00adf8b46efa90a0aa0": {
+    "version_min": "5.0.2",
+    "version_max": "5.0.2",
+    "versions": [
+      "5.0.2"
+    ],
+    "version_prev": "5.0.19",
+    "params_removed": [
+      "ShardingTaskExecutorPoolMaxSizeForConfigServers",
+      "ShardingTaskExecutorPoolMinSizeForConfigServers",
+      "balancerMigrationsThrottlingMs",
+      "chunkMigrationConcurrency",
+      "dbCheckCollectionTryLockMaxAttempts",
+      "dbCheckCollectionTryLockMaxBackoffMillis",
+      "dbCheckCollectionTryLockMinBackoffMillis",
+      "dbCheckCollectionTryLockTimeoutMillis",
+      "dbCheckHealthLogEveryNBatches",
+      "diagnosticDataCollectionStatsNamespaces",
+      "enableSearchMeta",
+      "enableTimeoutOfInactiveSessionCursors",
+      "featureFlagBucketUnpackWithSort50",
+      "featureFlagConcurrencyInChunkMigration",
+      "featureFlagHealthMonitoring",
+      "featureFlagLoadBalancer",
+      "featureFlagSearchBatchSizeLimit",
+      "featureFlagSearchMeta",
+      "featureFlagShardedTimeSeries",
+      "featureFlagShardedTimeSeriesUpdateDelete",
+      "featureFlagTimeseriesUpdatesAndDeletes",
+      "httpVerboseLogging",
+      "internalIndexBuildBulkLoadYieldIterations",
+      "internalQueryDocumentSourceWriterBatchExtraReservedBytes",
+      "internalQueryGlobalProfilingFilter",
+      "internalQueryMaxRangeBytes",
+      "loadBalancerPort",
+      "lockCodeSegmentsInMemory",
+      "metadataRefreshInTransactionMaxWaitBehindCritSecMS",
+      "mrEnableSingleReduceOptimization",
+      "oplogBatchDelayMillis",
+      "opportunisticSecondaryTargeting",
+      "receiveChunkWaitForRangeDeleterTimeoutMS",
+      "timeseriesInsertMaxRetriesOnDuplicates",
+      "transactionTooLargeForCacheThreshold",
+      "wiredTigerPrefixSearchForUniqueIndexes",
+      "wiredTigerSkipTableLoggingChecksOnStartup"
+    ],
+    "count": 337
+  },
+  "5462485496ce3809e83e53e6a8de2821": {
+    "version_min": "5.0.20",
+    "version_max": "5.0.20",
+    "versions": [
+      "5.0.20"
+    ],
+    "version_prev": "5.0.2",
+    "params_added": [
+      "ShardingTaskExecutorPoolMaxSizeForConfigServers",
+      "ShardingTaskExecutorPoolMinSizeForConfigServers",
+      "balancerMigrationsThrottlingMs",
+      "chunkMigrationConcurrency",
+      "dbCheckCollectionTryLockMaxAttempts",
+      "dbCheckCollectionTryLockMaxBackoffMillis",
+      "dbCheckCollectionTryLockMinBackoffMillis",
+      "dbCheckCollectionTryLockTimeoutMillis",
+      "dbCheckHealthLogEveryNBatches",
+      "diagnosticDataCollectionStatsNamespaces",
+      "enableSearchMeta",
+      "enableTimeoutOfInactiveSessionCursors",
+      "featureFlagBucketUnpackWithSort50",
+      "featureFlagConcurrencyInChunkMigration",
+      "featureFlagHealthMonitoring",
+      "featureFlagLoadBalancer",
+      "featureFlagSearchBatchSizeLimit",
+      "featureFlagSearchMeta",
+      "featureFlagShardedTimeSeries",
+      "featureFlagShardedTimeSeriesUpdateDelete",
+      "featureFlagTimeseriesUpdatesAndDeletes",
+      "httpVerboseLogging",
+      "internalIndexBuildBulkLoadYieldIterations",
+      "internalQueryDocumentSourceWriterBatchExtraReservedBytes",
+      "internalQueryGlobalProfilingFilter",
+      "internalQueryMaxRangeBytes",
+      "loadBalancerPort",
+      "lockCodeSegmentsInMemory",
+      "metadataRefreshInTransactionMaxWaitBehindCritSecMS",
+      "mrEnableSingleReduceOptimization",
+      "oplogBatchDelayMillis",
+      "opportunisticSecondaryTargeting",
+      "receiveChunkWaitForRangeDeleterTimeoutMS",
+      "timeseriesInsertMaxRetriesOnDuplicates",
+      "transactionTooLargeForCacheThreshold",
+      "unsupportedSyncSource",
+      "wiredTigerPrefixSearchForUniqueIndexes",
+      "wiredTigerSkipTableLoggingChecksOnStartup"
+    ],
+    "count": 375
+  },
+  "391034e2bd3080922cfdf15d6f498db0": {
+    "version_min": "5.0.21",
+    "version_max": "5.0.21",
+    "versions": [
+      "5.0.21"
+    ],
+    "version_prev": "5.0.20",
+    "params_added": [
+      "newShardExistingClusterTimeKeysExpirationSecs",
+      "routingTableCacheChunkBucketSize"
+    ],
+    "params_removed": [
+      "cloudFreeMonitoringEndpointURL"
+    ],
+    "count": 376
+  },
+  "1702fda9617c170933e43fbaedde618b": {
+    "version_min": "5.0.22",
+    "version_max": "5.0.23",
+    "versions": [
+      "5.0.22",
+      "5.0.23"
+    ],
+    "version_prev": "5.0.21",
+    "params_added": [
+      "chunkMigrationFetcherMaxBufferedSizeBytesPerThread",
+      "featureFlagShardKeyIndexOptionalHashedSharding",
+      "skipDroppingHashedShardKeyIndex"
+    ],
+    "count": 379
+  },
+  "a23c7072eb7f90307448fd82b8427da1": {
+    "version_min": "5.0.24",
+    "version_max": "5.0.24",
+    "versions": [
+      "5.0.24"
+    ],
+    "version_prev": "5.0.23",
+    "params_added": [
+      "oplogTruncationCheckPeriodSeconds"
+    ],
+    "count": 380
+  },
+  "2582fab1687f5d6f896308795b4565af": {
+    "version_min": "5.0.25",
+    "version_max": "5.0.25",
+    "versions": [
+      "5.0.25"
+    ],
+    "version_prev": "5.0.24",
+    "params_added": [
+      "allowDocumentsGreaterThanMaxUserSize",
+      "fassertOnLockTimeoutForStepUpDown",
+      "persistedChunkCacheUpdateMaxBatchSize",
+      "tlsUseSystemCA"
+    ],
+    "count": 384
+  },
+  "31509187b06168de7c5c20b665b17945": {
+    "version_min": "5.0.26",
+    "version_max": "5.0.26",
+    "versions": [
+      "5.0.26"
+    ],
+    "version_prev": "5.0.25",
+    "params_added": [
+      "internalQueryPlanTieBreakingWithIndexHeuristics"
+    ],
+    "count": 385
+  },
+  "8366db6c7e8cddeb44cc181cbf1d86be": {
+    "version_min": "5.0.27",
+    "version_max": "5.0.30",
+    "versions": [
+      "5.0.27",
+      "5.0.28",
+      "5.0.29",
+      "5.0.30"
+    ],
+    "version_prev": "5.0.26",
+    "params_added": [
+      "skipApplyingDbCheckBatchOnSecondary"
+    ],
+    "count": 386
+  },
+  "cbd2b5b258b2e2a6d1469e092894c8ac": {
+    "version_min": "5.0.3",
+    "version_max": "5.0.3",
+    "versions": [
+      "5.0.3"
+    ],
+    "version_prev": "5.0.29",
+    "params_added": [
+      "cloudFreeMonitoringEndpointURL"
+    ],
+    "params_removed": [
+      "ShardingTaskExecutorPoolMaxSizeForConfigServers",
+      "ShardingTaskExecutorPoolMinSizeForConfigServers",
+      "allowDocumentsGreaterThanMaxUserSize",
+      "balancerMigrationsThrottlingMs",
+      "chunkMigrationConcurrency",
+      "chunkMigrationFetcherMaxBufferedSizeBytesPerThread",
+      "dbCheckCollectionTryLockMaxAttempts",
+      "dbCheckCollectionTryLockMaxBackoffMillis",
+      "dbCheckCollectionTryLockMinBackoffMillis",
+      "dbCheckCollectionTryLockTimeoutMillis",
+      "dbCheckHealthLogEveryNBatches",
+      "diagnosticDataCollectionStatsNamespaces",
+      "fassertOnLockTimeoutForStepUpDown",
+      "featureFlagBucketUnpackWithSort50",
+      "featureFlagConcurrencyInChunkMigration",
+      "featureFlagHealthMonitoring",
+      "featureFlagLoadBalancer",
+      "featureFlagSearchBatchSizeLimit",
+      "featureFlagShardKeyIndexOptionalHashedSharding",
+      "featureFlagShardedTimeSeries",
+      "featureFlagShardedTimeSeriesUpdateDelete",
+      "featureFlagTimeseriesUpdatesAndDeletes",
+      "httpVerboseLogging",
+      "internalIndexBuildBulkLoadYieldIterations",
+      "internalQueryDocumentSourceWriterBatchExtraReservedBytes",
+      "internalQueryGlobalProfilingFilter",
+      "internalQueryMaxRangeBytes",
+      "internalQueryPlanTieBreakingWithIndexHeuristics",
+      "loadBalancerPort",
+      "lockCodeSegmentsInMemory",
+      "metadataRefreshInTransactionMaxWaitBehindCritSecMS",
+      "mrEnableSingleReduceOptimization",
+      "newShardExistingClusterTimeKeysExpirationSecs",
+      "oplogBatchDelayMillis",
+      "oplogTruncationCheckPeriodSeconds",
+      "opportunisticSecondaryTargeting",
+      "persistedChunkCacheUpdateMaxBatchSize",
+      "receiveChunkWaitForRangeDeleterTimeoutMS",
+      "routingTableCacheChunkBucketSize",
+      "skipApplyingDbCheckBatchOnSecondary",
+      "skipDroppingHashedShardKeyIndex",
+      "timeseriesInsertMaxRetriesOnDuplicates",
+      "tlsUseSystemCA",
+      "transactionTooLargeForCacheThreshold",
+      "unsupportedSyncSource",
+      "wiredTigerPrefixSearchForUniqueIndexes",
+      "wiredTigerSkipTableLoggingChecksOnStartup"
+    ],
+    "count": 340
+  },
+  "48bd4cb29b34289bc4867701a0995d27": {
+    "version_min": "5.0.31",
+    "version_max": "5.0.32",
+    "versions": [
+      "5.0.31",
+      "5.0.32"
+    ],
+    "version_prev": "5.0.30",
+    "params_added": [
+      "sessionMaxBatchSize",
+      "sessionWriteConcernTimeoutSystemMillis"
+    ],
+    "count": 388
+  },
+  "6837944eeaf1d505546cd61f8faddd25": {
+    "version_min": "5.0.4",
+    "version_max": "5.0.5",
+    "versions": [
+      "5.0.4",
+      "5.0.5"
+    ],
+    "version_prev": "5.0.32",
+    "params_added": [
+      "cloudFreeMonitoringEndpointURL"
+    ],
+    "params_removed": [
+      "ShardingTaskExecutorPoolMaxSizeForConfigServers",
+      "ShardingTaskExecutorPoolMinSizeForConfigServers",
+      "allowDocumentsGreaterThanMaxUserSize",
+      "balancerMigrationsThrottlingMs",
+      "chunkMigrationConcurrency",
+      "chunkMigrationFetcherMaxBufferedSizeBytesPerThread",
+      "dbCheckCollectionTryLockMaxAttempts",
+      "dbCheckCollectionTryLockMaxBackoffMillis",
+      "dbCheckCollectionTryLockMinBackoffMillis",
+      "dbCheckCollectionTryLockTimeoutMillis",
+      "dbCheckHealthLogEveryNBatches",
+      "diagnosticDataCollectionStatsNamespaces",
+      "fassertOnLockTimeoutForStepUpDown",
+      "featureFlagBucketUnpackWithSort50",
+      "featureFlagConcurrencyInChunkMigration",
+      "featureFlagHealthMonitoring",
+      "featureFlagLoadBalancer",
+      "featureFlagSearchBatchSizeLimit",
+      "featureFlagShardKeyIndexOptionalHashedSharding",
+      "httpVerboseLogging",
+      "internalQueryDocumentSourceWriterBatchExtraReservedBytes",
+      "internalQueryGlobalProfilingFilter",
+      "internalQueryPlanTieBreakingWithIndexHeuristics",
+      "loadBalancerPort",
+      "lockCodeSegmentsInMemory",
+      "mrEnableSingleReduceOptimization",
+      "newShardExistingClusterTimeKeysExpirationSecs",
+      "oplogBatchDelayMillis",
+      "oplogTruncationCheckPeriodSeconds",
+      "opportunisticSecondaryTargeting",
+      "persistedChunkCacheUpdateMaxBatchSize",
+      "routingTableCacheChunkBucketSize",
+      "sessionMaxBatchSize",
+      "sessionWriteConcernTimeoutSystemMillis",
+      "skipApplyingDbCheckBatchOnSecondary",
+      "skipDroppingHashedShardKeyIndex",
+      "timeseriesInsertMaxRetriesOnDuplicates",
+      "tlsUseSystemCA",
+      "transactionTooLargeForCacheThreshold",
+      "unsupportedSyncSource",
+      "wiredTigerPrefixSearchForUniqueIndexes",
+      "wiredTigerSkipTableLoggingChecksOnStartup"
+    ],
+    "count": 347
+  },
+  "1f1125e8587cd5eb3e6f56b790821e42": {
+    "version_min": "5.0.6",
+    "version_max": "5.0.6",
+    "versions": [
+      "5.0.6"
+    ],
+    "version_prev": "5.0.5",
+    "params_added": [
+      "dbCheckCollectionTryLockMaxAttempts",
+      "dbCheckCollectionTryLockMaxBackoffMillis",
+      "dbCheckCollectionTryLockMinBackoffMillis",
+      "dbCheckCollectionTryLockTimeoutMillis",
+      "dbCheckHealthLogEveryNBatches",
+      "wiredTigerSkipTableLoggingChecksOnStartup"
+    ],
+    "count": 353
+  },
+  "c7338bb2cc63c02de376b2215c31ec03": {
+    "version_min": "5.0.7",
+    "version_max": "5.0.9",
+    "versions": [
+      "5.0.7",
+      "5.0.8",
+      "5.0.9"
+    ],
+    "version_prev": "5.0.6",
+    "params_added": [
+      "diagnosticDataCollectionStatsNamespaces",
+      "featureFlagHealthMonitoring",
+      "featureFlagLoadBalancer",
+      "loadBalancerPort"
+    ],
+    "count": 357
+  },
+  "fadd51b51a93d95da2e46f9df40d99fc": {
+    "version_min": "6.0.1",
+    "version_max": "6.0.1",
+    "versions": [
+      "6.0.1"
+    ],
+    "version_prev": "5.0.9",
+    "params_added": [
+      "ShardingTaskExecutorPoolMaxSizeForConfigServers",
+      "ShardingTaskExecutorPoolMinSizeForConfigServers",
+      "allowDiskUseByDefault",
+      "allowMultipleArbiters",
+      "backtraceLogFile",
+      "batchedDeletesTargetBatchDocs",
+      "batchedDeletesTargetBatchTimeMS",
+      "batchedDeletesTargetStagedDocBytes",
+      "batchedExpiredChangeStreamPreImageRemoval",
+      "chunkDefragmentationThrottlingMS",
+      "clusterIpSourceAllowlist",
+      "defaultFindReplicaSetHostTimeoutMS",
+      "enableTemporarilyUnavailableExceptions",
+      "expiredChangeStreamPreImageRemovalJobSleepSecs",
+      "fassertOnLockTimeoutForStepUpDown",
+      "featureFlagAlwaysCreateConfigTransactionsPartialIndexOnStepUp",
+      "featureFlagBalanceAccordingToDataSize",
+      "featureFlagBatchMultiDeletes",
+      "featureFlagBucketUnpackWithSort",
+      "featureFlagChangeStreamPreAndPostImages",
+      "featureFlagChangeStreamsRewrite",
+      "featureFlagChangeStreamsVisibility",
+      "featureFlagClusterWideConfig",
+      "featureFlagClusterWideConfigM2",
+      "featureFlagClusteredIndexes",
+      "featureFlagCollModIndexUnique",
+      "featureFlagColumnstoreIndexes",
+      "featureFlagCommandsAcceptCollectionUUID",
+      "featureFlagCommonQueryFramework",
+      "featureFlagConnHealthMetrics",
+      "featureFlagDerivedMetadata",
+      "featureFlagDocumentSourceListCatalog",
+      "featureFlagEnableExecutionControl",
+      "featureFlagEnableShardingOptional",
+      "featureFlagExactTopNAccumulator",
+      "featureFlagFLE2",
+      "featureFlagFileCopyBasedInitialSync",
+      "featureFlagFill",
+      "featureFlagInternalTransactions",
+      "featureFlagLastPointQuery",
+      "featureFlagLocf",
+      "featureFlagMigrationRecipientCriticalSection",
+      "featureFlagMongoStore",
+      "featureFlagNewPersistedChunkVersionFormat",
+      "featureFlagNewWriteErrorExceptionFormat",
+      "featureFlagNoChangeStreamEventsDueToOrphans",
+      "featureFlagNoMoreAutoSplitter",
+      "featureFlagOptionalCfgSvr",
+      "featureFlagOrphanTracking",
+      "featureFlagPerCollBalancingSettings",
+      "featureFlagRecoverableRefineCollectionShardKeyCoordinator",
+      "featureFlagRecoverableShardsvrReshardCollectionCoordinator",
+      "featureFlagRequireTenantID",
+      "featureFlagSBEGroupPushdown",
+      "featureFlagSBELookupPushdown",
+      "featureFlagSbeFull",
+      "featureFlagSbePlanCache",
+      "featureFlagSearchShardedFacets",
+      "featureFlagSelectiveBackup",
+      "featureFlagShardMerge",
+      "featureFlagShardSplit",
+      "featureFlagShardedLookup",
+      "featureFlagShardingDataTransformMetrics",
+      "featureFlagSortArray",
+      "featureFlagTimeseriesBucketCompression",
+      "featureFlagTimeseriesBucketCompressionWithArrays",
+      "featureFlagTimeseriesMetricIndexes",
+      "featureFlagUpdateDocumentShardKeyUsingTransactionApi",
+      "featureFlagUserWriteBlocking",
+      "fileBasedInitialSyncExtendCursorTimeoutMS",
+      "fileBasedInitialSyncMaxCyclesWithoutProgress",
+      "fileBasedInitialSyncMaxLagSec",
+      "indexMaxNumGeneratedKeysPerDocument",
+      "initialSyncMethod",
+      "internalBatchUserMultiDeletesForTest",
+      "internalCascadesOptimizerDisableBranchAndBound",
+      "internalCascadesOptimizerDisableGroupByAndUnionRIDIntersect",
+      "internalCascadesOptimizerDisableHashJoinRIDIntersect",
+      "internalCascadesOptimizerDisableIndexes",
+      "internalCascadesOptimizerDisableMergeJoinRIDIntersect",
+      "internalCascadesOptimizerDisableScan",
+      "internalCascadesOptimizerKeepRejectedPlans",
+      "internalDocumentSourceDensifyMaxMemoryBytes",
+      "internalMaxSubPipelineViewDepth",
+      "internalPartialFilterExpressionMaxDepth",
+      "internalQueryCollectionMaxDataSizeBytesToChooseHashJoin",
+      "internalQueryCollectionMaxNoOfDocumentsToChooseHashJoin",
+      "internalQueryCollectionMaxStorageSizeBytesToChooseHashJoin",
+      "internalQueryDisableLookupExecutionUsingHashJoin",
+      "internalQueryEnableCascadesOptimizer",
+      "internalQueryEnableSamplingCardinalityEstimator",
+      "internalQueryFLEAlwaysUseHighCardinalityMode",
+      "internalQueryFLERewriteMemoryLimit",
+      "internalQueryForceClassicEngine",
+      "internalQueryMaxAllowedDensifyDocs",
+      "internalQueryMaxNumberOfFieldsToChooseFilteredColumnScan",
+      "internalQueryMaxNumberOfFieldsToChooseUnfilteredColumnScan",
+      "internalQueryPlanEvaluationCollFractionSbe",
+      "internalQueryPlanEvaluationWorksSbe",
+      "internalQuerySlotBasedExecutionDisableGroupPushdown",
+      "internalQuerySlotBasedExecutionDisableLookupPushdown",
+      "internalQuerySlotBasedExecutionHashAggApproxMemoryUseInBytesBeforeSpill",
+      "internalQuerySlotBasedExecutionHashAggMemoryCheckPerAdvanceAtLeast",
+      "internalQuerySlotBasedExecutionHashAggMemoryCheckPerAdvanceAtMost",
+      "internalQuerySlotBasedExecutionHashAggMemoryUseCheckMargin",
+      "internalQuerySlotBasedExecutionHashLookupApproxMemoryUseInBytesBeforeSpill",
+      "internalQueryTopNAccumulatorBytes",
+      "internalSessionsReapThreshold",
+      "joinIngressSessionsOnShutdown",
+      "maintainValidCursorsAcrossSBEYieldandReadCommands",
+      "multitenancySupport",
+      "oplogBatchDelayMillis",
+      "opportunisticSecondaryTargeting",
+      "planCacheSize",
+      "roundtripBsonColumnOnValidate",
+      "shardSplitGarbageCollectionDelayMS",
+      "shardSplitTimeoutMS",
+      "storageEngineConcurrentReadTransactions",
+      "storageEngineConcurrentWriteTransactions",
+      "storageEngineQueueingPolicy",
+      "storageGlobalParams.directoryperdb",
+      "supportArbitraryClusterKeyIndex",
+      "suppressNetworkInterfaceTransportLayerExceptions",
+      "temporarilyUnavailableBackoffBaseMs",
+      "temporarilyUnavailableMaxRetries",
+      "timeseriesIdleBucketExpiryMaxCountPerAttempt",
+      "timeseriesValidateCompressedBuckets",
+      "tlsOCSPSlowResponderWarningSecs",
+      "wiredTigerDirectoryForIndexes",
+      "wiredTigerEvictionDirtyMaxGB",
+      "wiredTigerEvictionDirtyTargetGB",
+      "wiredTigerStressConfig"
+    ],
+    "params_removed": [
+      "enableResumableIndexBuilds",
+      "featureFlagChangeStreamsOptimization",
+      "featureFlagDefaultReadConcernLocal",
+      "featureFlagDefaultWriteConcernMajority",
+      "featureFlagDotsAndDollars",
+      "featureFlagLockFreeReads",
+      "featureFlagShardingFullDDLSupport",
+      "featureFlagTenantMigrations",
+      "featureFlagTimeseriesCollection",
+      "featureFlagUseSecondaryDelaySecs",
+      "internalQueryAllowShardedLookup",
+      "internalQueryEnableSlotBasedExecutionEngine",
+      "timeseriesBucketsCollectionClusterById"
+    ],
+    "count": 476
+  },
+  "b4b3f2fd314952654ab4e61db3e9390d": {
+    "version_min": "6.0.10",
+    "version_max": "6.0.10",
+    "versions": [
+      "6.0.10"
+    ],
+    "version_prev": "6.0.1",
+    "params_added": [
+      "balancerChunksSelectionTimeoutMs",
+      "balancerMigrationsThrottlingMs",
+      "chunkMigrationConcurrency",
+      "featureFlagConcurrencyInChunkMigration",
+      "featureFlagSearchBatchSizeLimit",
+      "featureFlagShardedSearchCustomSort",
+      "featureFlagVectorSearchPublicPreview",
+      "httpVerboseLogging",
+      "internalQueryDocumentSourceWriterBatchExtraReservedBytes",
+      "internalQueryGlobalProfilingFilter",
+      "lockCodeSegmentsInMemory",
+      "mrEnableSingleReduceOptimization",
+      "newShardExistingClusterTimeKeysExpirationSecs",
+      "routingTableCacheChunkBucketSize",
+      "timeseriesInsertMaxRetriesOnDuplicates",
+      "transactionTooLargeForCacheThreshold",
+      "unsupportedSyncSource"
+    ],
+    "params_removed": [
+      "cloudFreeMonitoringEndpointURL"
+    ],
+    "count": 492
+  },
+  "2dd7b53b44df8d1af1523b638d1e6b5f": {
+    "version_min": "6.0.11",
+    "version_max": "6.0.11",
+    "versions": [
+      "6.0.11"
+    ],
+    "version_prev": "6.0.10",
+    "params_added": [
+      "featureFlagShardKeyIndexOptionalHashedSharding",
+      "skipDroppingHashedShardKeyIndex"
+    ],
+    "count": 494
+  },
+  "ff8a29e74e8fc7e0de04481660681691": {
+    "version_min": "6.0.12",
+    "version_max": "6.0.12",
+    "versions": [
+      "6.0.12"
+    ],
+    "version_prev": "6.0.11",
+    "params_added": [
+      "chunkMigrationFetcherMaxBufferedSizeBytesPerThread",
+      "internalQuerySlotBasedExecutionHashAggForceIncreasedSpilling"
+    ],
+    "count": 496
+  },
+  "dc22a7489c32fb582fe608e6dfc10cc8": {
+    "version_min": "6.0.13",
+    "version_max": "6.0.13",
+    "versions": [
+      "6.0.13"
+    ],
+    "version_prev": "6.0.12",
+    "params_added": [
+      "oplogTruncationCheckPeriodSeconds",
+      "persistedChunkCacheUpdateMaxBatchSize"
+    ],
+    "count": 498
+  },
+  "26b4b0ddc55358ea0ae4d4cae109fc98": {
+    "version_min": "6.0.14",
+    "version_max": "6.0.14",
+    "versions": [
+      "6.0.14"
+    ],
+    "version_prev": "6.0.13",
+    "params_added": [
+      "allowDocumentsGreaterThanMaxUserSize",
+      "featureFlagChangeStreamsFurtherEnrichedEvents",
+      "tlsUseSystemCA"
+    ],
+    "count": 501
+  },
+  "34e9ff7d4df4f07224aa8aacd6f7d93e": {
+    "version_min": "6.0.15",
+    "version_max": "6.0.15",
+    "versions": [
+      "6.0.15"
+    ],
+    "version_prev": "6.0.14",
+    "params_added": [
+      "internalQueryPlanTieBreakingWithIndexHeuristics"
+    ],
+    "count": 502
+  },
+  "a0a79fbc1f14e73291fe35259a4f9d5d": {
+    "version_min": "6.0.16",
+    "version_max": "6.0.16",
+    "versions": [
+      "6.0.16"
+    ],
+    "version_prev": "6.0.15",
+    "params_added": [
+      "featureFlagQueryStats",
+      "internalQueryAggMulticastMaxConcurrency",
+      "internalQueryAggMulticastTimeoutMS",
+      "internalQueryStatsCacheSize",
+      "internalQueryStatsErrorsAreCommandFatal",
+      "internalQueryStatsRateLimit",
+      "skipApplyingDbCheckBatchOnSecondary"
+    ],
+    "count": 509
+  },
+  "395f311f6d04c3b82c64deb7d58e2c5f": {
+    "version_min": "6.0.17",
+    "version_max": "6.0.19",
+    "versions": [
+      "6.0.17",
+      "6.0.18",
+      "6.0.19"
+    ],
+    "version_prev": "6.0.16",
+    "params_added": [
+      "bsonTestValidationVersion",
+      "internalQuerySpillingMaxWaitTimeout"
+    ],
+    "count": 511
+  },
+  "333f87b54324dd789ea370b021f77bcd": {
+    "version_min": "6.0.2",
+    "version_max": "6.0.4",
+    "versions": [
+      "6.0.2",
+      "6.0.3",
+      "6.0.4"
+    ],
+    "version_prev": "6.0.19",
+    "params_added": [
+      "cloudFreeMonitoringEndpointURL"
+    ],
+    "params_removed": [
+      "allowDocumentsGreaterThanMaxUserSize",
+      "balancerChunksSelectionTimeoutMs",
+      "balancerMigrationsThrottlingMs",
+      "bsonTestValidationVersion",
+      "chunkMigrationConcurrency",
+      "chunkMigrationFetcherMaxBufferedSizeBytesPerThread",
+      "featureFlagChangeStreamsFurtherEnrichedEvents",
+      "featureFlagConcurrencyInChunkMigration",
+      "featureFlagQueryStats",
+      "featureFlagSearchBatchSizeLimit",
+      "featureFlagShardKeyIndexOptionalHashedSharding",
+      "featureFlagShardedSearchCustomSort",
+      "featureFlagVectorSearchPublicPreview",
+      "httpVerboseLogging",
+      "internalQueryAggMulticastMaxConcurrency",
+      "internalQueryAggMulticastTimeoutMS",
+      "internalQueryDocumentSourceWriterBatchExtraReservedBytes",
+      "internalQueryGlobalProfilingFilter",
+      "internalQueryPlanTieBreakingWithIndexHeuristics",
+      "internalQuerySlotBasedExecutionHashAggForceIncreasedSpilling",
+      "internalQuerySpillingMaxWaitTimeout",
+      "internalQueryStatsCacheSize",
+      "internalQueryStatsErrorsAreCommandFatal",
+      "internalQueryStatsRateLimit",
+      "lockCodeSegmentsInMemory",
+      "newShardExistingClusterTimeKeysExpirationSecs",
+      "oplogTruncationCheckPeriodSeconds",
+      "persistedChunkCacheUpdateMaxBatchSize",
+      "routingTableCacheChunkBucketSize",
+      "skipApplyingDbCheckBatchOnSecondary",
+      "skipDroppingHashedShardKeyIndex",
+      "timeseriesInsertMaxRetriesOnDuplicates",
+      "tlsUseSystemCA",
+      "transactionTooLargeForCacheThreshold",
+      "unsupportedSyncSource"
+    ],
+    "count": 477
+  },
+  "98b15dd2561653a15e40eb718cdef340": {
+    "version_min": "6.0.20",
+    "version_max": "6.0.23",
+    "versions": [
+      "6.0.20",
+      "6.0.21",
+      "6.0.22",
+      "6.0.23"
+    ],
+    "version_prev": "6.0.2",
+    "params_added": [
+      "allowDocumentsGreaterThanMaxUserSize",
+      "balancerChunksSelectionTimeoutMs",
+      "balancerMigrationsThrottlingMs",
+      "bsonTestValidationVersion",
+      "chunkMigrationConcurrency",
+      "chunkMigrationFetcherMaxBufferedSizeBytesPerThread",
+      "featureFlagChangeStreamsFurtherEnrichedEvents",
+      "featureFlagConcurrencyInChunkMigration",
+      "featureFlagQueryStats",
+      "featureFlagSearchBatchSizeLimit",
+      "featureFlagShardKeyIndexOptionalHashedSharding",
+      "featureFlagShardedSearchCustomSort",
+      "featureFlagVectorSearchPublicPreview",
+      "httpVerboseLogging",
+      "internalQueryAggMulticastMaxConcurrency",
+      "internalQueryAggMulticastTimeoutMS",
+      "internalQueryDocumentSourceWriterBatchExtraReservedBytes",
+      "internalQueryGlobalProfilingFilter",
+      "internalQueryPlanTieBreakingWithIndexHeuristics",
+      "internalQuerySlotBasedExecutionHashAggForceIncreasedSpilling",
+      "internalQuerySpillingMaxWaitTimeout",
+      "internalQueryStatsCacheSize",
+      "internalQueryStatsErrorsAreCommandFatal",
+      "internalQueryStatsRateLimit",
+      "lockCodeSegmentsInMemory",
+      "newShardExistingClusterTimeKeysExpirationSecs",
+      "oplogTruncationCheckPeriodSeconds",
+      "persistedChunkCacheUpdateMaxBatchSize",
+      "reshardingDelayBeforeRemainingOperationTimeQueryMillis",
+      "routingTableCacheChunkBucketSize",
+      "sessionMaxBatchSize",
+      "sessionWriteConcernTimeoutSystemMillis",
+      "skipApplyingDbCheckBatchOnSecondary",
+      "skipDroppingHashedShardKeyIndex",
+      "timeseriesInsertMaxRetriesOnDuplicates",
+      "tlsUseSystemCA",
+      "transactionTooLargeForCacheThreshold",
+      "unsupportedSyncSource"
+    ],
+    "params_removed": [
+      "cloudFreeMonitoringEndpointURL"
+    ],
+    "count": 514
+  },
+  "cc566e97505a45765867a41c080adb1d": {
+    "version_min": "6.0.24",
+    "version_max": "6.0.24",
+    "versions": [
+      "6.0.24"
+    ],
+    "version_prev": "6.0.23",
+    "params_added": [
+      "maxIteratorsMemoryUsagePercentage"
+    ],
+    "count": 515
+  },
+  "ed7e78b8bfa778254324e2c9431f4fe5": {
+    "version_min": "6.0.25",
+    "version_max": "6.0.27",
+    "versions": [
+      "6.0.25",
+      "6.0.26",
+      "6.0.27"
+    ],
+    "version_prev": "6.0.24",
+    "params_added": [
+      "upsertMaxRetryAttemptsOnDuplicateKeyError"
+    ],
+    "count": 516
+  },
+  "4b33aca24df2a9e56e5149bfd5c8ddf7": {
+    "version_min": "6.0.5",
+    "version_max": "6.0.5",
+    "versions": [
+      "6.0.5"
+    ],
+    "version_prev": "6.0.4",
+    "params_added": [
+      "featureFlagConcurrencyInChunkMigration",
+      "internalQueryGlobalProfilingFilter",
+      "migrationConcurrency",
+      "transactionTooLargeForCacheThreshold"
+    ],
+    "count": 481
+  },
+  "e02911821767fc89416c4e85254ea715": {
+    "version_min": "6.0.6",
+    "version_max": "6.0.6",
+    "versions": [
+      "6.0.6"
+    ],
+    "version_prev": "6.0.5",
+    "params_added": [
+      "balancerChunksSelectionTimeoutMs",
+      "balancerMigrationsThrottlingMs",
+      "chunkMigrationConcurrency",
+      "featureFlagShardedSearchCustomSort",
+      "lockCodeSegmentsInMemory"
+    ],
+    "params_removed": [
+      "migrationConcurrency"
+    ],
+    "count": 485
+  },
+  "c22fce917c1599fb6467dadd438d4043": {
+    "version_min": "6.0.7",
+    "version_max": "6.0.7",
+    "versions": [
+      "6.0.7"
+    ],
+    "version_prev": "6.0.6",
+    "params_added": [
+      "featureFlagSearchBatchSizeLimit",
+      "httpVerboseLogging",
+      "timeseriesInsertMaxRetriesOnDuplicates"
+    ],
+    "count": 488
+  },
+  "06bd8aee7ff20fcab4b2419cdc28e4ef": {
+    "version_min": "6.0.8",
+    "version_max": "6.0.8",
+    "versions": [
+      "6.0.8"
+    ],
+    "version_prev": "6.0.7",
+    "params_added": [
+      "internalQueryDocumentSourceWriterBatchExtraReservedBytes"
+    ],
+    "count": 489
+  },
+  "734647b69f03f2916e5146afc85e4f00": {
+    "version_min": "6.0.9",
+    "version_max": "6.0.9",
+    "versions": [
+      "6.0.9"
+    ],
+    "version_prev": "6.0.8",
+    "params_added": [
+      "newShardExistingClusterTimeKeysExpirationSecs",
+      "unsupportedSyncSource"
+    ],
+    "count": 491
+  },
+  "be5b56256173fc11421d12250e044baa": {
+    "version_min": "7.0.0",
+    "version_max": "7.0.0",
+    "versions": [
+      "7.0.0"
+    ],
+    "version_prev": "6.0.9",
+    "params_added": [
+      "allowUnsafeUntimestampedWrites",
+      "analyzeShardKeyCharacteristicsDefaultSampleSize",
+      "analyzeShardKeyMonotonicityCorrelationCoefficientThreshold",
+      "analyzeShardKeyNumMostCommonValues",
+      "analyzeShardKeyNumRanges",
+      "analyzeShardKeyNumSamplesPerRange",
+      "analyzeShardKeySplitPointExpirationSecs",
+      "autoMergerIntervalSecs",
+      "autoMergerThrottlingMS",
+      "batchUserMultiDeletes",
+      "changeCollectionExpiredDocumentsRemoverJobSleepSeconds",
+      "collectionSamplingLogIntervalSeconds",
+      "defaultStartupFCV",
+      "deprioritizeUnboundedUserCollectionScans",
+      "deprioritizeUnboundedUserIndexScans",
+      "disableTransitionFromLatestToLastContinuous",
+      "enableAccessToUserRoles",
+      "enableComputeMode",
+      "enableDetailedConnectionHealthMetricLogLines",
+      "externalPipeDir",
+      "featureFlagAdditionalParticipants",
+      "featureFlagAnalyzeShardKey",
+      "featureFlagApplyPreparedTxnsInParallel",
+      "featureFlagApproxPercentiles",
+      "featureFlagAuditConfigClusterParameter",
+      "featureFlagAutoMerger",
+      "featureFlagBitwiseAggOperators",
+      "featureFlagBulkWriteCommand",
+      "featureFlagCappedCollectionsRelaxedSize",
+      "featureFlagCatalogShard",
+      "featureFlagChangeStreamsFurtherEnrichedEvents",
+      "featureFlagCheckForDirectShardOperations",
+      "featureFlagCheckMetadataConsistency",
+      "featureFlagClusterCardinalityParameter",
+      "featureFlagClusterWideToaster",
+      "featureFlagCollModCoordinatorV3",
+      "featureFlagCompoundWildcardIndexes",
+      "featureFlagConfigSettingsSchema",
+      "featureFlagConfigurableX509ClusterAuthn",
+      "featureFlagCreateCollectionCoordinatorV3",
+      "featureFlagDeprioritizeLowPriorityOperations",
+      "featureFlagDowngradingToUpgrading",
+      "featureFlagDropCollectionHoldingCriticalSection",
+      "featureFlagExecutionControl",
+      "featureFlagExtendValidateCommand",
+      "featureFlagFLE2CleanupCommand",
+      "featureFlagFLE2CompactForProtocolV2",
+      "featureFlagFLE2Range",
+      "featureFlagGlobalIndexes",
+      "featureFlagGlobalIndexesShardingCatalog",
+      "featureFlagHistoricalPlacementShardingCatalog",
+      "featureFlagImplicitDDLTimeseriesNssTranslation",
+      "featureFlagIndexBuildGracefulErrorHandling",
+      "featureFlagInternalWritesAreReplicatedTransactionally",
+      "featureFlagOIDC",
+      "featureFlagPointInTimeCatalogLookups",
+      "featureFlagRangeDeleterService",
+      "featureFlagResilientMovePrimary",
+      "featureFlagSecurityToken",
+      "featureFlagServerlessChangeStreams",
+      "featureFlagStopUsingConfigVersion",
+      "featureFlagStreams",
+      "featureFlagTelemetry",
+      "featureFlagTimeseriesDeletesSupport",
+      "featureFlagTimeseriesScalabilityImprovements",
+      "featureFlagTimeseriesUpdatesSupport",
+      "featureFlagTransitionToCatalogShard",
+      "featureFlagUpdateOneWithoutShardKey",
+      "featureFlagUseNewCompactStructuredEncryptionDataCoordinator",
+      "featureFlagUseUnreplicatedTruncatesForDeletions",
+      "featureFlagUserRoles",
+      "featureRenameCommitInTransaction",
+      "globalIndexClonerServiceFetchBatchMaxSizeBytes",
+      "globalIndexClonerServiceMaxThreadCount",
+      "indexBuildMinAvailableDiskSpaceMB",
+      "initialServiceExecutorUseDedicatedThread",
+      "internalCascadesOptimizerDisableYieldingTolerantPlans",
+      "internalCascadesOptimizerExplainVersion",
+      "internalCascadesOptimizerFastIndexNullHandling",
+      "internalCascadesOptimizerMaxIndexEqPrefixes",
+      "internalCascadesOptimizerMinIndexEqPrefixes",
+      "internalCascadesOptimizerStdCoutDebugOutput",
+      "internalCascadesOptimizerUseDescriptiveVarNames",
+      "internalChangeStreamUseTenantIdForTesting",
+      "internalCostModelCoefficients",
+      "internalMeasureQueryExecutionTimeInNanoseconds",
+      "internalQueryAggMulticastMaxConcurrency",
+      "internalQueryAggMulticastTimeoutMS",
+      "internalQueryAutoParameterizationMaxParameterCount",
+      "internalQueryCardinalityEstimatorMode",
+      "internalQueryColumnRowstoreScanMaxBatchSize",
+      "internalQueryColumnRowstoreScanMinBatchSize",
+      "internalQueryColumnScanMinAvgDocSizeBytes",
+      "internalQueryColumnScanMinCollectionSizeBytes",
+      "internalQueryColumnScanMinNumColumnFilters",
+      "internalQueryConfigureTelemetryCacheSize",
+      "internalQueryConfigureTelemetrySamplingRate",
+      "internalQueryDisableExclusionProjectionFastPath",
+      "internalQueryDisablePlanCache",
+      "internalQueryFLEAlwaysUseEncryptedCollScanMode",
+      "internalQueryFrameworkControl",
+      "internalQueryPercentileExprSelectToSortThreshold",
+      "internalQueryTdigestDelta",
+      "lowPriorityAdmissionBypassThreshold",
+      "maintainValidCursorsAcrossSBEReadCommands",
+      "maintainValidCursorsAcrossSBEYield",
+      "maxNumberOfBatchedOperationsInSingleOplogEntry",
+      "maxNumberOfInsertsBatchInsertsForRenameAcrossDatabases",
+      "maxShardSplitDonorServiceThreadPoolSize",
+      "maxSizeOfBatchedInsertsForRenameAcrossDatabasesBytes",
+      "maxSizeOfBatchedOperationsInSingleOplogEntryBytes",
+      "minShardSplitDonorServiceThreadPoolSize",
+      "minTenantMigrationDonorServiceThreadPoolSize",
+      "minTenantMigrationRecipientThreadPoolSize",
+      "queryAnalysisQueryStatsSmoothingFactor",
+      "queryAnalysisSampleExpirationSecs",
+      "queryAnalysisSamplerBurstMultiplier",
+      "queryAnalysisSamplerConfigurationRefreshSecs",
+      "queryAnalysisSamplerInActiveThresholdSecs",
+      "queryAnalysisWriterIntervalSecs",
+      "queryAnalysisWriterMaxBatchSize",
+      "queryAnalysisWriterMaxMemoryUsageBytes",
+      "queryAnalysisWriterMaxThreadPoolSize",
+      "queryAnalysisWriterMinThreadPoolSize",
+      "rangeDeleterHighPriority",
+      "redactEncryptedFields",
+      "requireConfirmInSetFcv",
+      "slowConnectionThresholdMillis",
+      "slowServiceOnStepUpBeginThresholdMS",
+      "slowServiceOnStepUpCompleteThresholdMS",
+      "slowTotalOnStepUpBeginThresholdMS",
+      "slowTotalOnStepUpCompleteThresholdMS",
+      "spTestNeedsFeatureFlagBlender",
+      "spTestNeedsFeatureFlagToaster",
+      "spTestNeedsLatestFCV",
+      "storageEngineConcurrencyAdjustmentAlgorithm",
+      "storageEngineConcurrencyAdjustmentIntervalMillis",
+      "throughputProbingConcurrencyMovingAverageWeight",
+      "throughputProbingInitialConcurrency",
+      "throughputProbingMaxConcurrency",
+      "throughputProbingMinConcurrency",
+      "throughputProbingReadWriteRatio",
+      "throughputProbingStepMultiple",
+      "timeseriesBucketMinCount",
+      "timeseriesBucketMinSize",
+      "tlsClusterAuthX509Override",
+      "ttlCollLowPrioritySubpassLimit",
+      "ttlIndexDeleteTargetDocs",
+      "ttlIndexDeleteTargetTimeMS",
+      "ttlMonitorBatchDeletes",
+      "ttlMonitorSubPassTargetSecs",
+      "unsupportedDangerousTestingFLEDiagnosticsEnabled",
+      "wiredTigerExtraDiagnostics"
+    ],
+    "params_removed": [
+      "authorizationManagerPinnedUsers",
+      "authorizationManagerPinnedUsersRefreshIntervalMillis",
+      "batchedExpiredChangeStreamPreImageRemoval",
+      "dbCheckCollectionTryLockMaxAttempts",
+      "dbCheckCollectionTryLockMaxBackoffMillis",
+      "dbCheckCollectionTryLockMinBackoffMillis",
+      "dbCheckCollectionTryLockTimeoutMillis",
+      "deprecatedWireOpsWarningPeriodInSeconds",
+      "featureFlagBalanceAccordingToDataSize",
+      "featureFlagChangeStreamPreAndPostImages",
+      "featureFlagChangeStreamsVisibility",
+      "featureFlagClusterWideConfig",
+      "featureFlagClusteredIndexes",
+      "featureFlagCommandsAcceptCollectionUUID",
+      "featureFlagEnableExecutionControl",
+      "featureFlagEnableShardingOptional",
+      "featureFlagExactTopNAccumulator",
+      "featureFlagFLE2",
+      "featureFlagFileCopyBasedInitialSync",
+      "featureFlagFill",
+      "featureFlagHealthMonitoring",
+      "featureFlagInternalTransactions",
+      "featureFlagLastPointQuery",
+      "featureFlagLoadBalancer",
+      "featureFlagLocf",
+      "featureFlagMigrationRecipientCriticalSection",
+      "featureFlagMongoStore",
+      "featureFlagNewPersistedChunkVersionFormat",
+      "featureFlagNewWriteErrorExceptionFormat",
+      "featureFlagNoChangeStreamEventsDueToOrphans",
+      "featureFlagNoMoreAutoSplitter",
+      "featureFlagOptionalCfgSvr",
+      "featureFlagOrphanTracking",
+      "featureFlagPerCollBalancingSettings",
+      "featureFlagRecoverableRefineCollectionShardKeyCoordinator",
+      "featureFlagRecoverableShardsvrReshardCollectionCoordinator",
+      "featureFlagSBEGroupPushdown",
+      "featureFlagSBELookupPushdown",
+      "featureFlagSbePlanCache",
+      "featureFlagSearchMeta",
+      "featureFlagSearchShardedFacets",
+      "featureFlagShardedLookup",
+      "featureFlagShardingDataTransformMetrics",
+      "featureFlagSortArray",
+      "featureFlagTimeseriesBucketCompression",
+      "featureFlagTimeseriesBucketCompressionWithArrays",
+      "featureFlagTimeseriesUpdatesAndDeletes",
+      "featureFlagUserWriteBlocking",
+      "fixedServiceExecutorRecursionLimit",
+      "initialServiceExecutorThreadingModel",
+      "internalBatchUserMultiDeletesForTest",
+      "internalQueryEnableCascadesOptimizer",
+      "internalQueryEnableLoggingV2OplogEntries",
+      "internalQueryEnableSamplingCardinalityEstimator",
+      "internalQueryFLEAlwaysUseHighCardinalityMode",
+      "internalQueryForceClassicEngine",
+      "maintainValidCursorsAcrossSBEYieldandReadCommands",
+      "reservedServiceExecutorRecursionLimit",
+      "roundtripBsonColumnOnValidate",
+      "storageEngineQueueingPolicy",
+      "synchronousServiceExecutorRecursionLimit",
+      "taskExecutorPoolSize"
+    ],
+    "count": 582
+  },
+  "c80c6c32c28ca3ee8c2d7d75394c37df": {
+    "version_min": "7.0.1",
+    "version_max": "7.0.1",
+    "versions": [
+      "7.0.1"
+    ],
+    "version_prev": "7.0.0",
+    "params_added": [
+      "routingTableCacheChunkBucketSize"
+    ],
+    "count": 583
+  },
+  "12a4708fafef2208526788086dd5b955": {
+    "version_min": "7.0.11",
+    "version_max": "7.0.11",
+    "versions": [
+      "7.0.11"
+    ],
+    "version_prev": "7.0.1",
+    "params_added": [
+      "allowDocumentsGreaterThanMaxUserSize",
+      "bsonTestValidationVersion",
+      "chunkMigrationFetcherMaxBufferedSizeBytesPerThread",
+      "collectionTruncationCheckPeriodSeconds",
+      "featureFlagAggOutTimeseries",
+      "featureFlagOIDCInternalAuthorization",
+      "featureFlagQueryStats",
+      "featureFlagQueryStatsFindCommand",
+      "featureFlagShardKeyIndexOptionalHashedSharding",
+      "featureFlagTrimExtraSearchMetaCursors",
+      "featureFlagVectorSearchPublicPreview",
+      "internalQueryPlanTieBreakingWithIndexHeuristics",
+      "internalQuerySlotBasedExecutionHashAggForceIncreasedSpilling",
+      "internalQueryStatsCacheSize",
+      "internalQueryStatsErrorsAreCommandFatal",
+      "internalQueryStatsRateLimit",
+      "persistedChunkCacheUpdateMaxBatchSize",
+      "skipApplyingDbCheckBatchOnSecondary",
+      "skipDroppingHashedShardKeyIndex",
+      "tlsUseSystemCA"
+    ],
+    "params_removed": [
+      "cloudFreeMonitoringEndpointURL",
+      "featureFlagConfigurableX509ClusterAuthn",
+      "featureFlagTelemetry",
+      "featureFlagTimeseriesMetricIndexes",
+      "internalQueryConfigureTelemetryCacheSize",
+      "internalQueryConfigureTelemetrySamplingRate"
+    ],
+    "count": 597
+  },
+  "e430fe506da02bd8120ca81d8712e9b7": {
+    "version_min": "7.0.12",
+    "version_max": "7.0.15",
+    "versions": [
+      "7.0.12",
+      "7.0.14",
+      "7.0.15"
+    ],
+    "version_prev": "7.0.11",
+    "params_added": [
+      "directConnectionChecksWithSingleShard",
+      "internalQueryEnableAggressiveSpillsInGroup",
+      "internalQuerySpillingMaxWaitTimeout"
+    ],
+    "params_removed": [
+      "featureFlagQueryStatsFindCommand"
+    ],
+    "count": 599
+  },
+  "52fa5944761beb1339f208ccc6dd999a": {
+    "version_min": "7.0.16",
+    "version_max": "7.0.17",
+    "versions": [
+      "7.0.16",
+      "7.0.17"
+    ],
+    "version_prev": "7.0.15",
+    "params_added": [
+      "reshardingDelayBeforeRemainingOperationTimeQueryMillis",
+      "sessionMaxBatchSize",
+      "sessionWriteConcernTimeoutSystemMillis",
+      "wiredTigerSkipTableLoggingChecksDuringValidation"
+    ],
+    "count": 603
+  },
+  "11435549ab682c6eea40bd21256d8ccf": {
+    "version_min": "7.0.18",
+    "version_max": "7.0.20",
+    "versions": [
+      "7.0.18",
+      "7.0.19",
+      "7.0.20"
+    ],
+    "version_prev": "7.0.17",
+    "params_added": [
+      "maxIteratorsMemoryUsagePercentage",
+      "noCatalogCachePurgeOnShardRemoval"
+    ],
+    "count": 605
+  },
+  "6889398a77267e12c43ffd79dde168df": {
+    "version_min": "7.0.2",
+    "version_max": "7.0.2",
+    "versions": [
+      "7.0.2"
+    ],
+    "version_prev": "7.0.19",
+    "params_added": [
+      "featureFlagTelemetry",
+      "featureFlagTimeseriesMetricIndexes",
+      "internalQueryConfigureTelemetryCacheSize",
+      "internalQueryConfigureTelemetrySamplingRate"
+    ],
+    "params_removed": [
+      "allowDocumentsGreaterThanMaxUserSize",
+      "bsonTestValidationVersion",
+      "chunkMigrationFetcherMaxBufferedSizeBytesPerThread",
+      "collectionTruncationCheckPeriodSeconds",
+      "directConnectionChecksWithSingleShard",
+      "featureFlagAggOutTimeseries",
+      "featureFlagOIDCInternalAuthorization",
+      "featureFlagQueryStats",
+      "featureFlagTrimExtraSearchMetaCursors",
+      "internalQueryEnableAggressiveSpillsInGroup",
+      "internalQueryPlanTieBreakingWithIndexHeuristics",
+      "internalQuerySlotBasedExecutionHashAggForceIncreasedSpilling",
+      "internalQuerySpillingMaxWaitTimeout",
+      "internalQueryStatsCacheSize",
+      "internalQueryStatsErrorsAreCommandFatal",
+      "internalQueryStatsRateLimit",
+      "maxIteratorsMemoryUsagePercentage",
+      "noCatalogCachePurgeOnShardRemoval",
+      "persistedChunkCacheUpdateMaxBatchSize",
+      "reshardingDelayBeforeRemainingOperationTimeQueryMillis",
+      "sessionMaxBatchSize",
+      "sessionWriteConcernTimeoutSystemMillis",
+      "skipApplyingDbCheckBatchOnSecondary",
+      "tlsUseSystemCA",
+      "wiredTigerSkipTableLoggingChecksDuringValidation"
+    ],
+    "count": 584
+  },
+  "5d73bb736021a4f7ac40d2074420ff67": {
+    "version_min": "7.0.21",
+    "version_max": "7.0.21",
+    "versions": [
+      "7.0.21"
+    ],
+    "version_prev": "7.0.20",
+    "params_added": [
+      "autoMergerMaxTimeProcessingChunksMS",
+      "internalQuerySpillingMinAvailableDiskSpaceBytes",
+      "skipOplogSampling"
+    ],
+    "count": 608
+  },
+  "347525c9bab1d147e779b2c9fee07cd1": {
+    "version_min": "7.0.22",
+    "version_max": "7.0.22",
+    "versions": [
+      "7.0.22"
+    ],
+    "version_prev": "7.0.21",
+    "params_added": [
+      "catalogCacheCollectionMaxEntries",
+      "catalogCacheDatabaseMaxEntries",
+      "catalogCacheIndexMaxEntries",
+      "featureFlagExposeClientIpInAuditLogs",
+      "featureFlagMongodProxyProcolSupport",
+      "upsertMaxRetryAttemptsOnDuplicateKeyError"
+    ],
+    "count": 614
+  },
+  "5d138bc7835cab6e3cddacd3e21c624d": {
+    "version_min": "7.0.23",
+    "version_max": "7.0.25",
+    "versions": [
+      "7.0.23",
+      "7.0.24",
+      "7.0.25"
+    ],
+    "version_prev": "7.0.22",
+    "params_added": [
+      "featureFlagRateLimitIngressConnectionEstablishment",
+      "ingressConnectionEstablishmentBurstCapacitySecs",
+      "ingressConnectionEstablishmentMaxQueueDepth",
+      "ingressConnectionEstablishmentRateLimiterBypass",
+      "ingressConnectionEstablishmentRateLimiterEnabled",
+      "ingressConnectionEstablishmentRatePerSec",
+      "pessimisticConnectivityCheckForAcceptedConnections"
+    ],
+    "count": 621
+  },
+  "26542943d9da39401aa8cbd5e69974e6": {
+    "version_min": "7.0.26",
+    "version_max": "7.0.28",
+    "versions": [
+      "7.0.26",
+      "7.0.28"
+    ],
+    "version_prev": "7.0.25",
+    "params_added": [
+      "AbortExpiredTransactionsSessionCheckoutTimeout",
+      "initialSyncIndexBuildMemoryMaxMB",
+      "initialSyncIndexBuildMemoryMinMB",
+      "initialSyncIndexBuildMemoryPercentage",
+      "proxyProtocolMaximumPendingConnections",
+      "proxyProtocolMaximumWaitBackoffMillis",
+      "proxyProtocolTimeoutSecs",
+      "taskExecutorPoolSize"
+    ],
+    "count": 629
+  },
+  "da3e0cb675432e42ad2199aa7e8bdf88": {
+    "version_min": "7.0.3",
+    "version_max": "7.0.3",
+    "versions": [
+      "7.0.3"
+    ],
+    "version_prev": "7.0.28",
+    "params_added": [
+      "featureFlagTelemetry",
+      "featureFlagTimeseriesMetricIndexes",
+      "internalQueryConfigureTelemetryCacheSize",
+      "internalQueryConfigureTelemetrySamplingRate"
+    ],
+    "params_removed": [
+      "AbortExpiredTransactionsSessionCheckoutTimeout",
+      "allowDocumentsGreaterThanMaxUserSize",
+      "autoMergerMaxTimeProcessingChunksMS",
+      "bsonTestValidationVersion",
+      "catalogCacheCollectionMaxEntries",
+      "catalogCacheDatabaseMaxEntries",
+      "catalogCacheIndexMaxEntries",
+      "collectionTruncationCheckPeriodSeconds",
+      "directConnectionChecksWithSingleShard",
+      "featureFlagExposeClientIpInAuditLogs",
+      "featureFlagMongodProxyProcolSupport",
+      "featureFlagOIDCInternalAuthorization",
+      "featureFlagQueryStats",
+      "featureFlagRateLimitIngressConnectionEstablishment",
+      "featureFlagTrimExtraSearchMetaCursors",
+      "ingressConnectionEstablishmentBurstCapacitySecs",
+      "ingressConnectionEstablishmentMaxQueueDepth",
+      "ingressConnectionEstablishmentRateLimiterBypass",
+      "ingressConnectionEstablishmentRateLimiterEnabled",
+      "ingressConnectionEstablishmentRatePerSec",
+      "initialSyncIndexBuildMemoryMaxMB",
+      "initialSyncIndexBuildMemoryMinMB",
+      "initialSyncIndexBuildMemoryPercentage",
+      "internalQueryEnableAggressiveSpillsInGroup",
+      "internalQueryPlanTieBreakingWithIndexHeuristics",
+      "internalQuerySlotBasedExecutionHashAggForceIncreasedSpilling",
+      "internalQuerySpillingMaxWaitTimeout",
+      "internalQuerySpillingMinAvailableDiskSpaceBytes",
+      "internalQueryStatsCacheSize",
+      "internalQueryStatsErrorsAreCommandFatal",
+      "internalQueryStatsRateLimit",
+      "maxIteratorsMemoryUsagePercentage",
+      "noCatalogCachePurgeOnShardRemoval",
+      "persistedChunkCacheUpdateMaxBatchSize",
+      "pessimisticConnectivityCheckForAcceptedConnections",
+      "proxyProtocolMaximumPendingConnections",
+      "proxyProtocolMaximumWaitBackoffMillis",
+      "proxyProtocolTimeoutSecs",
+      "reshardingDelayBeforeRemainingOperationTimeQueryMillis",
+      "sessionMaxBatchSize",
+      "sessionWriteConcernTimeoutSystemMillis",
+      "skipApplyingDbCheckBatchOnSecondary",
+      "skipOplogSampling",
+      "taskExecutorPoolSize",
+      "tlsUseSystemCA",
+      "upsertMaxRetryAttemptsOnDuplicateKeyError",
+      "wiredTigerSkipTableLoggingChecksDuringValidation"
+    ],
+    "count": 586
+  },
+  "85235ed2c8e59311ea30d4e610420a2c": {
+    "version_min": "7.0.4",
+    "version_max": "7.0.4",
+    "versions": [
+      "7.0.4"
+    ],
+    "version_prev": "7.0.3",
+    "params_added": [
+      "internalQuerySlotBasedExecutionHashAggForceIncreasedSpilling",
+      "persistedChunkCacheUpdateMaxBatchSize"
+    ],
+    "count": 588
+  },
+  "3fd9a49878efc8a928422e385a2f8276": {
+    "version_min": "7.0.5",
+    "version_max": "7.0.5",
+    "versions": [
+      "7.0.5"
+    ],
+    "version_prev": "7.0.4",
+    "params_added": [
+      "collectionTruncationCheckPeriodSeconds",
+      "featureFlagOIDCInternalAuthorization"
+    ],
+    "params_removed": [
+      "featureFlagTimeseriesMetricIndexes"
+    ],
+    "count": 589
+  },
+  "0afe3fecd8515b4bf04bfba56f565a29": {
+    "version_min": "7.0.6",
+    "version_max": "7.0.6",
+    "versions": [
+      "7.0.6"
+    ],
+    "version_prev": "7.0.5",
+    "params_added": [
+      "allowDocumentsGreaterThanMaxUserSize",
+      "featureFlagQueryStats",
+      "internalQueryPlanTieBreakingWithIndexHeuristics",
+      "internalQueryStatsCacheSize",
+      "internalQueryStatsErrorsAreCommandFatal",
+      "internalQueryStatsRateLimit",
+      "tlsUseSystemCA"
+    ],
+    "params_removed": [
+      "featureFlagTelemetry",
+      "internalQueryConfigureTelemetryCacheSize",
+      "internalQueryConfigureTelemetrySamplingRate"
+    ],
+    "count": 593
+  },
+  "7de881d8dfacd8e7f90ed34bb2f92fc4": {
+    "version_min": "7.0.7",
+    "version_max": "7.0.9",
+    "versions": [
+      "7.0.7",
+      "7.0.8",
+      "7.0.9"
+    ],
+    "version_prev": "7.0.6",
+    "params_added": [
+      "bsonTestValidationVersion",
+      "featureFlagQueryStatsFindCommand",
+      "featureFlagTrimExtraSearchMetaCursors"
+    ],
+    "count": 596
+  },
+  "bab38ed8ed2364ecfd290492aafa669f": {
+    "version_min": "8.0.0",
+    "version_max": "8.0.0",
+    "versions": [
+      "8.0.0"
+    ],
+    "version_prev": "7.0.9",
+    "params_added": [
+      "KillSessionsMaxConcurrency",
+      "KillSessionsPerHostTimeoutMS",
+      "bulkWriteMaxRepliesSize",
+      "changeCollectionTruncateMarkersMinBytes",
+      "clusterServerParameterRefreshIntervalSecs",
+      "dbCheckMaxConsecutiveIdenticalIndexKeysPerSnapshot",
+      "dbCheckMaxInternalRetries",
+      "dbCheckMaxTotalIndexKeysPerSnapshot",
+      "defaultConfigCommandTimeoutMS",
+      "diagnosticDataCollectionMetadataCaptureFrequency",
+      "directConnectionChecksWithSingleShard",
+      "disableExpiredChangeCollectionRemover",
+      "disableExpiredPreImagesRemover",
+      "enableAutoCompaction",
+      "featureFlag80CollectionCreationPath",
+      "featureFlagAllMongodsAreSharded",
+      "featureFlagAllowAdditionalParticipants",
+      "featureFlagAuthoritativeRefineCollectionShardKey",
+      "featureFlagAuthoritativeShardCollection",
+      "featureFlagAutoCompact",
+      "featureFlagBalanceUnshardedCollections",
+      "featureFlagBalancerSettingsSchema",
+      "featureFlagBanEncryptionOptionsInCollectionCreation",
+      "featureFlagBinDataConvert",
+      "featureFlagBlockBasedDecodingPathAPI",
+      "featureFlagBlockBasedDecodingScalarAPI",
+      "featureFlagClassicRuntimePlanningForSbe",
+      "featureFlagClusterFsyncLock",
+      "featureFlagClusteredConfigTransactions",
+      "featureFlagCompactOptions",
+      "featureFlagConvertToCappedCoordinator",
+      "featureFlagCreateCollectionInPreparedTransactions",
+      "featureFlagDefaultReadMaxTimeMS",
+      "featureFlagDisallowBucketCollectionWithoutTimeseriesOptions",
+      "featureFlagEndOfTransactionChangeEvent",
+      "featureFlagEnforceRoutingByNamespace",
+      "featureFlagFailOnDirectShardOperations",
+      "featureFlagFork",
+      "featureFlagLargeBatchedOperations",
+      "featureFlagLogSlowOpsBasedOnTimeWorking",
+      "featureFlagMoveCollection",
+      "featureFlagMultiServiceLogAndFTDCFormat",
+      "featureFlagOCSF",
+      "featureFlagOneChunkPerShardEmptyCollectionWithHashedShardKey",
+      "featureFlagOnlineTransitionToSharded",
+      "featureFlagOplogVisibility",
+      "featureFlagOptimizerPlanCache",
+      "featureFlagPauseMigrationsDuringMultiUpdatesAvailable",
+      "featureFlagPeriodicServerParameterSampling",
+      "featureFlagPlacementHistoryPostFCV73",
+      "featureFlagPrefetch",
+      "featureFlagQERangeV2",
+      "featureFlagQuerySettings",
+      "featureFlagQueryStatsDataBearingNodes",
+      "featureFlagRSEndpointClusterCardinalityParameter",
+      "featureFlagRearchitectUserAcquisition",
+      "featureFlagRecordIdsReplicated",
+      "featureFlagReduceMajorityWriteLatency",
+      "featureFlagReplicaSetEndpoint",
+      "featureFlagReplicateVectoredInsertsTransactionally",
+      "featureFlagReshardingForTimeseries",
+      "featureFlagReshardingImprovements",
+      "featureFlagRouterPort",
+      "featureFlagSbeBlockHashAgg",
+      "featureFlagSearchBatchSizeTuning",
+      "featureFlagSearchInSbe",
+      "featureFlagSecondaryIndexChecksInDbCheck",
+      "featureFlagShardedAggregationCatalogCacheGossiping",
+      "featureFlagStopDDLCoordinatorsDuringTopologyChanges",
+      "featureFlagTSBucketingParametersUnchanged",
+      "featureFlagTimeSeriesInSbe",
+      "featureFlagTimeseriesAlwaysUseCompressedBuckets",
+      "featureFlagTrackUnshardedCollectionsUponCreation",
+      "featureFlagTrackUnshardedCollectionsUponMoveCollection",
+      "featureFlagUnshardCollection",
+      "featureFlagUpdateOneWithIdWithoutShardKey",
+      "featureFlagUseSorterChecksumV2",
+      "featureFlagValidateAndDefaultValuesForShardedTimeseries",
+      "heapProfilingMaxObjects",
+      "importQuorumTimeoutSeconds",
+      "ingressAdmissionControlEnabled",
+      "ingressAdmissionControllerTicketPoolSize",
+      "internalCascadesOptimizerDisableFastPath",
+      "internalCascadesOptimizerDisableSargableWhenNoIndexes",
+      "internalCascadesOptimizerEnableNotPushdown",
+      "internalCascadesOptimizerEnableParameterization",
+      "internalCascadesOptimizerEnableSqrtSampleSize",
+      "internalCascadesOptimizerRepeatableSample",
+      "internalCascadesOptimizerSampleChunks",
+      "internalCascadesOptimizerSampleIndexedFields",
+      "internalCascadesOptimizerSampleSizeMax",
+      "internalCascadesOptimizerSampleSizeMin",
+      "internalCascadesOptimizerSampleTwoFields",
+      "internalCascadesOptimizerSamplingCEFallBackForFilterNode",
+      "internalCascadesOptimizerSamplingCEScanStartOfColl",
+      "internalDocumentSourceCursorInitialBatchSize",
+      "internalQueryCollectOptimizerMetrics",
+      "internalQueryDisableSingleFieldExpressExecutor",
+      "internalQueryDoNotOpenContainedOrsInSimplifier",
+      "internalQueryEnableAggressiveSpillsInGroup",
+      "internalQueryEnableBooleanExpressionsSimplifier",
+      "internalQueryFindCommandBatchSize",
+      "internalQueryMaxSizeFactorToSimplify",
+      "internalQueryMaxSpoolDiskUsageBytes",
+      "internalQueryMaxSpoolMemoryUsageBytes",
+      "internalQueryMaximumNumberOfMintermsInSimplifier",
+      "internalQueryMaximumNumberOfUniquePredicatesToSimplify",
+      "internalQueryPlannerEnableIndexPruning",
+      "internalQueryPlannerIgnoreIndexWithCollationForRegex",
+      "internalQueryPlannerUseMultiplannerForSingleSolutions",
+      "internalQuerySBEPlanEvaluationMaxMemoryBytes",
+      "internalQuerySlotBasedExecutionDisableTimeSeriesPushdown",
+      "internalQuerySlotBasedExecutionWindowBufferMemorySamplingAtLeast",
+      "internalQuerySlotBasedExecutionWindowStateMemorySamplingAtLeast",
+      "internalQuerySpillingMaxWaitTimeout",
+      "internalRoaringBitmapsBatchSize",
+      "internalRoaringBitmapsMinimalDensity",
+      "internalRoaringBitmapsThreshold",
+      "internalUseRoaringBitmapsForRecordIDDeduplication",
+      "maxDbCheckMBperSec",
+      "mongotConnectionPoolMaxSize",
+      "mongotConnectionPoolMinSize",
+      "mongotHost",
+      "multiUpdateCoordinatorServiceMaxThreadCount",
+      "multiUpdateCoordinatorServiceMinThreadCount",
+      "oplogTruncationCheckPeriodSeconds",
+      "performTimeseriesCompressionIntermediateDataIntegrityCheckOnInsert",
+      "performTimeseriesCompressionIntermediateDataIntegrityCheckOnReopening",
+      "pinTaskExecCursorConns",
+      "preImagesCollectionTruncateMarkersMinBytes",
+      "reshardingCollectionClonerWriteThreadCount",
+      "reshardingCoordinatorQuiescePeriodMillis",
+      "searchIndexManagementHostAndPort",
+      "skipApplyingDbCheckBatchOnSecondary",
+      "skipAuthenticationToMongot",
+      "skipAuthenticationToSearchIndexManagementServer",
+      "tcmallocEnableBackgroundThread",
+      "tcmallocMaxPerCPUCacheSize",
+      "testMongosOnlyRuntimeParameter",
+      "testOnlyValidatedTenancyScopeKey",
+      "throughputProbingStallDetectionTimeoutMs",
+      "timeseriesLargeMeasurementThreshold",
+      "timeseriesSideBucketCatalogMemoryUsageThreshold",
+      "userCacheInvalidationIntervalSecs",
+      "wiredTigerSizeStorerPeriodicSyncHits",
+      "wiredTigerSizeStorerPeriodicSyncPeriodMillis",
+      "wiredTigerSkipTableLoggingChecksDuringValidation",
+      "writeConflictRetryLimit"
+    ],
+    "params_removed": [
+      "collectionTruncationCheckPeriodSeconds",
+      "featureFlagAdditionalParticipants",
+      "featureFlagAnalyzeShardKey",
+      "featureFlagApplyPreparedTxnsInParallel",
+      "featureFlagApproxPercentiles",
+      "featureFlagAutoMerger",
+      "featureFlagBatchMultiDeletes",
+      "featureFlagBitwiseAggOperators",
+      "featureFlagBucketUnpackWithSort",
+      "featureFlagCappedCollectionsRelaxedSize",
+      "featureFlagCatalogShard",
+      "featureFlagChangeStreamsFurtherEnrichedEvents",
+      "featureFlagChangeStreamsRewrite",
+      "featureFlagCheckMetadataConsistency",
+      "featureFlagClusterCardinalityParameter",
+      "featureFlagClusterWideConfigM2",
+      "featureFlagCollModCoordinatorV3",
+      "featureFlagCollModIndexUnique",
+      "featureFlagCompoundWildcardIndexes",
+      "featureFlagConfigSettingsSchema",
+      "featureFlagConnHealthMetrics",
+      "featureFlagCreateCollectionCoordinatorV3",
+      "featureFlagDerivedMetadata",
+      "featureFlagDowngradingToUpgrading",
+      "featureFlagDropCollectionHoldingCriticalSection",
+      "featureFlagExecutionControl",
+      "featureFlagExtendValidateCommand",
+      "featureFlagFLE2CompactForProtocolV2",
+      "featureFlagFLE2Range",
+      "featureFlagHistoricalPlacementShardingCatalog",
+      "featureFlagImplicitDDLTimeseriesNssTranslation",
+      "featureFlagOIDC",
+      "featureFlagPointInTimeCatalogLookups",
+      "featureFlagQueryStatsFindCommand",
+      "featureFlagRangeDeleterService",
+      "featureFlagResharding",
+      "featureFlagResilientMovePrimary",
+      "featureFlagRetryableFindAndModify",
+      "featureFlagSelectiveBackup",
+      "featureFlagShardSplit",
+      "featureFlagShardedSearchCustomSort",
+      "featureFlagShardedTimeSeries",
+      "featureFlagShardedTimeSeriesUpdateDelete",
+      "featureFlagStopUsingConfigVersion",
+      "featureFlagTimeseriesScalabilityImprovements",
+      "featureFlagTrimExtraSearchMetaCursors",
+      "featureFlagUseNewCompactStructuredEncryptionDataCoordinator",
+      "featureFlagUserRoles",
+      "featureRenameCommitInTransaction",
+      "requireConfirmInSetFcv",
+      "storeFindAndModifyImagesInSideCollection",
+      "tcmallocEnableMarkThreadTemporarilyIdle"
+    ],
+    "count": 692
+  },
+  "58171e0db5abf36774babd9264d6fbbf": {
+    "version_min": "8.0.1",
+    "version_max": "8.0.3",
+    "versions": [
+      "8.0.1",
+      "8.0.3"
+    ],
+    "version_prev": "8.0.0",
+    "params_added": [
+      "sessionMaxBatchSize",
+      "sessionWriteConcernTimeoutSystemMillis"
+    ],
+    "count": 694
+  },
+  "d7093f4d164cd547a03c8075a650a2ce": {
+    "version_min": "8.0.10",
+    "version_max": "8.0.11",
+    "versions": [
+      "8.0.10",
+      "8.0.11"
+    ],
+    "version_prev": "8.0.1",
+    "params_added": [
+      "autoMergerMaxTimeProcessingChunksMS:",
+      "catalogCacheCollectionMaxEntries",
+      "catalogCacheDatabaseMaxEntries",
+      "catalogCacheIndexMaxEntries",
+      "dbCheckMaxRunsOnQueue",
+      "dbCheckSecondaryBatchMaxTimeMs",
+      "enableUnionWithVectorSearch",
+      "featureFlagExposeClientIpInAuditLogs",
+      "featureFlagMongodProxyProcolSupport",
+      "internalQueryEnableSbeForNaryExpression",
+      "internalQueryExpressionInterruptIterations",
+      "internalQueryExpressionInterruptPeriodMS",
+      "internalQueryMaxMapReduceExpressionBytes",
+      "internalQuerySpillingMinAvailableDiskSpaceBytes",
+      "maxIncomingConnectionsOverride",
+      "maxIteratorsMemoryUsagePercentage",
+      "reshardingDelayBeforeRemainingOperationTimeQueryMillis",
+      "searchTLSMode",
+      "skipOplogSampling"
+    ],
+    "count": 713
+  },
+  "f14341b829dd7161a76a4ca624f6bda8": {
+    "version_min": "8.0.12",
+    "version_max": "8.0.12",
+    "versions": [
+      "8.0.12"
+    ],
+    "version_prev": "8.0.11",
+    "params_added": [
+      "featureFlagRateLimitIngressConnectionEstablishment",
+      "ingressConnectionEstablishmentBurstCapacitySecs",
+      "ingressConnectionEstablishmentMaxQueueDepth",
+      "ingressConnectionEstablishmentRateLimiterBypass",
+      "ingressConnectionEstablishmentRateLimiterEnabled",
+      "ingressConnectionEstablishmentRatePerSec",
+      "pessimisticConnectivityCheckForAcceptedConnections",
+      "upsertMaxRetryAttemptsOnDuplicateKeyError"
+    ],
+    "count": 721
+  },
+  "350b98372e87f82ea16a8830a71b247d": {
+    "version_min": "8.0.13",
+    "version_max": "8.0.13",
+    "versions": [
+      "8.0.13"
+    ],
+    "version_prev": "8.0.12",
+    "params_added": [
+      "AbortExpiredTransactionsSessionCheckoutTimeout",
+      "enableDiagnosticLogging",
+      "initialSyncIndexBuildMemoryMaxMB",
+      "initialSyncIndexBuildMemoryMinMB",
+      "initialSyncIndexBuildMemoryPercentage",
+      "signalHandlerUsesDiagnosticLogging",
+      "taskExecutorPoolSize"
+    ],
+    "count": 728
+  },
+  "8327182e8cc99206215c6654c035301b": {
+    "version_min": "8.0.14",
+    "version_max": "8.0.15",
+    "versions": [
+      "8.0.14",
+      "8.0.15"
+    ],
+    "version_prev": "8.0.13",
+    "params_added": [
+      "featureFlagRankFusionBasic",
+      "featureFlagRankFusionFull"
+    ],
+    "count": 730
+  },
+  "dd1716fe9d10695033cd0bd7797e6fef": {
+    "version_min": "8.0.16",
+    "version_max": "8.0.17",
+    "versions": [
+      "8.0.16",
+      "8.0.17"
+    ],
+    "version_prev": "8.0.15",
+    "params_added": [
+      "internalQueryPermitMatchSwappingForComplexRenames",
+      "oplogSamplingAsyncEnabled",
+      "oplogSamplingAsyncYieldIntervalMs",
+      "proxyProtocolMaximumPendingConnections",
+      "proxyProtocolMaximumWaitBackoffMillis",
+      "proxyProtocolTimeoutSecs",
+      "reshardingCollectionClonerBatchSizeCount",
+      "reshardingOplogFetcherSleepMillis",
+      "reshardingRemainingTimeEstimateAccountsForRecipientReplicationLag",
+      "useSlowCollectionTruncateMarkerScanning"
+    ],
+    "count": 740
+  },
+  "eb0fd28b577774065f150c83ec6dfea0": {
+    "version_min": "8.0.4",
+    "version_max": "8.0.4",
+    "versions": [
+      "8.0.4"
+    ],
+    "version_prev": "8.0.3",
+    "params_added": [
+      "enableUnionWithVectorSearch",
+      "maxIteratorsMemoryUsagePercentage",
+      "reshardingDelayBeforeRemainingOperationTimeQueryMillis"
+    ],
+    "count": 697
+  },
+  "5e4dd8073c2d4946f6c3b5295369ce6b": {
+    "version_min": "8.0.5",
+    "version_max": "8.0.8",
+    "versions": [
+      "8.0.5",
+      "8.0.6",
+      "8.0.8"
+    ],
+    "version_prev": "8.0.4",
+    "params_added": [
+      "autoMergerMaxTimeProcessingChunksMS:",
+      "dbCheckMaxRunsOnQueue",
+      "dbCheckSecondaryBatchMaxTimeMs",
+      "internalQueryExpressionInterruptIterations",
+      "internalQueryExpressionInterruptPeriodMS",
+      "internalQueryMaxMapReduceExpressionBytes",
+      "internalQuerySpillingMinAvailableDiskSpaceBytes"
+    ],
+    "count": 704
+  },
+  "2be331199f753f198fa54802cddae9e3": {
+    "version_min": "8.0.9",
+    "version_max": "8.0.9",
+    "versions": [
+      "8.0.9"
+    ],
+    "version_prev": "8.0.8",
+    "params_added": [
+      "internalQueryEnableSbeForNaryExpression",
+      "skipOplogSampling"
+    ],
+    "count": 706
+  },
+  "e741dd4877186dd35ec4f6408fe87abb": {
+    "version_min": "8.2.1",
+    "version_max": "8.2.1",
+    "versions": [
+      "8.2.1"
+    ],
+    "version_prev": "8.0.9",
+    "params_added": [
+      "AbortExpiredTransactionsSessionCheckoutTimeout",
+      "AbortOldestTransactionMemoryClearLimitPerBatch",
+      "AbortOldestTransactionSessionCheckoutTimeoutMilliseconds",
+      "AbortOldestTransactionSessionKillLimitPerBatch",
+      "ShardingTaskExecutorPoolMaxQueueDepth",
+      "allowEmptyOplogBatchesToPropagateCommitPoint",
+      "autoMergerMaxTimeProcessingChunksMS",
+      "buildInfoAuthMode",
+      "bypassRankFusionFCVGate",
+      "cachePressureEvictionStallDetectionWindowSeconds",
+      "cachePressureEvictionStallThresholdProportion",
+      "cachePressureExponentiallyDecayingMovingAverageAlphaValue",
+      "cachePressureQueryPeriodMilliseconds",
+      "catalogCacheCollectionMaxEntries",
+      "catalogCacheDatabaseMaxEntries",
+      "clientSourceAuthenticationRestrictionMode",
+      "delinquentAcquisitionIntervalMillis",
+      "diagnosticDataCollectionMaxThreads",
+      "diagnosticDataCollectionMinThreads",
+      "diagnosticDataCollectionSampleTimeoutMillis",
+      "disaggregatedStorageEnabled",
+      "enableDiagnosticLogging",
+      "enableQueryKilledByRangeDeletionLog",
+      "featureFlagAccuratePercentiles",
+      "featureFlagAggMongosToRouter",
+      "featureFlagAllBinariesSupportRawDataOperations",
+      "featureFlagAllowMergeOnNullishValues",
+      "featureFlagArrayAccumulators",
+      "featureFlagBalancerWindowDOW",
+      "featureFlagBinDataConvertNumeric",
+      "featureFlagChangeStreamPreciseShardTargeting",
+      "featureFlagCheckInvalidDatabaseInGlobalCatalog",
+      "featureFlagCheckRangeDeletionsWithMissingShardKeyIndex",
+      "featureFlagConfigDebugDumpSupported",
+      "featureFlagCreateDatabaseDDLCoordinator",
+      "featureFlagCreateSpillKVEngine",
+      "featureFlagCreateViewlessTimeseriesCollections",
+      "featureFlagCurrentDate",
+      "featureFlagCursorBasedTop",
+      "featureFlagDatabaseDualCatalogCache",
+      "featureFlagDistinguishMetadataInconsistencyFromConflictingOperation",
+      "featureFlagDropIndexesDDLCoordinator",
+      "featureFlagDualCatalogCache",
+      "featureFlagEgressGrpcForSearch",
+      "featureFlagEnableReplicasetTransitionToCSRS",
+      "featureFlagErrorAndLogValidationAction",
+      "featureFlagExposeClientIpInAuditLogs",
+      "featureFlagExtensionsAPI",
+      "featureFlagGRPC",
+      "featureFlagGaplessFTDC",
+      "featureFlagInDevelopmentForTest",
+      "featureFlagIngressRateLimiting",
+      "featureFlagIntentRegistration",
+      "featureFlagLookupEncryptionSchemasFLE",
+      "featureFlagMandatoryAuthzChecks",
+      "featureFlagMongodProxyProtocolSupport",
+      "featureFlagMongotIndexedViews",
+      "featureFlagMqlJsEngineGap",
+      "featureFlagMultiPlanLimiter",
+      "featureFlagPQSBackfill",
+      "featureFlagPersistRecipientPlacementInfoInMigrationRecoveryDoc",
+      "featureFlagPrimaryDrivenIndexBuilds",
+      "featureFlagQETextSearchPreview",
+      "featureFlagQueryMemoryTracking",
+      "featureFlagQueryStatsCountDistinct",
+      "featureFlagRankFusionBasic",
+      "featureFlagRankFusionFull",
+      "featureFlagRateLimitIngressConnectionEstablishment",
+      "featureFlagRawDataCrudOperations",
+      "featureFlagRecordDelinquentMetrics",
+      "featureFlagRelaxedMode",
+      "featureFlagReleasedForTest",
+      "featureFlagRemoveLegacyTimeseriesBucketingParametersHaveChanged",
+      "featureFlagReplicateLocalCatalogIdentifiers",
+      "featureFlagReshardingAbortUnpreparedTransactionsUponPreparingToBlockWrites",
+      "featureFlagReshardingCloneNoRefresh",
+      "featureFlagReshardingNumSamplesPerChunk",
+      "featureFlagReshardingRemainingTimeEstimateBasedOnMovingAverage",
+      "featureFlagReshardingSkipCloningAndApplyingIfApplicable",
+      "featureFlagReshardingStoreOplogFetcherProgress",
+      "featureFlagReshardingVerification",
+      "featureFlagSbeUpgradeBinaryTrees",
+      "featureFlagSearchExplainExecutionStats",
+      "featureFlagSearchHybridScoringFull",
+      "featureFlagSessionsCollectionCoordinatorOnConfigServer",
+      "featureFlagSetFcvDryRunMode",
+      "featureFlagShardAuthoritativeCollMetadata",
+      "featureFlagShardAuthoritativeDbMetadataCRUD",
+      "featureFlagShardAuthoritativeDbMetadataDDL",
+      "featureFlagShardFilteringDistinctScan",
+      "featureFlagSnapshotFCVInDDLCoordinators",
+      "featureFlagStorageEngineInterruptibility",
+      "featureFlagTargetedMirrorReads",
+      "featureFlagTerminateSecondaryReadsUponRangeDeletion",
+      "featureFlagUUIDExpression",
+      "featureFlagUpgradingToDowngrading",
+      "featureFlagUseTopologyChangeCoordinators",
+      "featureFlagUseTwoStepRSToShardPromotion",
+      "featureFlagVectorSimilarityExpressions",
+      "grpcKeepAliveTimeMs",
+      "grpcKeepAliveTimeoutMs",
+      "ingressAdmissionControllerMaxQueueDepth",
+      "ingressConnectionEstablishmentBurstCapacitySecs",
+      "ingressConnectionEstablishmentMaxQueueDepth",
+      "ingressConnectionEstablishmentRateLimiterBypass",
+      "ingressConnectionEstablishmentRateLimiterEnabled",
+      "ingressConnectionEstablishmentRatePerSec",
+      "ingressRequestAdmissionBurstCapacitySecs",
+      "ingressRequestAdmissionRatePerSec",
+      "ingressRequestRateLimiterEnabled",
+      "ingressRequestRateLimiterExemptions",
+      "initialSyncIndexBuildMemoryMaxMB",
+      "initialSyncIndexBuildMemoryMinMB",
+      "initialSyncIndexBuildMemoryPercentage",
+      "internalDocumentSourceBucketAutoMaxMemoryBytes",
+      "internalDocumentSourceGraphLookupMaxMemoryBytes",
+      "internalGraphLookupStageIntermediateDocumentMaxSizeBytes",
+      "internalQueryConcurrentMultiPlanningThreshold",
+      "internalQueryExtraPredicateForReversedIn",
+      "internalQueryGetMoreMaxCursorPinRetryAttempts",
+      "internalQueryMaxConcatArraysBytes",
+      "internalQueryMaxConcurrentMultiPlanJobsPerCacheKey",
+      "internalQueryMaxPercentileAccumulatorBytes",
+      "internalQueryMaxSetUnionBytes",
+      "internalQueryNumChunksForChunkBasedSampling",
+      "internalQueryPlanTotalEvaluationCollFraction",
+      "internalQueryRegexHeapLimitKB",
+      "internalQueryRegexMatchLimit",
+      "internalQuerySamplingBySequentialScan",
+      "internalQuerySamplingCEMethod",
+      "internalQuerySettingsBackfillDelaySeconds",
+      "internalQuerySettingsBackfillMemoryLimitBytes",
+      "internalQuerySlotBasedExecutionHashAggIncreasedSpilling",
+      "internalQueryStatsSampleRate",
+      "internalQueryUnifiedWriteExecutor",
+      "internalTextOrStageMaxMemoryBytes",
+      "maxIncomingConnectionsOverride",
+      "maxNumStaleVersionRetries",
+      "maxRoundsWithoutProgressParameter",
+      "metadataRefreshInTransactionMaxWaitMS",
+      "mirrorReadsMaxConnPoolSize",
+      "openTelemetryMetricsDirectory",
+      "openTelemetryMetricsHttpEndpoint",
+      "oplogSamplingAsyncEnabled",
+      "overdueInterruptCheckIntervalMillis",
+      "pessimisticConnectivityCheckForAcceptedConnections",
+      "planRankerMode",
+      "remainingReshardingOperationTimePrepareThresholdMillis",
+      "reshardingAbortUnpreparedTransactionsUponPreparingToBlockWrites",
+      "reshardingCollectionClonerBatchSizeCount",
+      "reshardingCollectionClonerMaxStalenessSeconds",
+      "reshardingExponentialMovingAverageTimeToFetchAndApplyIntervalMillis",
+      "reshardingExponentialMovingAverageTimeToFetchAndApplySmoothingFactor",
+      "reshardingMaxDelayBetweenRemainingOperationTimeQueriesMillis",
+      "reshardingMaxReplicationLagSecondsBeforeBuildingIndexes",
+      "reshardingOplogFetcherInsertBatchLimitBytes",
+      "reshardingOplogFetcherInsertBatchLimitOperations",
+      "reshardingOplogFetcherSleepMillisBeforeCriticalSection",
+      "reshardingOplogFetcherSleepMillisDuringCriticalSection",
+      "reshardingOplogFetcherTargetPrimaryDuringCriticalSection",
+      "reshardingRemainingTimeEstimateAccountsForDonorReplicationLag",
+      "reshardingRemainingTimeEstimateAccountsForRecipientReplicationLag",
+      "reshardingRemainingTimeEstimateBasedOnMovingAverage",
+      "reshardingVerificationChangeStreamsEventsBatchSizeLimit",
+      "reshardingVerificationChangeStreamsEventsBatchTimeLimitSeconds",
+      "reshardingVerificationChangeStreamsSleepMS",
+      "reshardingWaitForReplicationIntervalMilliseconds",
+      "reshardingWaitForReplicationTimeoutSeconds",
+      "samplingConfidenceInterval",
+      "samplingMarginOfError",
+      "searchTLSMode",
+      "slowServiceOnStepDownThresholdMS",
+      "spillTableInsertBatchSizeBytes",
+      "spillWiredTigerBlockCompressor",
+      "spillWiredTigerCacheSizeMaxMB",
+      "spillWiredTigerCacheSizeMinMB",
+      "spillWiredTigerCacheSizePercentage",
+      "spillWiredTigerEngineConfig",
+      "spillWiredTigerEngineRuntimeConfig",
+      "spillWiredTigerEvictionDirtyTargetPercentage",
+      "spillWiredTigerEvictionDirtyTriggerPercentage",
+      "spillWiredTigerEvictionThreadsMax",
+      "spillWiredTigerEvictionThreadsMin",
+      "spillWiredTigerEvictionUpdatesTriggerPercentage",
+      "spillWiredTigerServerStatusVerbosity",
+      "spillWiredTigerSessionMax",
+      "spillWiredTigerZstdCompressionLevel",
+      "storageEngineReadMaxQueueDepth",
+      "storageEngineWriteMaxQueueDepth",
+      "taskExecutorPoolSize",
+      "terminateSecondaryReadsOnOrphanCleanup",
+      "throwLoggingEnabled",
+      "throwLoggingExceptionName",
+      "timeseriesMaxRetriesForWriteConflictsOnReopening",
+      "upsertMaxRetryAttemptsOnDuplicateKeyError",
+      "useBatchedDeletesForRangeDeletion",
+      "useGrpcForSearch",
+      "validateCollectionName",
+      "validateDbName",
+      "wiredTigerCheckpointCleanupPeriodSeconds",
+      "wiredTigerEvictionUpdatesMaxGB",
+      "wiredTigerSessionCacheMaxPercentage",
+      "wiredTigerSessionMax",
+      "wiredTigerVerboseShutdownCheckpointLogs"
+    ],
+    "params_removed": [
+      "aggregateOperationResourceConsumptionMetrics",
+      "autoMergerMaxTimeProcessingChunksMS:",
+      "changeCollectionTruncateMarkersMinBytes",
+      "deprioritizeUnboundedUserCollectionScans",
+      "deprioritizeUnboundedUserIndexScans",
+      "disableJavaScriptJIT",
+      "documentUnitSizeBytes",
+      "enableUnionWithVectorSearch",
+      "featureFlagAuditConfigClusterParameter",
+      "featureFlagAuthoritativeRefineCollectionShardKey",
+      "featureFlagAuthoritativeShardCollection",
+      "featureFlagBalancerSettingsSchema",
+      "featureFlagBlockBasedDecodingPathAPI",
+      "featureFlagBlockBasedDecodingScalarAPI",
+      "featureFlagCheckForDirectShardOperations",
+      "featureFlagClassicRuntimePlanningForSbe",
+      "featureFlagColumnstoreIndexes",
+      "featureFlagCommonQueryFramework",
+      "featureFlagConvertToCappedCoordinator",
+      "featureFlagDefaultReadMaxTimeMS",
+      "featureFlagDeprioritizeLowPriorityOperations",
+      "featureFlagDisallowBucketCollectionWithoutTimeseriesOptions",
+      "featureFlagEnforceRoutingByNamespace",
+      "featureFlagFLE2CleanupCommand",
+      "featureFlagFailOnDirectShardOperations",
+      "featureFlagGlobalIndexes",
+      "featureFlagGlobalIndexesShardingCatalog",
+      "featureFlagIndexBuildGracefulErrorHandling",
+      "featureFlagLogSlowOpsBasedOnTimeWorking",
+      "featureFlagOCSF",
+      "featureFlagOIDCInternalAuthorization",
+      "featureFlagOneChunkPerShardEmptyCollectionWithHashedShardKey",
+      "featureFlagOnlineTransitionToSharded",
+      "featureFlagOptimizerPlanCache",
+      "featureFlagPeriodicServerParameterSampling",
+      "featureFlagPlacementHistoryPostFCV73",
+      "featureFlagQERangeV2",
+      "featureFlagQueryStatsDataBearingNodes",
+      "featureFlagRSEndpointClusterCardinalityParameter",
+      "featureFlagReplicateVectoredInsertsTransactionally",
+      "featureFlagReshardingImprovements",
+      "featureFlagSearchBatchSizeLimit",
+      "featureFlagShardKeyIndexOptionalHashedSharding",
+      "featureFlagShardMerge",
+      "featureFlagStopDDLCoordinatorsDuringTopologyChanges",
+      "featureFlagTimeseriesAlwaysUseCompressedBuckets",
+      "featureFlagTrackUnshardedCollectionsUponCreation",
+      "featureFlagUpdateOneWithIdWithoutShardKey",
+      "featureFlagUpdateOneWithoutShardKey",
+      "featureFlagUseSorterChecksumV2",
+      "featureFlagValidateAndDefaultValuesForShardedTimeseries",
+      "fixedServiceExecutorThreadLimit",
+      "forceRollbackViaRefetch",
+      "globalIndexClonerServiceFetchBatchMaxSizeBytes",
+      "globalIndexClonerServiceMaxThreadCount",
+      "importQuorumTimeoutSeconds",
+      "indexEntryUnitSizeBytes",
+      "initialServiceExecutorUseDedicatedThread",
+      "internalCascadesOptimizerDisableBranchAndBound",
+      "internalCascadesOptimizerDisableFastPath",
+      "internalCascadesOptimizerDisableGroupByAndUnionRIDIntersect",
+      "internalCascadesOptimizerDisableHashJoinRIDIntersect",
+      "internalCascadesOptimizerDisableIndexes",
+      "internalCascadesOptimizerDisableMergeJoinRIDIntersect",
+      "internalCascadesOptimizerDisableSargableWhenNoIndexes",
+      "internalCascadesOptimizerDisableScan",
+      "internalCascadesOptimizerDisableYieldingTolerantPlans",
+      "internalCascadesOptimizerEnableNotPushdown",
+      "internalCascadesOptimizerEnableParameterization",
+      "internalCascadesOptimizerEnableSqrtSampleSize",
+      "internalCascadesOptimizerExplainVersion",
+      "internalCascadesOptimizerFastIndexNullHandling",
+      "internalCascadesOptimizerKeepRejectedPlans",
+      "internalCascadesOptimizerMaxIndexEqPrefixes",
+      "internalCascadesOptimizerMinIndexEqPrefixes",
+      "internalCascadesOptimizerRepeatableSample",
+      "internalCascadesOptimizerSampleChunks",
+      "internalCascadesOptimizerSampleIndexedFields",
+      "internalCascadesOptimizerSampleSizeMax",
+      "internalCascadesOptimizerSampleSizeMin",
+      "internalCascadesOptimizerSampleTwoFields",
+      "internalCascadesOptimizerSamplingCEFallBackForFilterNode",
+      "internalCascadesOptimizerSamplingCEScanStartOfColl",
+      "internalCascadesOptimizerStdCoutDebugOutput",
+      "internalCascadesOptimizerUseDescriptiveVarNames",
+      "internalCostModelCoefficients",
+      "internalQueryCardinalityEstimatorMode",
+      "internalQueryColumnRowstoreScanMaxBatchSize",
+      "internalQueryColumnRowstoreScanMinBatchSize",
+      "internalQueryColumnScanMinAvgDocSizeBytes",
+      "internalQueryColumnScanMinCollectionSizeBytes",
+      "internalQueryColumnScanMinNumColumnFilters",
+      "internalQueryEnableSbeForNaryExpression",
+      "internalQueryMaxNumberOfFieldsToChooseFilteredColumnScan",
+      "internalQueryMaxNumberOfFieldsToChooseUnfilteredColumnScan",
+      "internalQueryPlanEvaluationCollFractionSbe",
+      "internalQueryPlanEvaluationWorksSbe",
+      "internalQuerySlotBasedExecutionHashAggForceIncreasedSpilling",
+      "internalUseRoaringBitmapsForRecordIDDeduplication",
+      "lowPriorityAdmissionBypassThreshold",
+      "maintainValidCursorsAcrossSBEReadCommands",
+      "maintainValidCursorsAcrossSBEYield",
+      "maxShardSplitDonorServiceThreadPoolSize",
+      "maxTenantMigrationDonorServiceThreadPoolSize",
+      "maxTenantMigrationRecipientThreadPoolSize",
+      "minOplogEntriesPerThread",
+      "minShardSplitDonorServiceThreadPoolSize",
+      "minTenantMigrationDonorServiceThreadPoolSize",
+      "minTenantMigrationRecipientThreadPoolSize",
+      "profileOperationResourceConsumptionMetrics",
+      "rangeDeleterHighPriority",
+      "reshardingCollectionClonerBatchSizeInBytes",
+      "shardSplitGarbageCollectionDelayMS",
+      "shardSplitTimeoutMS",
+      "suppressNetworkInterfaceTransportLayerExceptions",
+      "tenantApplierBatchSizeBytes",
+      "tenantApplierBatchSizeOps",
+      "tenantApplierThreadCount",
+      "tenantMigrationBlockingStateTimeoutMS",
+      "tenantMigrationDisableX509Auth",
+      "tenantMigrationExcludeDonorHostTimeoutMS",
+      "tenantMigrationExternalKeysRemovalBufferSecs",
+      "tenantMigrationGarbageCollectionDelayMS",
+      "tenantMigrationOplogBufferPeekCacheSize",
+      "tenantMigrationOplogFetcherBatchSize",
+      "totalUnitWriteSizeBytes",
+      "ttlCollLowPrioritySubpassLimit",
+      "wiredTigerMaxCacheOverflowSizeGB"
+    ],
+    "count": 782
+  },
+  "d7a2ec38603ce73b88531f37a6fe325f": {
+    "version_min": "8.2.2",
+    "version_max": "8.2.3",
+    "versions": [
+      "8.2.2",
+      "8.2.3"
+    ],
+    "version_prev": "8.2.1",
+    "params_added": [
+      "ingressRequestRateLimiterApplicationExemptions",
+      "internalQueryPermitMatchSwappingForComplexRenames",
+      "internalReduceAccumulatedValueDepthCheckInterval",
+      "minimalWriteConflictRetryCountForStateDump",
+      "oplogSamplingAsyncYieldIntervalMs",
+      "proxyProtocolMaximumPendingConnections",
+      "proxyProtocolMaximumWaitBackoffMillis",
+      "proxyProtocolTimeoutSecs",
+      "useSlowCollectionTruncateMarkerScanning",
+      "writeConflictRetryCountForDumpState"
+    ],
+    "count": 792
+  }
+}

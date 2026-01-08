@@ -1,5 +1,8 @@
 #!/bin/bash
+THISDIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+cd $THISDIR || exit 1
 
+echo "Building cmd/dump..."
 ( cd cmd/dump && go build -buildvcs=false )
 if [ $? -ne 0 ]; then
     echo "Failed to build cmd/dump"
@@ -26,6 +29,12 @@ if [[ "$CTOOL" == "" ]]; then
     fi
 fi
 
+echo $($CTOOL search --list-tags docker.io/library/mongo | grep ^NAME)
+if [ $? -ne 0 ]; then
+    echo "Failed to connect to docker.io/library/mongo"
+    exit 1
+fi
+
 # Iterate over all MongoDB versions available on Docker Hub. 
 # This will require docker.com credentials if you hit the anonymous rate limit.
 for version in $($CTOOL search --list-tags docker.io/library/mongo --no-trunc --limit 99999999 | awk '{print $2}' | egrep '^[0-9]+\.[0-9]+\.[0-9]+$' | sort -rV); do
@@ -48,3 +57,24 @@ for version in $($CTOOL search --list-tags docker.io/library/mongo --no-trunc --
     echo "Connecting to mongo:$version"
     ./cmd/dump/dump localhost:27017 data/${version}
 done
+
+
+echo "Building cmd/crunch..."
+( cd cmd/crunch && go build -buildvcs=false )
+if [ $? -ne 0 ]; then
+    echo "Failed to build cmd/crunch"
+    exit 1
+fi
+
+if [[ -f cmd/crunch/crunch ]]; then
+    echo "Built cmd/crunch/crunch successfully"
+else
+    echo "cmd/crunch/crunch binary not found after build"
+    exit 1
+fi
+
+./cmd/crunch/crunch data/
+if [ $? -ne 0 ]; then
+    echo "Failed to crunch data"
+    exit 1
+fi
