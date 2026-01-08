@@ -1,0 +1,8 @@
+{
+  "help": "Set the featureCompatibilityVersion used by this cluster. If set to '5.0', then features introduced in versions greater than '5.0' will be disabled If set to '5.3', then features introduced in '6.0' will be disabled. If set to '6.0', then '6.0' features are enabled, and all nodes in the cluster must be binary version 6.0. See https://docs.mongodb.com/master/release-notes/5.0-compatibility/#feature-compatibility.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
