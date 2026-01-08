@@ -52,16 +52,27 @@ for version in $($CTOOL search --list-tags docker.io/library/mongo --no-trunc --
     $CTOOL rm mongodb >/dev/null 2>&1
     $CTOOL images | grep mongo | awk '{print $3}' | xargs $CTOOL rmi --force >/dev/null 2>&1
     $CTOOL volume prune --force  >/dev/null 2>&1
-    $CTOOL run -d --name mongodb -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=changeme docker.io/library/mongo:$version
+    CID=$($CTOOL run -d --name mongodb -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=changeme docker.io/library/mongo:$version)
    
     if [ $? -ne 0 ]; then
        echo "Failed to build pull $version"
        continue
     fi
-   
-    echo -ne "Containers: "$($CTOOL ps | grep mongodb)
+
+    IMAGE_NAME="docker.io/library/mongo:$version"
+    CONTAINER_ID=$(docker ps --all --quiet --filter ancestor=$IMAGE_NAME --format="{{.ID}}" | head -n 1)
+    CONTAINER_STATUS=$(docker inspect --format "{{json .State.Status }}" $CONTAINER_ID)
+    until [ $CONTAINER_STATUS == '"running"' ]
+    do
+        echo "Waiting for container to start..."
+        sleep 1
+    done
+    
+    echo "Containers: "$($CTOOL ps | grep mongodb)
     echo "Connecting to mongo:$version"
+    echo "Inspect: "$($CTOOL inspect $CID)
     ./cmd/dump/dump localhost:27017 data/${version}
+    echo "Inspect: "$($CTOOL inspect $CID)
 done
 
 
