@@ -1,0 +1,8 @@
+{
+  "help": "resync (from scratch) a stale slave or replica set secondary node.\n",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

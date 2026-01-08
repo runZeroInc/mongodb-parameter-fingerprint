@@ -1,0 +1,8 @@
+{
+  "help": "http://dochub.mongodb.org/core/monitoring#MonitoringandDiagnostics-DatabaseRecord%2FReplay%28diagLoggingcommand%29",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

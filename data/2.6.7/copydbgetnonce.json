@@ -1,0 +1,8 @@
+{
+  "help": "get a nonce for subsequent copy db request from secure server\nusage: {copydbgetnonce: 1, fromhost: \u003chostname\u003e}",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

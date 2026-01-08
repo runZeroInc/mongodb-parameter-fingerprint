@@ -1,0 +1,8 @@
+{
+  "help": "resync (from scratch) an out of date replica slave.\nhttp://dochub.mongodb.org/core/masterslave",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

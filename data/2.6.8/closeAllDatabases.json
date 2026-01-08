@@ -1,0 +1,8 @@
+{
+  "help": "Close all database files.\nA new request will cause an immediate reopening; thus, this is mostly for testing purposes.",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

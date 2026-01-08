@@ -1,0 +1,8 @@
+{
+  "help": "copy a database from another host to this host\nusage: {copydb: 1, fromhost: \u003cconnection string\u003e, fromdb: \u003cdb\u003e, todb: \u003cdb\u003e[, slaveOk: \u003cbool\u003e, username: \u003cusername\u003e, nonce: \u003cnonce\u003e, key: \u003ckey\u003e]}",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

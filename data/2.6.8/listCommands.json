@@ -1,0 +1,8 @@
+{
+  "help": "get a list of all db commands",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

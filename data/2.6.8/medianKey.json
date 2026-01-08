@@ -1,0 +1,8 @@
+{
+  "help": "Deprecated internal command. Use splitVector command instead. \n",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

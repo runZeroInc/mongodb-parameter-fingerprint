@@ -1,0 +1,8 @@
+{
+  "help": "Invalidates the in-memory cache of user information\n",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

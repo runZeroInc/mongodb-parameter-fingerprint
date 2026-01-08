@@ -1,6 +1,6 @@
 #!/bin/bash
 
-( cd cmd/dump && go build )
+( cd cmd/dump && go build -buildvcs=false )
 if [ $? -ne 0 ]; then
     echo "Failed to build cmd/dump"
     exit 1
@@ -38,7 +38,13 @@ for version in $($CTOOL search --list-tags docker.io/library/mongo --no-trunc --
     $CTOOL rm mongodb >/dev/null 2>&1
     $CTOOL images | grep mongo | awk '{print $3}' | xargs $CTOOL rmi --force >/dev/null 2>&1
     $CTOOL volume prune --force  >/dev/null 2>&1
-    $CTOOL run -d --name mongodb -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=changeme mongo:$version
+    $CTOOL run -d --name mongodb -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=changeme docker.io/library/mongo:$version
+   
+    if [ $? -ne 0 ]; then
+       echo "Failed to build pull $version"
+       continue
+    fi
+   
     echo "Connecting to mongo:$version"
     ./cmd/dump/dump localhost:27017 data/${version}
 done

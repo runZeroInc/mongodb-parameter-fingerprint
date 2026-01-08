@@ -1,0 +1,8 @@
+{
+  "help": "get administrative option(s)\nexample:\n{ getParameter:1, notablescan:1 }\nsupported:\n  authOnPrimaryOnly\n  enableLocalhostAuthBypass\n  enableTestCommands\n  ignoreInitialVersionFailure\n  logLevel\n  logUserIds\n  notablescan\n  quiet\n  releaseConnectionsAfterResponse\n  replApplyBatchSize\n  replIndexPrefetch\n  supportCompatibilityFormPrivilegeDocuments\n  syncdelay\n  textSearchEnabled\n  ttlMonitorEnabled\n{ getParameter:'*' } to get everything\n",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

@@ -1,0 +1,8 @@
+{
+  "help": "Merge Chunks command\nusage: { mergeChunks : \u003cns\u003e, bounds : [ \u003cmin key\u003e, \u003cmax key\u003e ], (opt) epoch : \u003cepoch\u003e }",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

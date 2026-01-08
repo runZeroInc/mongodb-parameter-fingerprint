@@ -1,0 +1,8 @@
+{
+  "help": "{ pipeline: [ { $operator: {...}}, ... ], explain: \u003cbool\u003e, allowDiskUse: \u003cbool\u003e, cursor: {batchSize: \u003cnumber\u003e} }\nSee http://dochub.mongodb.org/core/aggregation for more details.",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

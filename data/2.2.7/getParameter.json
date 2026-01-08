@@ -1,0 +1,8 @@
+{
+  "help": "get administrative option(s)\nexample:\n{ getParameter:1, notablescan:1 }\nsupported so far:\n  quiet\n  notablescan\n  logLevel\n  syncdelay\n{ getParameter:'*' } to get everything\n",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

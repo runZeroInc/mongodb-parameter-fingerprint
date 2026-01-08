@@ -1,0 +1,8 @@
+{
+  "help": "internal - should not be called directly",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

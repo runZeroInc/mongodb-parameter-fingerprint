@@ -1,0 +1,8 @@
+{
+  "help": "v3.0 disallowed internal command, present for compatibility only",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

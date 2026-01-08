@@ -1,0 +1,8 @@
+{
+  "help": "Revokes privileges from a role\n",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

@@ -1,0 +1,8 @@
+{
+  "help": "{ cloneCollection: \u003ccollection\u003e, from: \u003chost\u003e [,query: \u003cquery_filter\u003e] [,copyIndexes:\u003cbool\u003e] }\nCopies a collection from one server to another. Do not use on a single server as the destination is placed at the same db.collection (namespace) as the source.\n",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

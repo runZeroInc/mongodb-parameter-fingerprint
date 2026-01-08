@@ -1,0 +1,8 @@
+{
+  "help": "Upgrades the auth data storage schema",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

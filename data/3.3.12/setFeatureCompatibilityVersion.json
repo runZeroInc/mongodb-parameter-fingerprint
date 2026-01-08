@@ -1,0 +1,8 @@
+{
+  "help": "set the minimum allowed version in the cluster, which determines what features are available",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

@@ -1,0 +1,8 @@
+{
+  "help": "drop a collection\n{drop : \u003ccollectionName\u003e}",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

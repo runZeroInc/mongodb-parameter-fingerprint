@@ -112,5 +112,9 @@ func main() {
 		}
 		f.Close()
 	}
+	if len(lc.Commands) == 0 {
+		os.RemoveAll(ddir)
+		logrus.Fatalf("failed to dump any commands from json: %s", string(jb))
+	}
 	logrus.Printf("dumped %d commands to %s", len(lc.Commands), ddir)
 }

@@ -1,0 +1,8 @@
+{
+  "help": "enable or disable performance profiling\n{ profile : \u003cn\u003e }\n0=off 1=log slow ops 2=log all\n-1 to get current values\nhttp://docs.mongodb.org/manual/reference/command/profile/#dbcmd.profile",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

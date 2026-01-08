@@ -1,0 +1,8 @@
+{
+  "help": "{ pipeline : [ { \u003cdata-pipe-op\u003e: {...}}, ... ] }",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

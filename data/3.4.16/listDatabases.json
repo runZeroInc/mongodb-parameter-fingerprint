@@ -1,0 +1,8 @@
+{
+  "help": "{ listDatabases:1, [filter: \u003cfilterObject\u003e] [, nameOnly: true ] }\nlist databases on this server",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

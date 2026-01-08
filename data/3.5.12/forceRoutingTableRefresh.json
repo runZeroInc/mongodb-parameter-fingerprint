@@ -1,0 +1,8 @@
+{
+  "help": "Internal command which forces a sharded node to refresh its metadata from the config server and persist it locally only. Behaves like any other write command in that it returns the cluster time of the last metadata write so it can be waited on.",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

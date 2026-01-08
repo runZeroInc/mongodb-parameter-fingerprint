@@ -1,0 +1,8 @@
+{
+  "help": "Drops a single user.\n",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

@@ -1,0 +1,8 @@
+{
+  "help": "test how long to write and fsync to a test file in the journal/ directory",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

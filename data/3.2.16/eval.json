@@ -1,0 +1,8 @@
+{
+  "help": "DEPRECATED\nEvaluate javascript at the server.\nhttp://dochub.mongodb.org/core/serversidecodeexecution",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

@@ -1,0 +1,8 @@
+{
+  "help": "Sets collection options.\nExample: { collMod: 'foo', usePowerOf2Sizes:true }\nExample: { collMod: 'foo', index: {keyPattern: {a: 1}, expireAfterSeconds: 600} }",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

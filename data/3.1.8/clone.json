@@ -1,0 +1,8 @@
+{
+  "help": "clone this database from an instance of the db on another host\n{clone: \"host13\"[, slaveOk: \u003cbool\u003e]}",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

@@ -1,0 +1,8 @@
+{
+  "help": "list databases on this server",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

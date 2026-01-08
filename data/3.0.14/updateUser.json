@@ -1,0 +1,8 @@
+{
+  "help": "Used to update a user, for example to change its password\n",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

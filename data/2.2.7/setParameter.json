@@ -1,0 +1,8 @@
+{
+  "help": "set administrative option(s)\n{ setParameter:1, \u003cparam\u003e:\u003cvalue\u003e }\nsupported so far:\n  journalCommitInterval\n  logLevel\n  notablescan\n  quiet\n  syncdelay\n",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

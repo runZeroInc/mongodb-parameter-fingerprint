@@ -1,0 +1,8 @@
+{
+  "help": "Grants roles to another role.\n",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

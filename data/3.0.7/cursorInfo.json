@@ -1,0 +1,8 @@
+{
+  "help": " example: { cursorInfo : 1 }, deprecated",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

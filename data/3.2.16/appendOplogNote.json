@@ -1,0 +1,8 @@
+{
+  "help": "Adds a no-op entry to the oplog",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

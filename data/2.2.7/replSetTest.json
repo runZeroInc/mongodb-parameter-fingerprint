@@ -1,0 +1,8 @@
+{
+  "help": "Just for regression tests.\n",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

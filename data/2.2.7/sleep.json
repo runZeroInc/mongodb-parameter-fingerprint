@@ -1,0 +1,8 @@
+{
+  "help": "internal testing command.  Makes db block (in a read lock) for 100 seconds\nw:true write lock. secs:\u003cseconds\u003e",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

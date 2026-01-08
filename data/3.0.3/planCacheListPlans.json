@@ -1,0 +1,8 @@
+{
+  "help": "Displays the cached plans for a query shape.",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

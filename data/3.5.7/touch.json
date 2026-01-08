@@ -1,0 +1,8 @@
+{
+  "help": "touch collection\nPage in all pages of memory containing every extent for the given collection\n{ touch : \u003ccollection_name\u003e, [data : true] , [index : true] }\n at least one of data or index must be true; default is both are false\n",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

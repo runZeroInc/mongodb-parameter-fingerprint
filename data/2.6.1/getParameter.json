@@ -1,0 +1,8 @@
+{
+  "help": "get administrative option(s)\nexample:\n{ getParameter:1, notablescan:1 }\nsupported:\n  _forceLegacyShardWriteMode\n  authSchemaVersion\n  clusterAuthMode\n  connPoolMaxConnsPerHost\n  connPoolMaxShardedConnsPerHost\n  enableLocalhostAuthBypass\n  enableTestCommands\n  failIndexKeyTooLong\n  internalQueryCacheFeedbacksStored\n  internalQueryCacheSize\n  internalQueryCacheStdDeviations\n  internalQueryCacheWriteOpsBetweenFlush\n  internalQueryEnumerationMaxIntersectPerAnd\n  internalQueryEnumerationMaxOrSolutions\n  internalQueryForceIntersectionPlans\n  internalQueryPlanEvaluationCollFraction\n  internalQueryPlanEvaluationMaxResults\n  internalQueryPlanEvaluationWorks\n  internalQueryPlanOrChildrenIndependently\n  internalQueryPlannerEnableIndexIntersection\n  internalQueryPlannerMaxIndexedSolutions\n  logLevel\n  logUserIds\n  maxSyncSourceLagSecs\n  newCollectionsUsePowerOf2Sizes\n  notablescan\n  queueForMigrationCommit\n  quiet\n  releaseConnectionsAfterResponse\n  replApplyBatchSize\n  replIndexPrefetch\n  sslMode\n  supportCompatibilityFormPrivilegeDocuments\n  syncdelay\n  textSearchEnabled\n  ttlMonitorEnabled\n  verboseQueryLogging\n{ getParameter:'*' } to get everything\n",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

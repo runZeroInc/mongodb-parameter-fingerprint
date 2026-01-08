@@ -1,0 +1,8 @@
+{
+  "help": "determine data size for a set of data in a certain range\nexample: { dataSize:\"blog.posts\", keyPattern:{x:1}, min:{x:10}, max:{x:55} }\nmin and max parameters are optional. They must either both be included or both omitted\nkeyPattern is an optional parameter indicating an index pattern that would be usefulfor iterating over the min/max bounds. If keyPattern is omitted, it is inferred from the structure of min. \nnote: This command may take a while to run",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

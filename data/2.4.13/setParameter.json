@@ -1,0 +1,8 @@
+{
+  "help": "set administrative option(s)\n{ setParameter:1, \u003cparam\u003e:\u003cvalue\u003e }\nsupported:\n  authOnPrimaryOnly\n  enableLocalhostAuthBypass\n  enableTestCommands\n  ignoreInitialVersionFailure\n  logLevel\n  logUserIds\n  notablescan\n  quiet\n  releaseConnectionsAfterResponse\n  replApplyBatchSize\n  replIndexPrefetch\n  supportCompatibilityFormPrivilegeDocuments\n  syncdelay\n  textSearchEnabled\n  ttlMonitorEnabled\n",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

@@ -1,0 +1,8 @@
+{
+  "help": "Subsequent steps in a SASL authentication conversation.",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

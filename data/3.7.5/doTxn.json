@@ -1,0 +1,8 @@
+{
+  "help": "internal (sharding)\n{ doTxn : [ ] , preCondition : [ { ns : ... , q : ... , res : ... } ] }",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

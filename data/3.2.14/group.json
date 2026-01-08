@@ -1,0 +1,8 @@
+{
+  "help": "http://dochub.mongodb.org/core/aggregation",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

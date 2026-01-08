@@ -1,0 +1,8 @@
+{
+  "help": " example: { setShardVersion : 'alleyinsider.foo' , version : 1 , configdb : '' } ",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

@@ -1,0 +1,8 @@
+{
+  "help": "internal. for testing only.",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

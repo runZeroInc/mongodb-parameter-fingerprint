@@ -1,0 +1,8 @@
+{
+  "help": "create a collection explicitly\n{ create: \u003cns\u003e[, capped: \u003cbool\u003e, size: \u003ccollSizeInBytes\u003e, max: \u003cnDocs\u003e] }",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

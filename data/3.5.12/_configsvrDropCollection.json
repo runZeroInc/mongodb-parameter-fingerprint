@@ -1,0 +1,8 @@
+{
+  "help": "Internal command, which is exported by the sharding config server. Do not call directly. Drops a collection.",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

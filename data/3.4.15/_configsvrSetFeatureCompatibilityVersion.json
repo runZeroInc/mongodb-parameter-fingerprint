@@ -1,0 +1,8 @@
+{
+  "help": "Internal command, which is exported by the sharding config server. Do not call directly. Sets featureCompatibilityVersion on all shards. See http://dochub.mongodb.org/core/3.4-feature-compatibility.",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

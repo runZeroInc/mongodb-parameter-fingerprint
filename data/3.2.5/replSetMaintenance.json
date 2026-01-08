@@ -1,0 +1,8 @@
+{
+  "help": "{ replSetMaintenance : bool }\nEnable or disable maintenance mode.",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

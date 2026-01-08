@@ -1,0 +1,8 @@
+{
+  "help": "internal command to force a node to refresh its routing table entry for a namespace",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

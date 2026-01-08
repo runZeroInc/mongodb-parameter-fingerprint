@@ -1,0 +1,8 @@
+{
+  "help": "Returns connection-specific information such as logged-in users",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

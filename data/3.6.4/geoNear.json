@@ -1,0 +1,8 @@
+{
+  "help": "http://dochub.mongodb.org/core/geo#GeospatialIndexing-geoNearCommand",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}

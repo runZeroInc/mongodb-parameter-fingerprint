@@ -1,0 +1,8 @@
+{
+  "help": "repair database.  also compacts. note: slow.",
+  "requiresAuth": false,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": null,
+  "deprecatedApiVersions": null
+}
