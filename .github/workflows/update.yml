@@ -1,0 +1,40 @@
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 *  * * *'
+
+name: 'Auto: Update MongoDB Fingerprints'
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-go@v6
+        with:
+          go-version-file: go.mod
+          check-latest: true
+          cache: true
+      - name: Update from Docker
+        shell: bash
+        run: |
+          bash ./update-from-docker.sh
+      - name: create-pull-request
+        uses: peter-evans/create-pull-request@v8
+        id: cpr
+        with:
+          committer: "GitHub <noreply@github.com>"
+          author: "GitHub <noreply@github.com>"
+          commit-message: "Auto: Update MongoDB Fingerprints"
+          branch: auto/update-mongodb-fingerprints
+          delete-branch: true
+          title: 'Auto: Update MongoDB Fingerprints'
+          add-paths: data
+          labels: |
+            autoupdate
+      - name: Enable Pull Request Automerge
+        run: gh pr merge -d --merge --auto "${{ steps.cpr.outputs.pull-request-number }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
