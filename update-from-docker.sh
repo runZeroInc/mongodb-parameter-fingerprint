@@ -70,7 +70,11 @@ for version in $($CTOOL search --list-tags docker.io/library/mongo --no-trunc --
     echo "Container $CONTAINER_ID is $CONTAINER_STATUS"
     echo "Connecting to mongo:$version"
     ./cmd/dump/dump localhost:27017 data/${version}
-    echo "Inspect: "$($CTOOL inspect $CID)
+    
+    $CTOOL stop mongodb >/dev/null 2>&1
+    $CTOOL rm mongodb >/dev/null 2>&1
+    $CTOOL images | grep mongo | awk '{print $3}' | xargs $CTOOL rmi --force >/dev/null 2>&1
+    $CTOOL volume prune --force  >/dev/null 2>&1
 done
 
 
