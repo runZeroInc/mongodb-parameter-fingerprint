@@ -36,6 +36,6 @@ jobs:
             autoupdate
       - name: Enable Pull Request Automerge
         run: |
-          gh pr merge -d --merge --auto "${{ steps.cpr.outputs.pull-request-number }} || exit 0
+          gh pr merge -d --merge --auto "${{ steps.cpr.outputs.pull-request-number }}" || exit 0
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
