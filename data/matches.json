@@ -4455,13 +4455,28 @@
     ],
     "count": 629
   },
+  "d415ce576f6d62af7510f65e1da94ed8": {
+    "version_min": "7.0.29",
+    "version_max": "7.0.29",
+    "versions": [
+      "7.0.29"
+    ],
+    "version_prev": "7.0.28",
+    "params_added": [
+      "capMemoryConsumptionForPreAuthBuffers",
+      "internalReduceAccumulatedValueDepthCheckInterval",
+      "messageSizeErrorRateSec",
+      "preAuthMaximumMessageSizeBytes"
+    ],
+    "count": 633
+  },
   "da3e0cb675432e42ad2199aa7e8bdf88": {
     "version_min": "7.0.3",
     "version_max": "7.0.3",
     "versions": [
       "7.0.3"
     ],
-    "version_prev": "7.0.28",
+    "version_prev": "7.0.29",
     "params_added": [
       "featureFlagTelemetry",
       "featureFlagTimeseriesMetricIndexes",
@@ -4473,6 +4488,7 @@
       "allowDocumentsGreaterThanMaxUserSize",
       "autoMergerMaxTimeProcessingChunksMS",
       "bsonTestValidationVersion",
+      "capMemoryConsumptionForPreAuthBuffers",
       "catalogCacheCollectionMaxEntries",
       "catalogCacheDatabaseMaxEntries",
       "catalogCacheIndexMaxEntries",
@@ -4500,10 +4516,13 @@
       "internalQueryStatsCacheSize",
       "internalQueryStatsErrorsAreCommandFatal",
       "internalQueryStatsRateLimit",
+      "internalReduceAccumulatedValueDepthCheckInterval",
       "maxIteratorsMemoryUsagePercentage",
+      "messageSizeErrorRateSec",
       "noCatalogCachePurgeOnShardRemoval",
       "persistedChunkCacheUpdateMaxBatchSize",
       "pessimisticConnectivityCheckForAcceptedConnections",
+      "preAuthMaximumMessageSizeBytes",
       "proxyProtocolMaximumPendingConnections",
       "proxyProtocolMaximumWaitBackoffMillis",
       "proxyProtocolTimeoutSecs",
@@ -4918,6 +4937,22 @@
     ],
     "count": 740
   },
+  "81fc335b9e909e56285bc2ae29c0a581": {
+    "version_min": "8.0.18",
+    "version_max": "8.0.18",
+    "versions": [
+      "8.0.18"
+    ],
+    "version_prev": "8.0.17",
+    "params_added": [
+      "capMemoryConsumptionForPreAuthBuffers",
+      "internalQueryMaxNumPrimeImplicants",
+      "internalReduceAccumulatedValueDepthCheckInterval",
+      "messageSizeErrorRateSec",
+      "preAuthMaximumMessageSizeBytes"
+    ],
+    "count": 745
+  },
   "eb0fd28b577774065f150c83ec6dfea0": {
     "version_min": "8.0.4",
     "version_max": "8.0.4",
@@ -5331,5 +5366,20 @@
       "writeConflictRetryCountForDumpState"
     ],
     "count": 792
+  },
+  "6f6be82cad9a25da5955bbe3158c876e": {
+    "version_min": "8.2.4",
+    "version_max": "8.2.4",
+    "versions": [
+      "8.2.4"
+    ],
+    "version_prev": "8.2.3",
+    "params_added": [
+      "capMemoryConsumptionForPreAuthBuffers",
+      "internalQueryMaxNumPrimeImplicants",
+      "messageSizeErrorRateSec",
+      "preAuthMaximumMessageSizeBytes"
+    ],
+    "count": 796
   }
 }
