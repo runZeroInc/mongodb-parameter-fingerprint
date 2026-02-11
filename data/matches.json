@@ -4457,9 +4457,10 @@
   },
   "d415ce576f6d62af7510f65e1da94ed8": {
     "version_min": "7.0.29",
-    "version_max": "7.0.29",
+    "version_max": "7.0.30",
     "versions": [
-      "7.0.29"
+      "7.0.29",
+      "7.0.30"
     ],
     "version_prev": "7.0.28",
     "params_added": [
@@ -4544,10 +4545,63 @@
     "versions": [
       "7.0.4"
     ],
-    "version_prev": "7.0.3",
+    "version_prev": "7.0.30",
     "params_added": [
-      "internalQuerySlotBasedExecutionHashAggForceIncreasedSpilling",
-      "persistedChunkCacheUpdateMaxBatchSize"
+      "featureFlagTelemetry",
+      "featureFlagTimeseriesMetricIndexes",
+      "internalQueryConfigureTelemetryCacheSize",
+      "internalQueryConfigureTelemetrySamplingRate"
+    ],
+    "params_removed": [
+      "AbortExpiredTransactionsSessionCheckoutTimeout",
+      "allowDocumentsGreaterThanMaxUserSize",
+      "autoMergerMaxTimeProcessingChunksMS",
+      "bsonTestValidationVersion",
+      "capMemoryConsumptionForPreAuthBuffers",
+      "catalogCacheCollectionMaxEntries",
+      "catalogCacheDatabaseMaxEntries",
+      "catalogCacheIndexMaxEntries",
+      "collectionTruncationCheckPeriodSeconds",
+      "directConnectionChecksWithSingleShard",
+      "featureFlagExposeClientIpInAuditLogs",
+      "featureFlagMongodProxyProcolSupport",
+      "featureFlagOIDCInternalAuthorization",
+      "featureFlagQueryStats",
+      "featureFlagRateLimitIngressConnectionEstablishment",
+      "featureFlagTrimExtraSearchMetaCursors",
+      "ingressConnectionEstablishmentBurstCapacitySecs",
+      "ingressConnectionEstablishmentMaxQueueDepth",
+      "ingressConnectionEstablishmentRateLimiterBypass",
+      "ingressConnectionEstablishmentRateLimiterEnabled",
+      "ingressConnectionEstablishmentRatePerSec",
+      "initialSyncIndexBuildMemoryMaxMB",
+      "initialSyncIndexBuildMemoryMinMB",
+      "initialSyncIndexBuildMemoryPercentage",
+      "internalQueryEnableAggressiveSpillsInGroup",
+      "internalQueryPlanTieBreakingWithIndexHeuristics",
+      "internalQuerySpillingMaxWaitTimeout",
+      "internalQuerySpillingMinAvailableDiskSpaceBytes",
+      "internalQueryStatsCacheSize",
+      "internalQueryStatsErrorsAreCommandFatal",
+      "internalQueryStatsRateLimit",
+      "internalReduceAccumulatedValueDepthCheckInterval",
+      "maxIteratorsMemoryUsagePercentage",
+      "messageSizeErrorRateSec",
+      "noCatalogCachePurgeOnShardRemoval",
+      "pessimisticConnectivityCheckForAcceptedConnections",
+      "preAuthMaximumMessageSizeBytes",
+      "proxyProtocolMaximumPendingConnections",
+      "proxyProtocolMaximumWaitBackoffMillis",
+      "proxyProtocolTimeoutSecs",
+      "reshardingDelayBeforeRemainingOperationTimeQueryMillis",
+      "sessionMaxBatchSize",
+      "sessionWriteConcernTimeoutSystemMillis",
+      "skipApplyingDbCheckBatchOnSecondary",
+      "skipOplogSampling",
+      "taskExecutorPoolSize",
+      "tlsUseSystemCA",
+      "upsertMaxRetryAttemptsOnDuplicateKeyError",
+      "wiredTigerSkipTableLoggingChecksDuringValidation"
     ],
     "count": 588
   },
@@ -4939,9 +4993,10 @@
   },
   "81fc335b9e909e56285bc2ae29c0a581": {
     "version_min": "8.0.18",
-    "version_max": "8.0.18",
+    "version_max": "8.0.19",
     "versions": [
-      "8.0.18"
+      "8.0.18",
+      "8.0.19"
     ],
     "version_prev": "8.0.17",
     "params_added": [
@@ -5369,9 +5424,10 @@
   },
   "6f6be82cad9a25da5955bbe3158c876e": {
     "version_min": "8.2.4",
-    "version_max": "8.2.4",
+    "version_max": "8.2.5",
     "versions": [
-      "8.2.4"
+      "8.2.4",
+      "8.2.5"
     ],
     "version_prev": "8.2.3",
     "params_added": [
