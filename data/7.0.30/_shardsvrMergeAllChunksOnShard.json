@@ -1,0 +1,8 @@
+{
+  "help": "Internal command invoked either by the config server or by the mongos to merge all contiguous chunks on a shard",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
