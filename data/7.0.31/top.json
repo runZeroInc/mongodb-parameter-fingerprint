@@ -1,0 +1,8 @@
+{
+  "help": "usage by collection, in micros ",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

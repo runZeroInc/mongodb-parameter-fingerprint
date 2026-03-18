@@ -1,0 +1,8 @@
+{
+  "help": "resolves views as to allow shards to run search index command issued by a mongos info",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

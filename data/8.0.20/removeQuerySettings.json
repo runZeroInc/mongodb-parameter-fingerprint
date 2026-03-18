@@ -1,0 +1,8 @@
+{
+  "help": "Removes the query settings for the query shape of a given query.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
