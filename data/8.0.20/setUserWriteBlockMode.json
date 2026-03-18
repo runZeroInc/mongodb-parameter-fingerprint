@@ -1,0 +1,8 @@
+{
+  "help": "Set whether user write blocking is enabled",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

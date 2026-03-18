@@ -1,0 +1,8 @@
+{
+  "help": "Internal command, which is exported by the sharding config server. Do not call directly. Returns the draining status of a specific shard in the cluster.",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

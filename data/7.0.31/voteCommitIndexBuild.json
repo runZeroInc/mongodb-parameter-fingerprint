@@ -1,0 +1,8 @@
+{
+  "help": "Internal intra replica set command to signal to the primary that a member is ready to commit an index build.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
