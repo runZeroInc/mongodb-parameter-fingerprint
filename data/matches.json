@@ -4457,10 +4457,11 @@
   },
   "d415ce576f6d62af7510f65e1da94ed8": {
     "version_min": "7.0.29",
-    "version_max": "7.0.30",
+    "version_max": "7.0.31",
     "versions": [
       "7.0.29",
-      "7.0.30"
+      "7.0.30",
+      "7.0.31"
     ],
     "version_prev": "7.0.28",
     "params_added": [
@@ -4545,7 +4546,7 @@
     "versions": [
       "7.0.4"
     ],
-    "version_prev": "7.0.30",
+    "version_prev": "7.0.31",
     "params_added": [
       "featureFlagTelemetry",
       "featureFlagTimeseriesMetricIndexes",
@@ -5008,6 +5009,31 @@
     ],
     "count": 745
   },
+  "50daa7d42981b7edef8e056c47c763bf": {
+    "version_min": "8.0.20",
+    "version_max": "8.0.20",
+    "versions": [
+      "8.0.20"
+    ],
+    "version_prev": "8.0.19",
+    "params_added": [
+      "featureFlagIngressRateLimiting",
+      "featureFlagReshardingNumSamplesPerChunk",
+      "featureFlagReshardingSkipCloningIfApplicable",
+      "ingressRequestAdmissionBurstCapacitySecs",
+      "ingressRequestAdmissionRatePerSec",
+      "ingressRequestRateLimiterApplicationExemptions",
+      "ingressRequestRateLimiterEnabled",
+      "ingressRequestRateLimiterExemptions",
+      "internalQueryStatsSampleRate",
+      "minimalWriteConflictRetryCountForStateDump",
+      "slowServiceOnStepDownThresholdMS",
+      "throwLoggingEnabled",
+      "throwLoggingExceptionName",
+      "writeConflictRetryCountForDumpState"
+    ],
+    "count": 759
+  },
   "eb0fd28b577774065f150c83ec6dfea0": {
     "version_min": "8.0.4",
     "version_max": "8.0.4",
@@ -5437,5 +5463,21 @@
       "preAuthMaximumMessageSizeBytes"
     ],
     "count": 796
+  },
+  "d10f07317e4d38d7b165b29eec8af36c": {
+    "version_min": "8.2.6",
+    "version_max": "8.2.6",
+    "versions": [
+      "8.2.6"
+    ],
+    "version_prev": "8.2.5",
+    "params_added": [
+      "enableCompoundWildcardIndexLog",
+      "internalProfilingMaxAbandonedWritesPerSecondPerDb",
+      "internalQueryGlobalProfilingLockDeadlineMs",
+      "procFileSizeLimit",
+      "ttlMonitorMaxMetadataRecoveryThreads"
+    ],
+    "count": 801
   }
 }

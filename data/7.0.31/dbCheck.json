@@ -1,0 +1,8 @@
+{
+  "help": "Validate replica set consistency.\nInvoke with { dbCheck: \u003ccollection name/uuid\u003e,\n              minKey: \u003cfirst key, exclusive\u003e,\n              maxKey: \u003clast key, inclusive\u003e,\n              maxCount: \u003ctry to keep a batch within maxCount number of docs\u003e,\n              maxSize: \u003ctry to keep a batch withing maxSize of docs (bytes)\u003e,\n              maxCountPerSecond: \u003cmax rate in docs/sec\u003e\n              maxDocsPerBatch: \u003cmax number of docs/batch\u003e\n              maxBytesPerBatch: \u003ctry to keep a batch within max bytes/batch\u003e\n              maxBatchTimeMillis: \u003cmax time processing a batch in milliseconds\u003e\nto check a collection.\nInvoke with {dbCheck: 1} to check all collections in the database.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
