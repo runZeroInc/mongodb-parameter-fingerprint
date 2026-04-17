@@ -5479,5 +5479,17 @@
       "ttlMonitorMaxMetadataRecoveryThreads"
     ],
     "count": 801
+  },
+  "0576190fba065de9f2c9a56bb559ceff": {
+    "version_min": "8.2.7",
+    "version_max": "8.2.7",
+    "versions": [
+      "8.2.7"
+    ],
+    "version_prev": "8.2.6",
+    "params_added": [
+      "diagnosticDataCollectionDiscardLargeSamples"
+    ],
+    "count": 802
   }
 }
