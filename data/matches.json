@@ -4540,13 +4540,26 @@
     ],
     "count": 586
   },
+  "b93b766064265e5b69438d3a8abf8c6c": {
+    "version_min": "7.0.32",
+    "version_max": "7.0.32",
+    "versions": [
+      "7.0.32"
+    ],
+    "version_prev": "7.0.31",
+    "params_added": [
+      "jsUseLegacyMemoryTracking",
+      "slowServiceOnStepDownThresholdMS"
+    ],
+    "count": 635
+  },
   "85235ed2c8e59311ea30d4e610420a2c": {
     "version_min": "7.0.4",
     "version_max": "7.0.4",
     "versions": [
       "7.0.4"
     ],
-    "version_prev": "7.0.31",
+    "version_prev": "7.0.32",
     "params_added": [
       "featureFlagTelemetry",
       "featureFlagTimeseriesMetricIndexes",
@@ -4586,6 +4599,7 @@
       "internalQueryStatsErrorsAreCommandFatal",
       "internalQueryStatsRateLimit",
       "internalReduceAccumulatedValueDepthCheckInterval",
+      "jsUseLegacyMemoryTracking",
       "maxIteratorsMemoryUsagePercentage",
       "messageSizeErrorRateSec",
       "noCatalogCachePurgeOnShardRemoval",
@@ -4599,6 +4613,7 @@
       "sessionWriteConcernTimeoutSystemMillis",
       "skipApplyingDbCheckBatchOnSecondary",
       "skipOplogSampling",
+      "slowServiceOnStepDownThresholdMS",
       "taskExecutorPoolSize",
       "tlsUseSystemCA",
       "upsertMaxRetryAttemptsOnDuplicateKeyError",
@@ -5033,6 +5048,21 @@
       "writeConflictRetryCountForDumpState"
     ],
     "count": 759
+  },
+  "05e9bcd7b07474f29ba89a3aa30e6fd5": {
+    "version_min": "8.0.21",
+    "version_max": "8.0.21",
+    "versions": [
+      "8.0.21"
+    ],
+    "version_prev": "8.0.20",
+    "params_added": [
+      "enableCompoundWildcardIndexLog",
+      "jsUseLegacyMemoryTracking",
+      "procFileSizeLimit",
+      "ttlMonitorMaxMetadataRecoveryThreads"
+    ],
+    "count": 763
   },
   "eb0fd28b577774065f150c83ec6dfea0": {
     "version_min": "8.0.4",
