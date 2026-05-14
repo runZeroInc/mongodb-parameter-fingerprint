@@ -1,0 +1,10 @@
+{
+  "help": "no help defined",
+  "requiresAuth": false,
+  "secondaryOk": true,
+  "adminOnly": false,
+  "apiVersions": [
+    "1"
+  ],
+  "deprecatedApiVersions": []
+}

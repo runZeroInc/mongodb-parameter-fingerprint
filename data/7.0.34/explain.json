@@ -1,0 +1,10 @@
+{
+  "help": "explain database reads and writes",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [
+    "1"
+  ],
+  "deprecatedApiVersions": []
+}

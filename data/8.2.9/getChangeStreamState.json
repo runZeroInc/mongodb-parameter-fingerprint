@@ -1,0 +1,8 @@
+{
+  "help": "Gets the change stream state in the serverless\nUsage:\n    {getChangeStreamState: 1}",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
