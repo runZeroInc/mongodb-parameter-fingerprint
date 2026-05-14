@@ -1,0 +1,8 @@
+{
+  "help": "Internal command. This command aims to fetch collection and chunks metadata, for a specific namespace, from the global catalog and persist it locally in the shard catalog",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

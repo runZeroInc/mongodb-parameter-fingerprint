@@ -4553,13 +4553,26 @@
     ],
     "count": 635
   },
+  "b9e56e0ed5805354c5cf2911d67650bc": {
+    "version_min": "7.0.34",
+    "version_max": "7.0.34",
+    "versions": [
+      "7.0.34"
+    ],
+    "version_prev": "7.0.32",
+    "params_added": [
+      "internalQueryBitTestPositionsLogThreshold",
+      "internalQueryMaxBitTestIntermediatePositions"
+    ],
+    "count": 637
+  },
   "85235ed2c8e59311ea30d4e610420a2c": {
     "version_min": "7.0.4",
     "version_max": "7.0.4",
     "versions": [
       "7.0.4"
     ],
-    "version_prev": "7.0.32",
+    "version_prev": "7.0.34",
     "params_added": [
       "featureFlagTelemetry",
       "featureFlagTimeseriesMetricIndexes",
@@ -4591,7 +4604,9 @@
       "initialSyncIndexBuildMemoryMaxMB",
       "initialSyncIndexBuildMemoryMinMB",
       "initialSyncIndexBuildMemoryPercentage",
+      "internalQueryBitTestPositionsLogThreshold",
       "internalQueryEnableAggressiveSpillsInGroup",
+      "internalQueryMaxBitTestIntermediatePositions",
       "internalQueryPlanTieBreakingWithIndexHeuristics",
       "internalQuerySpillingMaxWaitTimeout",
       "internalQuerySpillingMinAvailableDiskSpaceBytes",
@@ -5064,6 +5079,19 @@
     ],
     "count": 763
   },
+  "f1404c10d7b431fb3b283fab6a56517d": {
+    "version_min": "8.0.23",
+    "version_max": "8.0.23",
+    "versions": [
+      "8.0.23"
+    ],
+    "version_prev": "8.0.21",
+    "params_added": [
+      "internalQueryBitTestPositionsLogThreshold",
+      "internalQueryMaxBitTestIntermediatePositions"
+    ],
+    "count": 765
+  },
   "eb0fd28b577774065f150c83ec6dfea0": {
     "version_min": "8.0.4",
     "version_max": "8.0.4",
@@ -5522,13 +5550,27 @@
     ],
     "count": 802
   },
-  "171ec1e179571240377441fc70328275": {
-    "version_min": "8.3.1",
-    "version_max": "8.3.1",
+  "a582a0bdcbc8f6b8ee0ef4a860db95e1": {
+    "version_min": "8.2.9",
+    "version_max": "8.2.9",
     "versions": [
-      "8.3.1"
+      "8.2.9"
     ],
     "version_prev": "8.2.7",
+    "params_added": [
+      "internalQueryBitTestPositionsLogThreshold",
+      "internalQueryMaxBitTestIntermediatePositions"
+    ],
+    "count": 804
+  },
+  "171ec1e179571240377441fc70328275": {
+    "version_min": "8.3.1",
+    "version_max": "8.3.2",
+    "versions": [
+      "8.3.1",
+      "8.3.2"
+    ],
+    "version_prev": "8.2.9",
     "params_added": [
       "CachePressureAbortCheckoutTimeoutMilliseconds",
       "CachePressureAbortSessionKillLimitPerBatch",
@@ -5639,10 +5681,8 @@
       "internalNearStageMaxMemoryBytes",
       "internalOrStageMaxMemoryBytes",
       "internalQueryAllowForcedPlanByHash",
-      "internalQueryBitTestPositionsLogThreshold",
       "internalQueryCBRCEMode",
       "internalQueryEnableWriteConflictBackoffWithoutTicket",
-      "internalQueryMaxBitTestIntermediatePositions",
       "internalQueryMaxPipelineRewrites",
       "internalQueryMaxWriteToCurOpMemoryUsageBytes",
       "internalQueryMaxWriteToServerStatusMemoryUsageBytes",

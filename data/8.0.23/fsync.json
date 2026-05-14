@@ -1,0 +1,8 @@
+{
+  "help": "http://dochub.mongodb.org/core/fsynccommand",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
