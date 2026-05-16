@@ -1,0 +1,8 @@
+{
+  "help": "{ collStats:\"blog.posts\" , scale : 1 } scale divides sizes e.g. for KB use 1024\n    avgObjSize - in bytes",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

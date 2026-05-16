@@ -1,0 +1,8 @@
+{
+  "help": "get latest diagnostic data collection snapshot",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

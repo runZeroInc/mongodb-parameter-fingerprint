@@ -1,0 +1,8 @@
+{
+  "help": "Get stats on a database. Not instantaneous. Slower for databases with large .ns files.\nExample: { dbStats:1, scale:1 }",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
