@@ -1,0 +1,8 @@
+{
+  "help": "Interrupts tenant migration data sync and marks that the recipient's durable state machine may be garbage collected.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

@@ -1,0 +1,8 @@
+{
+  "help": "return build level feature settings",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
