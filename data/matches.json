@@ -4568,13 +4568,29 @@
     ],
     "count": 637
   },
+  "17b068dc7669abc6785c65eaf9fde68e": {
+    "version_min": "7.0.35",
+    "version_max": "7.0.35",
+    "versions": [
+      "7.0.35"
+    ],
+    "version_prev": "7.0.34",
+    "params_added": [
+      "enableCompoundWildcardIndexLog",
+      "opensslPrimaryDRBGReseedMaxRequests",
+      "opensslPrimaryDRBGReseedMaxTime",
+      "procFileSizeLimit",
+      "ttlMonitorMaxMetadataRecoveryThreads"
+    ],
+    "count": 642
+  },
   "85235ed2c8e59311ea30d4e610420a2c": {
     "version_min": "7.0.4",
     "version_max": "7.0.4",
     "versions": [
       "7.0.4"
     ],
-    "version_prev": "7.0.34",
+    "version_prev": "7.0.35",
     "params_added": [
       "featureFlagTelemetry",
       "featureFlagTimeseriesMetricIndexes",
@@ -4592,6 +4608,7 @@
       "catalogCacheIndexMaxEntries",
       "collectionTruncationCheckPeriodSeconds",
       "directConnectionChecksWithSingleShard",
+      "enableCompoundWildcardIndexLog",
       "featureFlagExposeClientIpInAuditLogs",
       "featureFlagMongodProxyProcolSupport",
       "featureFlagOIDCInternalAuthorization",
@@ -4620,8 +4637,11 @@
       "maxIteratorsMemoryUsagePercentage",
       "messageSizeErrorRateSec",
       "noCatalogCachePurgeOnShardRemoval",
+      "opensslPrimaryDRBGReseedMaxRequests",
+      "opensslPrimaryDRBGReseedMaxTime",
       "pessimisticConnectivityCheckForAcceptedConnections",
       "preAuthMaximumMessageSizeBytes",
+      "procFileSizeLimit",
       "proxyProtocolMaximumPendingConnections",
       "proxyProtocolMaximumWaitBackoffMillis",
       "proxyProtocolTimeoutSecs",
@@ -4633,6 +4653,7 @@
       "slowServiceOnStepDownThresholdMS",
       "taskExecutorPoolSize",
       "tlsUseSystemCA",
+      "ttlMonitorMaxMetadataRecoveryThreads",
       "upsertMaxRetryAttemptsOnDuplicateKeyError",
       "wiredTigerSkipTableLoggingChecksDuringValidation"
     ],
@@ -5094,6 +5115,25 @@
     ],
     "count": 765
   },
+  "40f12d1f5158b4b8d1da00632b08f85b": {
+    "version_min": "8.0.24",
+    "version_max": "8.0.24",
+    "versions": [
+      "8.0.24"
+    ],
+    "version_prev": "8.0.23",
+    "params_added": [
+      "diagnosticDataCollectionDiscardLargeSamples",
+      "internalProfilingMaxAbandonedWritesPerSecondPerDb",
+      "internalQueryGlobalProfilingLockDeadlineMs",
+      "opensslPrimaryDRBGReseedMaxRequests",
+      "opensslPrimaryDRBGReseedMaxTime",
+      "proxyUnixSocketCheckPermissions",
+      "proxyUnixSocketMaximumHeaderSize",
+      "syncSourceResolverFindFetcherTimeoutMillis"
+    ],
+    "count": 773
+  },
   "eb0fd28b577774065f150c83ec6dfea0": {
     "version_min": "8.0.4",
     "version_max": "8.0.4",
@@ -5486,6 +5526,40 @@
     ],
     "count": 782
   },
+  "a582a0bdcbc8f6b8ee0ef4a860db95e1": {
+    "version_min": "8.2.10",
+    "version_max": "8.2.9",
+    "versions": [
+      "8.2.10",
+      "8.2.9"
+    ],
+    "version_prev": "8.2.1",
+    "params_added": [
+      "capMemoryConsumptionForPreAuthBuffers",
+      "diagnosticDataCollectionDiscardLargeSamples",
+      "enableCompoundWildcardIndexLog",
+      "ingressRequestRateLimiterApplicationExemptions",
+      "internalProfilingMaxAbandonedWritesPerSecondPerDb",
+      "internalQueryBitTestPositionsLogThreshold",
+      "internalQueryGlobalProfilingLockDeadlineMs",
+      "internalQueryMaxBitTestIntermediatePositions",
+      "internalQueryMaxNumPrimeImplicants",
+      "internalQueryPermitMatchSwappingForComplexRenames",
+      "internalReduceAccumulatedValueDepthCheckInterval",
+      "messageSizeErrorRateSec",
+      "minimalWriteConflictRetryCountForStateDump",
+      "oplogSamplingAsyncYieldIntervalMs",
+      "preAuthMaximumMessageSizeBytes",
+      "procFileSizeLimit",
+      "proxyProtocolMaximumPendingConnections",
+      "proxyProtocolMaximumWaitBackoffMillis",
+      "proxyProtocolTimeoutSecs",
+      "ttlMonitorMaxMetadataRecoveryThreads",
+      "useSlowCollectionTruncateMarkerScanning",
+      "writeConflictRetryCountForDumpState"
+    ],
+    "count": 804
+  },
   "d7a2ec38603ce73b88531f37a6fe325f": {
     "version_min": "8.2.2",
     "version_max": "8.2.3",
@@ -5493,18 +5567,20 @@
       "8.2.2",
       "8.2.3"
     ],
-    "version_prev": "8.2.1",
-    "params_added": [
-      "ingressRequestRateLimiterApplicationExemptions",
-      "internalQueryPermitMatchSwappingForComplexRenames",
-      "internalReduceAccumulatedValueDepthCheckInterval",
-      "minimalWriteConflictRetryCountForStateDump",
-      "oplogSamplingAsyncYieldIntervalMs",
-      "proxyProtocolMaximumPendingConnections",
-      "proxyProtocolMaximumWaitBackoffMillis",
-      "proxyProtocolTimeoutSecs",
-      "useSlowCollectionTruncateMarkerScanning",
-      "writeConflictRetryCountForDumpState"
+    "version_prev": "8.2.10",
+    "params_removed": [
+      "capMemoryConsumptionForPreAuthBuffers",
+      "diagnosticDataCollectionDiscardLargeSamples",
+      "enableCompoundWildcardIndexLog",
+      "internalProfilingMaxAbandonedWritesPerSecondPerDb",
+      "internalQueryBitTestPositionsLogThreshold",
+      "internalQueryGlobalProfilingLockDeadlineMs",
+      "internalQueryMaxBitTestIntermediatePositions",
+      "internalQueryMaxNumPrimeImplicants",
+      "messageSizeErrorRateSec",
+      "preAuthMaximumMessageSizeBytes",
+      "procFileSizeLimit",
+      "ttlMonitorMaxMetadataRecoveryThreads"
     ],
     "count": 792
   },
@@ -5551,19 +5627,6 @@
       "diagnosticDataCollectionDiscardLargeSamples"
     ],
     "count": 802
-  },
-  "a582a0bdcbc8f6b8ee0ef4a860db95e1": {
-    "version_min": "8.2.9",
-    "version_max": "8.2.9",
-    "versions": [
-      "8.2.9"
-    ],
-    "version_prev": "8.2.7",
-    "params_added": [
-      "internalQueryBitTestPositionsLogThreshold",
-      "internalQueryMaxBitTestIntermediatePositions"
-    ],
-    "count": 804
   },
   "171ec1e179571240377441fc70328275": {
     "version_min": "8.3.1",
@@ -5755,5 +5818,25 @@
       "planRankerMode"
     ],
     "count": 941
+  },
+  "cd5bcedf20de87a41cf1152b3a936f3b": {
+    "version_min": "8.3.3",
+    "version_max": "8.3.3",
+    "versions": [
+      "8.3.3"
+    ],
+    "version_prev": "8.3.2",
+    "params_added": [
+      "bsonMaxExpandedMemUsage",
+      "featureFlagConstraintValidationLevel",
+      "opensslPrimaryDRBGReseedMaxRequests",
+      "opensslPrimaryDRBGReseedMaxTime",
+      "timeseriesDisableStrictBucketValidator",
+      "timeseriesLessStrictBucketValidator"
+    ],
+    "params_removed": [
+      "featureFlagValidatedValidationLevel"
+    ],
+    "count": 946
   }
 }

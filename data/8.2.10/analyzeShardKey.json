@@ -1,0 +1,8 @@
+{
+  "help": "Returns metrics for evaluating a shard key for a collection.",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
