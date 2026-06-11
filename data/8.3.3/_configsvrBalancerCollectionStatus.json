@@ -1,0 +1,8 @@
+{
+  "help": "Internal command, which is exported by the sharding config server. Do not call directly. Checks whether the chunks of a given collection are in a quiesced state or there are any which need to be moved because of (1) draining shards, (2) zone violation or (3) imbalance between shards.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

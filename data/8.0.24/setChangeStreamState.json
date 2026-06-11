@@ -1,0 +1,8 @@
+{
+  "help": "Sets the change stream state in the serverless\nUsage:\n    {setChangeStreamState: 1, enabled: \u003ctrue|false\u003e}\nFields:\n    enabled:  enable or disable the change stream",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

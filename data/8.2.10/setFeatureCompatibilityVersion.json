@@ -1,0 +1,8 @@
+{
+  "help": "Set the featureCompatibilityVersion used by this cluster. If set to '8.0', then features introduced in versions greater than '8.0' will be disabled If set to '8.1', then features introduced in '8.2' will be disabled. If set to '8.2', then '8.2' features are enabled, and all nodes in the cluster must be binary version 8.2. See https://docs.mongodb.com/master/release-notes/8.0-compatibility/#feature-compatibility.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
