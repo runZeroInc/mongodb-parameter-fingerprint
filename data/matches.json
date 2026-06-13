@@ -4570,9 +4570,10 @@
   },
   "17b068dc7669abc6785c65eaf9fde68e": {
     "version_min": "7.0.35",
-    "version_max": "7.0.35",
+    "version_max": "7.0.37",
     "versions": [
-      "7.0.35"
+      "7.0.35",
+      "7.0.37"
     ],
     "version_prev": "7.0.34",
     "params_added": [
@@ -4590,7 +4591,7 @@
     "versions": [
       "7.0.4"
     ],
-    "version_prev": "7.0.35",
+    "version_prev": "7.0.37",
     "params_added": [
       "featureFlagTelemetry",
       "featureFlagTimeseriesMetricIndexes",
@@ -5117,9 +5118,10 @@
   },
   "40f12d1f5158b4b8d1da00632b08f85b": {
     "version_min": "8.0.24",
-    "version_max": "8.0.24",
+    "version_max": "8.0.26",
     "versions": [
-      "8.0.24"
+      "8.0.24",
+      "8.0.26"
     ],
     "version_prev": "8.0.23",
     "params_added": [
@@ -5531,6 +5533,7 @@
     "version_max": "8.2.9",
     "versions": [
       "8.2.10",
+      "8.2.11",
       "8.2.9"
     ],
     "version_prev": "8.2.1",
@@ -5567,7 +5570,7 @@
       "8.2.2",
       "8.2.3"
     ],
-    "version_prev": "8.2.10",
+    "version_prev": "8.2.11",
     "params_removed": [
       "capMemoryConsumptionForPreAuthBuffers",
       "diagnosticDataCollectionDiscardLargeSamples",
@@ -5821,9 +5824,10 @@
   },
   "cd5bcedf20de87a41cf1152b3a936f3b": {
     "version_min": "8.3.3",
-    "version_max": "8.3.3",
+    "version_max": "8.3.4",
     "versions": [
-      "8.3.3"
+      "8.3.3",
+      "8.3.4"
     ],
     "version_prev": "8.3.2",
     "params_added": [
