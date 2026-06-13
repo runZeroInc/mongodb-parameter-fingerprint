@@ -1,0 +1,8 @@
+{
+  "help": "ask given cursors to release memory if possible",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

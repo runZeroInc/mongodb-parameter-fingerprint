@@ -1,0 +1,8 @@
+{
+  "help": "Internal command, which is exported by secondary sharding servers. Do not call directly. Untracks an unsplittable collection.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
