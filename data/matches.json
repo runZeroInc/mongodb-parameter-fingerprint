@@ -4585,13 +4585,30 @@
     ],
     "count": 642
   },
+  "2df75dd11b86d836601cd50ea7f74a8b": {
+    "version_min": "7.0.39",
+    "version_max": "7.0.39",
+    "versions": [
+      "7.0.39"
+    ],
+    "version_prev": "7.0.37",
+    "params_added": [
+      "abortStreamingHelloWithSmallTimeout",
+      "bsonMaxExpandedMemUsage",
+      "diagnosticDataCollectionDiscardLargeSamples",
+      "minWaitForStreamingHelloMillis",
+      "syncSourceResolverFindFetcherTimeoutMillis",
+      "timeseriesDisableStrictBucketValidator"
+    ],
+    "count": 648
+  },
   "85235ed2c8e59311ea30d4e610420a2c": {
     "version_min": "7.0.4",
     "version_max": "7.0.4",
     "versions": [
       "7.0.4"
     ],
-    "version_prev": "7.0.37",
+    "version_prev": "7.0.39",
     "params_added": [
       "featureFlagTelemetry",
       "featureFlagTimeseriesMetricIndexes",
@@ -4600,14 +4617,17 @@
     ],
     "params_removed": [
       "AbortExpiredTransactionsSessionCheckoutTimeout",
+      "abortStreamingHelloWithSmallTimeout",
       "allowDocumentsGreaterThanMaxUserSize",
       "autoMergerMaxTimeProcessingChunksMS",
+      "bsonMaxExpandedMemUsage",
       "bsonTestValidationVersion",
       "capMemoryConsumptionForPreAuthBuffers",
       "catalogCacheCollectionMaxEntries",
       "catalogCacheDatabaseMaxEntries",
       "catalogCacheIndexMaxEntries",
       "collectionTruncationCheckPeriodSeconds",
+      "diagnosticDataCollectionDiscardLargeSamples",
       "directConnectionChecksWithSingleShard",
       "enableCompoundWildcardIndexLog",
       "featureFlagExposeClientIpInAuditLogs",
@@ -4637,6 +4657,7 @@
       "jsUseLegacyMemoryTracking",
       "maxIteratorsMemoryUsagePercentage",
       "messageSizeErrorRateSec",
+      "minWaitForStreamingHelloMillis",
       "noCatalogCachePurgeOnShardRemoval",
       "opensslPrimaryDRBGReseedMaxRequests",
       "opensslPrimaryDRBGReseedMaxTime",
@@ -4652,7 +4673,9 @@
       "skipApplyingDbCheckBatchOnSecondary",
       "skipOplogSampling",
       "slowServiceOnStepDownThresholdMS",
+      "syncSourceResolverFindFetcherTimeoutMillis",
       "taskExecutorPoolSize",
+      "timeseriesDisableStrictBucketValidator",
       "tlsUseSystemCA",
       "ttlMonitorMaxMetadataRecoveryThreads",
       "upsertMaxRetryAttemptsOnDuplicateKeyError",
@@ -5136,6 +5159,25 @@
     ],
     "count": 773
   },
+  "5606776106ca924f76a91f678d83d856": {
+    "version_min": "8.0.28",
+    "version_max": "8.0.28",
+    "versions": [
+      "8.0.28"
+    ],
+    "version_prev": "8.0.26",
+    "params_added": [
+      "abortStreamingHelloWithSmallTimeout",
+      "bsonMaxExpandedMemUsage",
+      "internalQueryMaxExpressionOutputBytes",
+      "internalQueryMaxMemoryIntensiveExpressions",
+      "logicalSessionCacheJobTimeoutEnabled",
+      "minWaitForStreamingHelloMillis",
+      "timeseriesDisableStrictBucketValidator",
+      "timeseriesLessStrictBucketValidator"
+    ],
+    "count": 781
+  },
   "eb0fd28b577774065f150c83ec6dfea0": {
     "version_min": "8.0.4",
     "version_max": "8.0.4",
@@ -5563,6 +5605,21 @@
     ],
     "count": 804
   },
+  "5b1d1585daa11a14444f7e9daae360de": {
+    "version_min": "8.2.12",
+    "version_max": "8.2.12",
+    "versions": [
+      "8.2.12"
+    ],
+    "version_prev": "8.2.11",
+    "params_added": [
+      "abortStreamingHelloWithSmallTimeout",
+      "logicalSessionCacheJobTimeoutEnabled",
+      "minWaitForStreamingHelloMillis",
+      "timeseriesDisableStrictBucketValidator"
+    ],
+    "count": 808
+  },
   "d7a2ec38603ce73b88531f37a6fe325f": {
     "version_min": "8.2.2",
     "version_max": "8.2.3",
@@ -5570,8 +5627,9 @@
       "8.2.2",
       "8.2.3"
     ],
-    "version_prev": "8.2.11",
+    "version_prev": "8.2.12",
     "params_removed": [
+      "abortStreamingHelloWithSmallTimeout",
       "capMemoryConsumptionForPreAuthBuffers",
       "diagnosticDataCollectionDiscardLargeSamples",
       "enableCompoundWildcardIndexLog",
@@ -5580,9 +5638,12 @@
       "internalQueryGlobalProfilingLockDeadlineMs",
       "internalQueryMaxBitTestIntermediatePositions",
       "internalQueryMaxNumPrimeImplicants",
+      "logicalSessionCacheJobTimeoutEnabled",
       "messageSizeErrorRateSec",
+      "minWaitForStreamingHelloMillis",
       "preAuthMaximumMessageSizeBytes",
       "procFileSizeLimit",
+      "timeseriesDisableStrictBucketValidator",
       "ttlMonitorMaxMetadataRecoveryThreads"
     ],
     "count": 792
@@ -5842,5 +5903,23 @@
       "featureFlagValidatedValidationLevel"
     ],
     "count": 946
+  },
+  "b60d0e99886a64f964783571fc36a2d9": {
+    "version_min": "8.3.7",
+    "version_max": "8.3.7",
+    "versions": [
+      "8.3.7"
+    ],
+    "version_prev": "8.3.4",
+    "params_added": [
+      "abortStreamingHelloWithSmallTimeout",
+      "initialSyncWaitForSyncSourceLastStableRecoveryTs",
+      "internalQueryMaxExpressionOutputBytes",
+      "internalQueryMaxMemoryIntensiveExpressions",
+      "logicalSessionCacheJobTimeoutEnabled",
+      "maxConcurrentMultiDocumentTransactions",
+      "minWaitForStreamingHelloMillis"
+    ],
+    "count": 953
   }
 }

@@ -1,0 +1,8 @@
+{
+  "help": "Internal command, which is exported by the primary sharding server. Do not call directly. Drops a database.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

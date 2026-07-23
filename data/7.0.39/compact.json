@@ -1,0 +1,8 @@
+{
+  "help": "compact collection\nwarning: this operation locks the database and is slow. you can cancel with killOp()\n{ compact : \u003ccollection_name\u003e, [force:\u003cbool\u003e] }\n  force - allows to run on a replica set primary\n",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

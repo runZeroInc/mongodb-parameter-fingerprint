@@ -1,0 +1,8 @@
+{
+  "help": "validateDBMetadata checks that the stored metadata of a database/collection is valid within a particular API version. If 'db' parameter is specified, only runs validation against that database, if not the validation will be run againt all dbs. Similarly if 'collection' parameter is specified, the validation is only run against that collection, if not the validation is run against all collections.",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
