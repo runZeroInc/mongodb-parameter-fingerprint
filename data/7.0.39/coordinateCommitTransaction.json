@@ -1,0 +1,8 @@
+{
+  "help": "Coordinates the commit for a transaction. Only called by mongos.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

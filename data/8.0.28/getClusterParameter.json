@@ -1,0 +1,8 @@
+{
+  "help": "Get in-memory cluster parameter value(s) from this node",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
