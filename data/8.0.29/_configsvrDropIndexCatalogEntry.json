@@ -1,0 +1,8 @@
+{
+  "help": "Internal command. Do not call directly. Drops an index entry in the sharding catalog.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

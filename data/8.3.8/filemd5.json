@@ -1,0 +1,8 @@
+{
+  "help": " example: { filemd5 : ObjectId(aaaaaaa) , root : \"fs\" }",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

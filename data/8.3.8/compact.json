@@ -1,0 +1,8 @@
+{
+  "help": "compact collection\nwarning: this operation has blocking behaviour and is slow. You can cancel with killOp()\n{ compact : \u003ccollection_name\u003e, [dryRun:\u003cbool\u003e], [force:\u003cbool\u003e], [freeSpaceTargetMB:\u003cint64_t\u003e] }\n  dryRun - runs only the estimation phase of the compact operation\n  force - allows to run on a replica set primary\n  freeSpaceTargetMB - minimum amount of space recoverable for compaction to proceed\n",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

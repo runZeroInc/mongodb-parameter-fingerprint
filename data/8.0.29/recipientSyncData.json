@@ -1,0 +1,8 @@
+{
+  "help": "Internal replica set command; instructs the recipient to sync data as part of a tenant migration.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
