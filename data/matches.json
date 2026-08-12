@@ -4587,9 +4587,10 @@
   },
   "2df75dd11b86d836601cd50ea7f74a8b": {
     "version_min": "7.0.39",
-    "version_max": "7.0.39",
+    "version_max": "7.0.40",
     "versions": [
-      "7.0.39"
+      "7.0.39",
+      "7.0.40"
     ],
     "version_prev": "7.0.37",
     "params_added": [
@@ -4689,13 +4690,75 @@
     "versions": [
       "7.0.5"
     ],
-    "version_prev": "7.0.4",
+    "version_prev": "7.0.40",
     "params_added": [
-      "collectionTruncationCheckPeriodSeconds",
-      "featureFlagOIDCInternalAuthorization"
+      "featureFlagTelemetry",
+      "internalQueryConfigureTelemetryCacheSize",
+      "internalQueryConfigureTelemetrySamplingRate"
     ],
     "params_removed": [
-      "featureFlagTimeseriesMetricIndexes"
+      "AbortExpiredTransactionsSessionCheckoutTimeout",
+      "abortStreamingHelloWithSmallTimeout",
+      "allowDocumentsGreaterThanMaxUserSize",
+      "autoMergerMaxTimeProcessingChunksMS",
+      "bsonMaxExpandedMemUsage",
+      "bsonTestValidationVersion",
+      "capMemoryConsumptionForPreAuthBuffers",
+      "catalogCacheCollectionMaxEntries",
+      "catalogCacheDatabaseMaxEntries",
+      "catalogCacheIndexMaxEntries",
+      "diagnosticDataCollectionDiscardLargeSamples",
+      "directConnectionChecksWithSingleShard",
+      "enableCompoundWildcardIndexLog",
+      "featureFlagExposeClientIpInAuditLogs",
+      "featureFlagMongodProxyProcolSupport",
+      "featureFlagQueryStats",
+      "featureFlagRateLimitIngressConnectionEstablishment",
+      "featureFlagTrimExtraSearchMetaCursors",
+      "ingressConnectionEstablishmentBurstCapacitySecs",
+      "ingressConnectionEstablishmentMaxQueueDepth",
+      "ingressConnectionEstablishmentRateLimiterBypass",
+      "ingressConnectionEstablishmentRateLimiterEnabled",
+      "ingressConnectionEstablishmentRatePerSec",
+      "initialSyncIndexBuildMemoryMaxMB",
+      "initialSyncIndexBuildMemoryMinMB",
+      "initialSyncIndexBuildMemoryPercentage",
+      "internalQueryBitTestPositionsLogThreshold",
+      "internalQueryEnableAggressiveSpillsInGroup",
+      "internalQueryMaxBitTestIntermediatePositions",
+      "internalQueryPlanTieBreakingWithIndexHeuristics",
+      "internalQuerySpillingMaxWaitTimeout",
+      "internalQuerySpillingMinAvailableDiskSpaceBytes",
+      "internalQueryStatsCacheSize",
+      "internalQueryStatsErrorsAreCommandFatal",
+      "internalQueryStatsRateLimit",
+      "internalReduceAccumulatedValueDepthCheckInterval",
+      "jsUseLegacyMemoryTracking",
+      "maxIteratorsMemoryUsagePercentage",
+      "messageSizeErrorRateSec",
+      "minWaitForStreamingHelloMillis",
+      "noCatalogCachePurgeOnShardRemoval",
+      "opensslPrimaryDRBGReseedMaxRequests",
+      "opensslPrimaryDRBGReseedMaxTime",
+      "pessimisticConnectivityCheckForAcceptedConnections",
+      "preAuthMaximumMessageSizeBytes",
+      "procFileSizeLimit",
+      "proxyProtocolMaximumPendingConnections",
+      "proxyProtocolMaximumWaitBackoffMillis",
+      "proxyProtocolTimeoutSecs",
+      "reshardingDelayBeforeRemainingOperationTimeQueryMillis",
+      "sessionMaxBatchSize",
+      "sessionWriteConcernTimeoutSystemMillis",
+      "skipApplyingDbCheckBatchOnSecondary",
+      "skipOplogSampling",
+      "slowServiceOnStepDownThresholdMS",
+      "syncSourceResolverFindFetcherTimeoutMillis",
+      "taskExecutorPoolSize",
+      "timeseriesDisableStrictBucketValidator",
+      "tlsUseSystemCA",
+      "ttlMonitorMaxMetadataRecoveryThreads",
+      "upsertMaxRetryAttemptsOnDuplicateKeyError",
+      "wiredTigerSkipTableLoggingChecksDuringValidation"
     ],
     "count": 589
   },
@@ -5161,9 +5224,10 @@
   },
   "5606776106ca924f76a91f678d83d856": {
     "version_min": "8.0.28",
-    "version_max": "8.0.28",
+    "version_max": "8.0.29",
     "versions": [
-      "8.0.28"
+      "8.0.28",
+      "8.0.29"
     ],
     "version_prev": "8.0.26",
     "params_added": [
@@ -5921,5 +5985,17 @@
       "minWaitForStreamingHelloMillis"
     ],
     "count": 953
+  },
+  "53f53d2de60b58240316a7af00bb74d8": {
+    "version_min": "8.3.8",
+    "version_max": "8.3.8",
+    "versions": [
+      "8.3.8"
+    ],
+    "version_prev": "8.3.7",
+    "params_added": [
+      "ingressRequestAdmissionMaxQueueDepth"
+    ],
+    "count": 954
   }
 }
