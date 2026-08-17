@@ -4,7 +4,7 @@ go 1.25
 
 require (
 	github.com/sirupsen/logrus v1.9.3
-	go.mongodb.org/mongo-driver/v2 v2.4.1
+	go.mongodb.org/mongo-driver/v2 v2.4.2
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22
 )
 
