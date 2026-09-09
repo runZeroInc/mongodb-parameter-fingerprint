@@ -1,0 +1,8 @@
+{
+  "help": "Internal command invoked by the config server to join any ShardingDDLCoordinator activity executed by the shard",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
