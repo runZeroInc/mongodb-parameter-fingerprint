@@ -4686,9 +4686,10 @@
   },
   "97521fbf907b25e069e8aa76bb5ae233": {
     "version_min": "7.0.41",
-    "version_max": "7.0.41",
+    "version_max": "7.0.43",
     "versions": [
-      "7.0.41"
+      "7.0.41",
+      "7.0.43"
     ],
     "version_prev": "7.0.40",
     "params_added": [
@@ -4703,7 +4704,7 @@
     "versions": [
       "7.0.5"
     ],
-    "version_prev": "7.0.41",
+    "version_prev": "7.0.43",
     "params_added": [
       "featureFlagTelemetry",
       "internalQueryConfigureTelemetryCacheSize",
@@ -5259,9 +5260,10 @@
   },
   "34aa0988aeb20432a8184486036f8580": {
     "version_min": "8.0.30",
-    "version_max": "8.0.30",
+    "version_max": "8.0.32",
     "versions": [
-      "8.0.30"
+      "8.0.30",
+      "8.0.32"
     ],
     "version_prev": "8.0.3",
     "params_added": [
@@ -5363,7 +5365,7 @@
     "versions": [
       "8.0.4"
     ],
-    "version_prev": "8.0.30",
+    "version_prev": "8.0.32",
     "params_removed": [
       "AbortExpiredTransactionsSessionCheckoutTimeout",
       "abortStreamingHelloWithSmallTimeout",
@@ -6145,6 +6147,36 @@
     ],
     "count": 941
   },
+  "f4175a8eee064af17714b19b12bcb6eb": {
+    "version_min": "8.3.11",
+    "version_max": "8.3.9",
+    "versions": [
+      "8.3.11",
+      "8.3.9"
+    ],
+    "version_prev": "8.3.1",
+    "params_added": [
+      "abortStreamingHelloWithSmallTimeout",
+      "bsonMaxExpandedMemUsage",
+      "featureFlagConstraintValidationLevel",
+      "ingressRequestAdmissionMaxQueueDepth",
+      "initialSyncWaitForSyncSourceLastStableRecoveryTs",
+      "internalQueryCheckRegexMatchUTF8Boundary",
+      "internalQueryMaxExpressionOutputBytes",
+      "internalQueryMaxMemoryIntensiveExpressions",
+      "logicalSessionCacheJobTimeoutEnabled",
+      "maxConcurrentMultiDocumentTransactions",
+      "minWaitForStreamingHelloMillis",
+      "opensslPrimaryDRBGReseedMaxRequests",
+      "opensslPrimaryDRBGReseedMaxTime",
+      "timeseriesDisableStrictBucketValidator",
+      "timeseriesLessStrictBucketValidator"
+    ],
+    "params_removed": [
+      "featureFlagValidatedValidationLevel"
+    ],
+    "count": 955
+  },
   "cd5bcedf20de87a41cf1152b3a936f3b": {
     "version_min": "8.3.3",
     "version_max": "8.3.4",
@@ -6195,17 +6227,5 @@
       "ingressRequestAdmissionMaxQueueDepth"
     ],
     "count": 954
-  },
-  "f4175a8eee064af17714b19b12bcb6eb": {
-    "version_min": "8.3.9",
-    "version_max": "8.3.9",
-    "versions": [
-      "8.3.9"
-    ],
-    "version_prev": "8.3.8",
-    "params_added": [
-      "internalQueryCheckRegexMatchUTF8Boundary"
-    ],
-    "count": 955
   }
 }

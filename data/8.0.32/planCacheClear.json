@@ -1,0 +1,8 @@
+{
+  "help": "Drops one or all plan cache entries in a collection.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

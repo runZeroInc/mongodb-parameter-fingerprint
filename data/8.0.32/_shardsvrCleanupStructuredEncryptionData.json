@@ -1,0 +1,8 @@
+{
+  "help": "Internal command. Do not call directly. Cleans up an ECOC collection.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
