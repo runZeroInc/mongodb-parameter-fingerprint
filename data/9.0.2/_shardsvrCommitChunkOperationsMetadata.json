@@ -1,0 +1,8 @@
+{
+  "help": "Internal command to commit chunk operations metadata into the shard catalog",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

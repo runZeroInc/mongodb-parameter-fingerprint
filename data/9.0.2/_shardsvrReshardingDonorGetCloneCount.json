@@ -1,0 +1,8 @@
+{
+  "help": "Internal command sent by the resharding coordinator to a donor shard to count the documents owned by this donor at the clone timestamp.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

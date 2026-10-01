@@ -1,0 +1,8 @@
+{
+  "help": "Internal command. Do not call directly.",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
