@@ -1,0 +1,8 @@
+{
+  "help": "internal",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

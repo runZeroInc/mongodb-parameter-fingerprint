@@ -1,0 +1,8 @@
+{
+  "help": "Internal command, which is exported by the sharding config server. Do not call directly. Validates and adds a new shard to the cluster.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

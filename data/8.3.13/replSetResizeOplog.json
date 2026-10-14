@@ -1,0 +1,8 @@
+{
+  "help": "Resize oplog using size (in MBs) and optionally, retention (in terms of hours)",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
