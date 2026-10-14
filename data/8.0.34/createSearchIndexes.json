@@ -1,0 +1,8 @@
+{
+  "help": "Command to create a search index. Only supported with Atlas.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

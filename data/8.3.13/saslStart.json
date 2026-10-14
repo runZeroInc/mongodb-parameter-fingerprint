@@ -1,0 +1,10 @@
+{
+  "help": "First step in a SASL authentication conversation.",
+  "requiresAuth": false,
+  "secondaryOk": true,
+  "adminOnly": false,
+  "apiVersions": [
+    "1"
+  ],
+  "deprecatedApiVersions": []
+}

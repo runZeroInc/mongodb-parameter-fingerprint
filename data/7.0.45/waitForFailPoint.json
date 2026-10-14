@@ -1,0 +1,8 @@
+{
+  "help": "wait for a fail point to be entered a certain number of times",
+  "requiresAuth": false,
+  "secondaryOk": true,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

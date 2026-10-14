@@ -4686,10 +4686,11 @@
   },
   "97521fbf907b25e069e8aa76bb5ae233": {
     "version_min": "7.0.41",
-    "version_max": "7.0.43",
+    "version_max": "7.0.45",
     "versions": [
       "7.0.41",
-      "7.0.43"
+      "7.0.43",
+      "7.0.45"
     ],
     "version_prev": "7.0.40",
     "params_added": [
@@ -4704,7 +4705,7 @@
     "versions": [
       "7.0.5"
     ],
-    "version_prev": "7.0.43",
+    "version_prev": "7.0.45",
     "params_added": [
       "featureFlagTelemetry",
       "internalQueryConfigureTelemetryCacheSize",
@@ -5260,10 +5261,11 @@
   },
   "34aa0988aeb20432a8184486036f8580": {
     "version_min": "8.0.30",
-    "version_max": "8.0.32",
+    "version_max": "8.0.34",
     "versions": [
       "8.0.30",
-      "8.0.32"
+      "8.0.32",
+      "8.0.34"
     ],
     "version_prev": "8.0.3",
     "params_added": [
@@ -5365,7 +5367,7 @@
     "versions": [
       "8.0.4"
     ],
-    "version_prev": "8.0.32",
+    "version_prev": "8.0.34",
     "params_removed": [
       "AbortExpiredTransactionsSessionCheckoutTimeout",
       "abortStreamingHelloWithSmallTimeout",
@@ -6152,6 +6154,7 @@
     "version_max": "8.3.9",
     "versions": [
       "8.3.11",
+      "8.3.13",
       "8.3.9"
     ],
     "version_prev": "8.3.1",

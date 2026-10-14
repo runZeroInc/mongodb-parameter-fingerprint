@@ -1,0 +1,10 @@
+{
+  "help": "list collections for this db",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [
+    "1"
+  ],
+  "deprecatedApiVersions": []
+}
