@@ -6431,5 +6431,24 @@
       "skipShellCursorFinalize"
     ],
     "count": 1105
+  },
+  "33de6ef161a68e7c8ec2f717bb7379a5": {
+    "version_min": "9.0.4",
+    "version_max": "9.0.4",
+    "versions": [
+      "9.0.4"
+    ],
+    "version_prev": "9.0.2",
+    "params_added": [
+      "migrationRecipientPITHistoryToPreserveInSecs",
+      "reshardingCollectionSizeEstimationTimeoutMS",
+      "sessionCatalogPartitions"
+    ],
+    "params_removed": [
+      "initialSyncWaitForSyncSourceLastStableRecoveryTs",
+      "initialSyncWaitForSyncSourceLastStableRecoveryTsInitiatingSetThresholdSecs",
+      "initialSyncWaitForSyncSourceLastStableRecoveryTsRetryPeriodSecs"
+    ],
+    "count": 1105
   }
 }

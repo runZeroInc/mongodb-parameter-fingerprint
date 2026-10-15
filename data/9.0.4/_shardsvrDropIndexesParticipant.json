@@ -1,0 +1,8 @@
+{
+  "help": "Internal command for dropping indexes on participant shards. Do not call directly.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
