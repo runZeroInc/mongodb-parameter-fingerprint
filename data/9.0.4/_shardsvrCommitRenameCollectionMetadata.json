@@ -1,0 +1,8 @@
+{
+  "help": "Internal command to commit a rename into the durable shard catalog",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

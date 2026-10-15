@@ -1,0 +1,8 @@
+{
+  "help": "Internal command to perform timeseries upgrade/downgrade. Do not call directly.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

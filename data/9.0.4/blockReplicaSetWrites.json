@@ -1,0 +1,8 @@
+{
+  "help": "Set whether writes are blocked to avoid running out of disk",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
