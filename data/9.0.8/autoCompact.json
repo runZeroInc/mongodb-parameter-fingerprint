@@ -1,0 +1,8 @@
+{
+  "help": "enable auto compaction for a database\nwarning: compact operation has blocking behaviour and is slow, enabling auto compact will allow compact to run on any collection at any time. You can cancel by disabling auto compact.\n{ autoCompact : \u003cbool\u003e, [freeSpaceTargetMB:\u003cint64_t\u003e], [runOnce:\u003cbool\u003e] }\n  freeSpaceTargetMB - minimum amount of space recoverable for compaction to proceed\n  runOnce - executes compaction on the database only once\n",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

@@ -1,0 +1,10 @@
+{
+  "help": "Check if this server is primary for a replica set\n{ hello : 1 }",
+  "requiresAuth": false,
+  "secondaryOk": true,
+  "adminOnly": false,
+  "apiVersions": [
+    "1"
+  ],
+  "deprecatedApiVersions": []
+}

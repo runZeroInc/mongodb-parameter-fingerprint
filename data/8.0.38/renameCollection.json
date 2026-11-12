@@ -1,0 +1,8 @@
+{
+  "help": " example: { renameCollection: foo.a, to: bar.b }",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

@@ -1,0 +1,8 @@
+{
+  "help": "Internal command only invokable on the config server. Do not call directly. Reinitializes the content of config.placementHistory based on a recent snapshot of the Sharding catalog.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

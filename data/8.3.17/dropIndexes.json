@@ -1,0 +1,10 @@
+{
+  "help": "drop indexes for a collection",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [
+    "1"
+  ],
+  "deprecatedApiVersions": []
+}

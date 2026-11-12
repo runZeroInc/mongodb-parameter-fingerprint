@@ -1,0 +1,8 @@
+{
+  "help": "Reassign a new primary shard for the given database on the config server. This is an internal command only invokable on the config server, therefore do not call directly.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

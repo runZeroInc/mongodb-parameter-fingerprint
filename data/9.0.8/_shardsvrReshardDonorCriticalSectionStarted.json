@@ -1,0 +1,8 @@
+{
+  "help": "Internal command. Do not call directly. Notifies a resharding donor that the critical section has started.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

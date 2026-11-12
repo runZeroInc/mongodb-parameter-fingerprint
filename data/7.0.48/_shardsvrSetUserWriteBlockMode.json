@@ -1,0 +1,8 @@
+{
+  "help": "Internal command, which is exported by the shard servers. Do not call directly. Enables/disables user write blocking on shardsvrs.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

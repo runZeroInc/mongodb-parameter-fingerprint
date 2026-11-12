@@ -1,0 +1,8 @@
+{
+  "help": "Internal command. Recreating range deletion task documents for a collection on all shards, according to the routing table.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

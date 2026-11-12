@@ -1,0 +1,8 @@
+{
+  "help": "Internal command to commit refine collection shard key into the shard catalog",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

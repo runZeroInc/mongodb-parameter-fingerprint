@@ -1,0 +1,8 @@
+{
+  "help": "{ listDatabasesForAllTenants:1, [filter: \u003cfilterObject\u003e] [, nameOnly: true ] }\ncommand which lists databases for all tenants on this server",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
