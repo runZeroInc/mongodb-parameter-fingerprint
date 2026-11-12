@@ -1,0 +1,8 @@
+{
+  "help": "Internal command. Do not call directly. Drops a globlal index for the shard-role catalog.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

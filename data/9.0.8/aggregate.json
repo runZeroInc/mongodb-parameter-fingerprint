@@ -1,0 +1,10 @@
+{
+  "help": "Runs the aggregation command. See http://dochub.mongodb.org/core/aggregation for more details.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [
+    "1"
+  ],
+  "deprecatedApiVersions": []
+}

@@ -1,0 +1,8 @@
+{
+  "help": "Internal command. Do not call directly. Notifies a resharding donor that all recipients have finished cloning.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

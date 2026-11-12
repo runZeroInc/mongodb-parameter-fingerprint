@@ -1,0 +1,8 @@
+{
+  "help": "Internal command for making a resharding donor shard start monitoring the changes in the collection being resharded between the start of the cloning phase and the start of the critical section",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

@@ -1,0 +1,8 @@
+{
+  "help": "Internal command. This command aims to commit a createDatabase operation to the shard catalog.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

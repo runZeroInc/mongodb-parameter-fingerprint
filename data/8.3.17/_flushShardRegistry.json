@@ -1,0 +1,8 @@
+{
+  "help": "Internal command to flush the shard registry on the local node. This command is used to clear the cached connection strings and ReplicaSetMonitors.",
+  "requiresAuth": true,
+  "secondaryOk": true,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

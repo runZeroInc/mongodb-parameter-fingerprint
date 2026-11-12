@@ -1,0 +1,8 @@
+{
+  "help": "Internal command. Fetches collection and chunk metadata for a specific namespace from the global catalog, persists it locally in the shard catalog, installs it authoritatively on this node's in-memory CollectionShardingRuntime, and invalidates the collection metadata on secondaries.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": false,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}

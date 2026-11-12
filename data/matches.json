@@ -4699,13 +4699,27 @@
     ],
     "count": 650
   },
+  "759fc1160e326fbc8bd9a2072d1114bf": {
+    "version_min": "7.0.48",
+    "version_max": "7.0.48",
+    "versions": [
+      "7.0.48"
+    ],
+    "version_prev": "7.0.45",
+    "params_added": [
+      "allowDeprecatedAfterOpTimeReadConcern",
+      "internalQueryKeyStringValueMaxCollationBytes",
+      "maxConcurrentMultiDocumentTransactions"
+    ],
+    "count": 653
+  },
   "3fd9a49878efc8a928422e385a2f8276": {
     "version_min": "7.0.5",
     "version_max": "7.0.5",
     "versions": [
       "7.0.5"
     ],
-    "version_prev": "7.0.45",
+    "version_prev": "7.0.48",
     "params_added": [
       "featureFlagTelemetry",
       "internalQueryConfigureTelemetryCacheSize",
@@ -4714,6 +4728,7 @@
     "params_removed": [
       "AbortExpiredTransactionsSessionCheckoutTimeout",
       "abortStreamingHelloWithSmallTimeout",
+      "allowDeprecatedAfterOpTimeReadConcern",
       "allowDocumentsGreaterThanMaxUserSize",
       "autoMergerMaxTimeProcessingChunksMS",
       "bsonMaxExpandedMemUsage",
@@ -4741,6 +4756,7 @@
       "internalQueryBitTestPositionsLogThreshold",
       "internalQueryCheckRegexMatchUTF8Boundary",
       "internalQueryEnableAggressiveSpillsInGroup",
+      "internalQueryKeyStringValueMaxCollationBytes",
       "internalQueryMaxBitTestIntermediatePositions",
       "internalQueryPlanTieBreakingWithIndexHeuristics",
       "internalQuerySpillingMaxWaitTimeout",
@@ -4751,6 +4767,7 @@
       "internalReduceAccumulatedValueDepthCheckInterval",
       "jsUseLegacyMemoryTracking",
       "logicalSessionCacheJobTimeoutEnabled",
+      "maxConcurrentMultiDocumentTransactions",
       "maxIteratorsMemoryUsagePercentage",
       "messageSizeErrorRateSec",
       "minWaitForStreamingHelloMillis",
@@ -5361,16 +5378,36 @@
     ],
     "count": 783
   },
+  "b637ac9b22b13748faf54ec472f2d78d": {
+    "version_min": "8.0.38",
+    "version_max": "8.0.38",
+    "versions": [
+      "8.0.38"
+    ],
+    "version_prev": "8.0.34",
+    "params_added": [
+      "allowDeprecatedAfterOpTimeReadConcern",
+      "enableMaxKeyDetection",
+      "featureFlagMaxKeyDetection",
+      "internalQueryKeyStringValueMaxCollationBytes",
+      "maxKeyOrphanScanThrottleMillis",
+      "maxKeyZoneScanEnabled",
+      "wiredTigerEvictionThreadsMax",
+      "wiredTigerEvictionThreadsMin"
+    ],
+    "count": 791
+  },
   "eb0fd28b577774065f150c83ec6dfea0": {
     "version_min": "8.0.4",
     "version_max": "8.0.4",
     "versions": [
       "8.0.4"
     ],
-    "version_prev": "8.0.34",
+    "version_prev": "8.0.38",
     "params_removed": [
       "AbortExpiredTransactionsSessionCheckoutTimeout",
       "abortStreamingHelloWithSmallTimeout",
+      "allowDeprecatedAfterOpTimeReadConcern",
       "autoMergerMaxTimeProcessingChunksMS:",
       "bsonMaxExpandedMemUsage",
       "capMemoryConsumptionForPreAuthBuffers",
@@ -5382,8 +5419,10 @@
       "diagnosticDataCollectionDiscardLargeSamples",
       "enableCompoundWildcardIndexLog",
       "enableDiagnosticLogging",
+      "enableMaxKeyDetection",
       "featureFlagExposeClientIpInAuditLogs",
       "featureFlagIngressRateLimiting",
+      "featureFlagMaxKeyDetection",
       "featureFlagMongodProxyProcolSupport",
       "featureFlagRankFusionBasic",
       "featureFlagRankFusionFull",
@@ -5410,6 +5449,7 @@
       "internalQueryExpressionInterruptIterations",
       "internalQueryExpressionInterruptPeriodMS",
       "internalQueryGlobalProfilingLockDeadlineMs",
+      "internalQueryKeyStringValueMaxCollationBytes",
       "internalQueryMaxBitTestIntermediatePositions",
       "internalQueryMaxExpressionOutputBytes",
       "internalQueryMaxMapReduceExpressionBytes",
@@ -5423,6 +5463,8 @@
       "logicalSessionCacheJobTimeoutEnabled",
       "maxConcurrentMultiDocumentTransactions",
       "maxIncomingConnectionsOverride",
+      "maxKeyOrphanScanThrottleMillis",
+      "maxKeyZoneScanEnabled",
       "messageSizeErrorRateSec",
       "minWaitForStreamingHelloMillis",
       "minimalWriteConflictRetryCountForStateDump",
@@ -5454,6 +5496,8 @@
       "ttlMonitorMaxMetadataRecoveryThreads",
       "upsertMaxRetryAttemptsOnDuplicateKeyError",
       "useSlowCollectionTruncateMarkerScanning",
+      "wiredTigerEvictionThreadsMax",
+      "wiredTigerEvictionThreadsMin",
       "writeConflictRetryCountForDumpState"
     ],
     "count": 697
@@ -6180,6 +6224,25 @@
     ],
     "count": 955
   },
+  "c1b46617adef8bda0ebc14a1828896df": {
+    "version_min": "8.3.17",
+    "version_max": "8.3.17",
+    "versions": [
+      "8.3.17"
+    ],
+    "version_prev": "8.3.13",
+    "params_added": [
+      "allowDeprecatedAfterOpTimeReadConcern",
+      "internalQueryKeyStringValueMaxCollationBytes",
+      "internalQuerySlotBasedExecutionBlockProcessingMaxRecursiveOpArgs",
+      "searchTaskExecutorShutdownTimeoutMS",
+      "sessionCatalogPartitions"
+    ],
+    "params_removed": [
+      "initialSyncWaitForSyncSourceLastStableRecoveryTs"
+    ],
+    "count": 959
+  },
   "cd5bcedf20de87a41cf1152b3a936f3b": {
     "version_min": "8.3.3",
     "version_max": "8.3.4",
@@ -6450,5 +6513,22 @@
       "initialSyncWaitForSyncSourceLastStableRecoveryTsRetryPeriodSecs"
     ],
     "count": 1105
+  },
+  "c051caceb97197896f5aaef58e877a0c": {
+    "version_min": "9.0.8",
+    "version_max": "9.0.8",
+    "versions": [
+      "9.0.8"
+    ],
+    "version_prev": "9.0.4",
+    "params_added": [
+      "allowDeprecatedAfterOpTimeReadConcern",
+      "enableInitialSyncCleanShutdownCheck",
+      "internalEnablePathArraynessTraverseFElision",
+      "internalQuerySlotBasedExecutionBlockProcessingMaxRecursiveOpArgs",
+      "internalQueryStatsTopKSortOptimizationEnabled",
+      "searchTaskExecutorShutdownTimeoutMS"
+    ],
+    "count": 1111
   }
 }

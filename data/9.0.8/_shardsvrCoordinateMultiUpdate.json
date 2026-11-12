@@ -1,0 +1,8 @@
+{
+  "help": "Internal command. Do not call directly. Coordinates an updateMany or deleteMany to pause migrations, perform the updates, then resume migrations.Will only be called when cluster parameter pauseMigrationsDuringMultiUpdates is true.",
+  "requiresAuth": true,
+  "secondaryOk": false,
+  "adminOnly": true,
+  "apiVersions": [],
+  "deprecatedApiVersions": []
+}
